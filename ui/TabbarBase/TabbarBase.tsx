@@ -15,7 +15,7 @@ export function TabbarBase(props: TabbarBaseProps) {
         "w-full h-[84px]",
         "bg-red-50",
         "flex justify-between",
-        "pt-[6px] pb-[28px] px-[35px]",
+        "pt-[6px] pb-[28px] px-[22px]",
         css`
           background: linear-gradient(
             180deg,
@@ -31,6 +31,10 @@ export function TabbarBase(props: TabbarBaseProps) {
   );
 }
 
-TabbarBase.Item = function () {
-  return 
+type TabbarBaseItemProps = {
+  icon: ReactNode;
+};
+
+TabbarBase.Item = function (props: TabbarBaseItemProps) {
+  return <>{props.icon}</>;
 };

@@ -2,8 +2,22 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: "HYWenHei 85W";
+  font-style: normal;
+  font-weight: normal;
+  src: local("HYWenHei 85W"), url("../assets/fonts/zhcn.woff") format("woff");
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "HYWenHei 85W";
+}
+
+body {
+  color: theme("colors.text");
+  overflow: scroll;
+  overscroll-behavior: none;
 }

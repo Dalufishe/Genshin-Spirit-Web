@@ -32,7 +32,7 @@ export default function CardBaseDivider(props: Props) {
           (props.className,
           css`
             width: 1px;
-            height: 73px;
+
             flex-shrink: 0;
             border-radius: 2px;
             background: rgba(211, 188, 142, 0.4);

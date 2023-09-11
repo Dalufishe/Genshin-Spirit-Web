@@ -29,7 +29,7 @@ export default function PlayerSlot(props: Props) {
             /{props.subtitle}
           </span>
         </h5>
-        <h6 className="text-[8px] text-text2 leading-3">{props.description}</h6>
+        <h6 className="text-[10px] text-text2 leading-3">{props.description}</h6>
       </div>
     </div>
   );

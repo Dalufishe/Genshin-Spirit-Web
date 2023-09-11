@@ -1,7 +1,13 @@
 import type { NextPage } from "next";
+import Tabbar from "../layouts/Tabbar/Tabbar";
+import MainContainer from "../components/MainContainer";
 
 const Home: NextPage = () => {
-  return <div className="bg-red-500">Hello World</div>;
+  return (
+    <MainContainer>
+      <Tabbar />
+    </MainContainer>
+  );
 };
 
 export default Home;

@@ -12,7 +12,7 @@ export function TabbarBase(props: TabbarBaseProps) {
       className={cn(
         "fixed",
         "bottom-0 left-0",
-        "w-full h-[84px]",
+        "w-full h-[60px]",
         "bg-red-50",
         "flex justify-between",
         "pt-[6px] pb-[28px] px-[22px]",

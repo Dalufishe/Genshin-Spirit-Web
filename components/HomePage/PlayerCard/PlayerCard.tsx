@@ -16,7 +16,7 @@ import DImage from "./images/Item_Realm_Currency 1.png";
 export default function PlayerCard() {
   return (
     <CardBase>
-      <div className="flex items-center gap-2">
+      <div className="flex items-start gap-2">
         {/* 頭像 */}
         <PlayerAvator image="/dummy/PlayerAvator.png" />
         {/* 玩家名等資料 */}

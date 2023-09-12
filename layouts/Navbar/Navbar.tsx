@@ -6,7 +6,7 @@ import NavbarList from "./NavbarList/NavbarList";
 
 export default function Navbar() {
   return (
-    <div className={cn(stlyes.navbar, "px-[17px]", "flex justify-between")}>
+    <div className={cn(stlyes.navbar, "h-[105px]")}>
       <NavbarSwitch />
       <div className="translate-y-[50px]">
         <NavbarList />
@@ -17,7 +17,8 @@ export default function Navbar() {
 
 const stlyes = {
   navbar: cn(
-    "h-[105px]",
+    "px-[17px]",
+    "flex justify-between",
     css`
       background: linear-gradient(
         180deg,

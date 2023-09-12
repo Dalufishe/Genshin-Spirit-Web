@@ -25,7 +25,6 @@ export default function NavbarList() {
           className={cn(
             styles.navbarListButton,
             "w-[153px] h-[34px]",
-            "flex justify-between items-center",
             "pl-[17px] pr-[14px]"
           )}
         >
@@ -64,6 +63,7 @@ export default function NavbarList() {
 const styles = {
   navbarList: cn("flex flex-col gap-2 items-center"),
   navbarListButton: cn(
+    "flex justify-between items-center",
     css`
       border-radius: 20px;
       border: 1px solid rgba(255, 255, 255, 0.6);

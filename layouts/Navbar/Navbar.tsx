@@ -7,7 +7,9 @@ import NavbarList from "./NavbarList/NavbarList";
 export default function Navbar() {
   return (
     <div className={cn(stlyes.navbar, "h-[105px]")}>
-      <NavbarSwitch />
+      <div className="translate-y-[50px]">
+        <NavbarSwitch />
+      </div>
       <div className="translate-y-[50px]">
         <NavbarList />
       </div>

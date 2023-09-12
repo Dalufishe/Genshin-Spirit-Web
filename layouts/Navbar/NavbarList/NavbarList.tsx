@@ -40,17 +40,19 @@ export default function NavbarList() {
           )}
         >
           {days.map((day) => (
-            <Listbox.Option
-              key={day.id}
-              value={day}
-              className={cn(
-                selectedDays.id === day.id
-                  ? styles.navbarListOptionActive
-                  : styles.navbarListOption
+            <Listbox.Option key={day.id} value={day} as={React.Fragment}>
+              {({ active, selected }) => (
+                <div
+                  className={cn(
+                    selected
+                      ? styles.navbarListOptionActive
+                      : styles.navbarListOption
+                  )}
+                >
+                  <span>{day.name}</span>
+                  {selected ? <Check /> : <></>}
+                </div>
               )}
-            >
-              <span>{day.name}</span>
-              {selectedDays.id === day.id ? <Check /> : <></>}
             </Listbox.Option>
           ))}
         </Listbox.Options>

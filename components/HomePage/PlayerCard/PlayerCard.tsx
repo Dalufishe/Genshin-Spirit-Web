@@ -26,7 +26,7 @@ export default function PlayerCard() {
         {/* 切換按鈕 */}
         <SwitchBtn />
       </div>
-      <CardBaseDivider className="my-[13px] mx-auto" type="horizontal" />
+      <CardBaseDivider className="my-[13px] mx-auto" type="dash" direction="horizontal" />
       <div className="flex">
         {/* Col */}
         <div className="flex flex-col w-full">
@@ -61,7 +61,7 @@ export default function PlayerCard() {
           />
         </div>
         {/* Col */}
-        <CardBaseDivider type="vertical" />
+        <CardBaseDivider type="normal" direction="vertical" />
         {/* Col */}
         <div className="flex flex-col w-full">
           {/* Row */}

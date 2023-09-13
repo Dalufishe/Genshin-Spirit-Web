@@ -38,3 +38,5 @@ type TabbarBaseItemProps = {
 TabbarBase.Item = function (props: TabbarBaseItemProps) {
   return <>{props.icon}</>;
 };
+
+

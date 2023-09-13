@@ -4,6 +4,7 @@ import { css } from "@emotion/css";
 
 type Props = {
   children: ReactNode;
+  className?: string;
 };
 
 export default function CardBase(props: Props) {
@@ -19,7 +20,8 @@ export default function CardBase(props: Props) {
           background: linear-gradient(130deg, #ece5d8 13.19%, #efe5d1 72.7%);
           /* default */
           box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.1);
-        `
+        `,
+        props.className || ""
       )}
     >
       {props.children}

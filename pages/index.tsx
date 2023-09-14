@@ -5,7 +5,7 @@ import Navbar from "../layouts/Navbar/Navbar";
 import PlayerCard from "../components/HomePage/PlayerCard/PlayerCard";
 import ContentContainer from "../components/ContentContainer";
 import EventCard from "../components/HomePage/EventCard/EventCard";
-import ArtifactCard from "../components/HomePage/ArtifactCard/ArtifactCard";
+import MaterialCard from "../components/HomePage/MaterialCard/MaterialCard";
 
 const Home: NextPage = () => {
   return (
@@ -14,7 +14,7 @@ const Home: NextPage = () => {
       <ContentContainer gap={16}>
         <PlayerCard />
         <EventCard />
-        <ArtifactCard />
+        <MaterialCard />
       </ContentContainer>
       <Tabbar />
     </MainContainer>

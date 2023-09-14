@@ -13,6 +13,7 @@ export default function EventCard() {
       <div className="flex">
         {/* left */}
         <EventCardLeft />
+        <CardBaseDivider width={104} type="dash" direction="vertical" />
         {/* Right (List) */}
         <div
           className={cn(

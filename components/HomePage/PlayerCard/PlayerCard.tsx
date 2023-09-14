@@ -26,7 +26,12 @@ export default function PlayerCard() {
         {/* 切換按鈕 */}
         <SwitchBtn />
       </div>
-      <CardBaseDivider className="my-[13px] mx-auto" type="dash" direction="horizontal" />
+      <CardBaseDivider
+        width={301}
+        className="my-[13px] mx-auto"
+        type="dash"
+        direction="horizontal"
+      />
       <div className="flex">
         {/* Col */}
         <div className="flex flex-col w-full">

@@ -13,6 +13,7 @@ import Char2Image from "./images/char-avator/char2.png";
 import Char3Image from "./images/char-avator/char3.png";
 import Char4Image from "./images/char-avator/char4.png";
 import Char5Image from "./images/char-avator/char5.png";
+import AvatorBgIcon from "./icons/AvatorBgIcon";
 
 export default function MaterialCard() {
   return (
@@ -34,12 +35,27 @@ export default function MaterialCard() {
           type="dash"
           direction="horizontal"
         />
-        <div className="flex">
-          <MaterialCardAvator image={Char1Image.src} />
-          <MaterialCardAvator image={Char2Image.src} />
-          <MaterialCardAvator image={Char3Image.src} />
-          <MaterialCardAvator image={Char4Image.src} />
-          <MaterialCardAvator image={Char5Image.src} />
+        <div className="flex justify-around">
+          <MaterialCardAvator
+            image={Char1Image.src}
+            bgIcon={<AvatorBgIcon color="orange" />}
+          />
+          <MaterialCardAvator
+            image={Char2Image.src}
+            bgIcon={<AvatorBgIcon color="orange" />}
+          />
+          <MaterialCardAvator
+            image={Char3Image.src}
+            bgIcon={<AvatorBgIcon color="orange" />}
+          />
+          <MaterialCardAvator
+            image={Char4Image.src}
+            bgIcon={<AvatorBgIcon color="orange" />}
+          />
+          <MaterialCardAvator
+            image={Char5Image.src}
+            bgIcon={<AvatorBgIcon color="orange" X />}
+          />
         </div>
       </div>
     </CardBase>

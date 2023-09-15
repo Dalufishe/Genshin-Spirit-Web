@@ -11,9 +11,11 @@ const Home: NextPage = () => {
   return (
     <MainContainer>
       <Navbar />
-      <ContentContainer gap={16}>
+      <ContentContainer gap={16} className="pt-[121px] pb-[72px]">
         <PlayerCard />
         <EventCard />
+        <MaterialCard />
+        <MaterialCard />
         <MaterialCard />
       </ContentContainer>
       <Tabbar />

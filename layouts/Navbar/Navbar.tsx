@@ -19,6 +19,8 @@ export default function Navbar() {
 
 const stlyes = {
   navbar: cn(
+    "fixed",
+    "w-full",
     "px-[17px]",
     "flex justify-between",
     css`

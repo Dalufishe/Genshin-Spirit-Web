@@ -6,10 +6,19 @@ import CuteImage from "./images/cute.png";
 import EventCardLeft from "./EventCardLeft/EventCardLeft";
 import EventCardItem from "./EventCardItem/EventCardItem";
 import CardBaseDivider from "../../../ui/CardBase/CardBaseDivider/CardBaseDivider";
+import { css } from "@emotion/css";
 
 export default function EventCard() {
   return (
-    <CardBase>
+    <CardBase
+      className={cn(css`
+        background: linear-gradient(
+          180deg,
+          #ece5d8 0%,
+          rgba(236, 229, 216, 0.8) 100%
+        );
+      `)}
+    >
       <div className="flex">
         {/* left */}
         <EventCardLeft />

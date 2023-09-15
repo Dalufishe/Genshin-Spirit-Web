@@ -5,6 +5,7 @@ import { css } from "@emotion/css";
 type Props = {
   children: ReactNode;
   gap: number;
+  className?: string;
 };
 
 export default function ContentContainer(props: Props) {
@@ -15,7 +16,8 @@ export default function ContentContainer(props: Props) {
         "flex flex-col",
         css`
           gap: ${props.gap}px;
-        `
+        `,
+        props.className || ""
       )}
     >
       {props.children}

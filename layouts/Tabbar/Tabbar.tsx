@@ -13,7 +13,11 @@ export default function Tabbar() {
 
   return (
     <TabbarBase>
-      <TabbarBase.Item active={asPath === "/"} href="/" icon={HomeIcon} />
+      <TabbarBase.Item
+        active={asPath === "/home"}
+        href="/home"
+        icon={HomeIcon}
+      />
       <TabbarBase.Item
         active={asPath === "/data"}
         href="/data"

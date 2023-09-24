@@ -7,7 +7,7 @@ import ContentContainer from "../components/ContentContainer";
 import EventCard from "../components/HomePage/EventCard/EventCard";
 import MaterialCard from "../components/HomePage/MaterialCard/MaterialCard";
 
-const Home: NextPage = () => {
+const HomePage: NextPage = () => {
   return (
     <MainContainer>
       <Navbar />
@@ -23,4 +23,4 @@ const Home: NextPage = () => {
   );
 };
 
-export default Home;
+export default HomePage;

@@ -1,19 +1,34 @@
 import React from "react";
-import HomeIcon from "./icons/HomeIcon";
-import ToolBoxIcon from "./icons/ToolBoxIcon";
 import { TabbarBase } from "../../ui/TabbarBase/TabbarBase";
-import CharacterIcon from "./icons/CharacterIcon";
-import WeaponIcon from "./icons/WeaponIcon";
-import ArtifactIcon from "./icons/ArtifactIcon";
+import { useRouter } from "next/router";
+
+import HomeIcon from "./icons/HomeIcon";
+import GameDataIcon from "./icons/GameDataIcon";
+import CardIcon from "./icons/CardIcon";
+import ToolboxIcon from "./icons/ToolboxIcon";
 
 export default function Tabbar() {
+  const router = useRouter();
+  const asPath = router.asPath;
+
   return (
     <TabbarBase>
-      <TabbarBase.Item icon={<HomeIcon />} />
-      <TabbarBase.Item icon={<CharacterIcon />} />
-      <TabbarBase.Item icon={<WeaponIcon />} />
-      <TabbarBase.Item icon={<ArtifactIcon />} />
-      <TabbarBase.Item icon={<ToolBoxIcon />} />
+      <TabbarBase.Item active={asPath === "/"} href="/" icon={HomeIcon} />
+      <TabbarBase.Item
+        active={asPath === "/data"}
+        href="/data"
+        icon={GameDataIcon}
+      />
+      <TabbarBase.Item
+        active={asPath === "/card"}
+        href="/card"
+        icon={CardIcon}
+      />
+      <TabbarBase.Item
+        active={asPath === "/tool"}
+        href="/tool"
+        icon={ToolboxIcon}
+      />
     </TabbarBase>
   );
 }

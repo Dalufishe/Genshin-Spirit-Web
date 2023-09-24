@@ -1,6 +1,8 @@
-import React, { ReactNode } from "react";
+import React, { ComponentType, ReactNode } from "react";
 import { cn } from "../../utils/cn";
 import { css } from "@emotion/css";
+import Link from "next/link";
+import { TabbarIconProps } from "../../layouts/Tabbar/icons/TabbarIcon.types";
 
 type TabbarBaseProps = {
   children: ReactNode;
@@ -12,10 +14,10 @@ export function TabbarBase(props: TabbarBaseProps) {
       className={cn(
         "fixed",
         "bottom-0 left-0",
-        "w-full h-[60px]",
+        "w-full",
         "bg-red-50",
         "flex justify-between",
-        "pt-[6px] pb-[28px] px-[22px]",
+        "pt-[6px] pb-[12px] px-[35px]",
         css`
           background: linear-gradient(
             180deg,
@@ -32,11 +34,31 @@ export function TabbarBase(props: TabbarBaseProps) {
 }
 
 type TabbarBaseItemProps = {
-  icon: ReactNode;
+  icon: ComponentType<TabbarIconProps>;
+  href: string;
+  className?: string;
+  active: boolean;
 };
 
-TabbarBase.Item = function (props: TabbarBaseItemProps) {
-  return <>{props.icon}</>;
+TabbarBase.Item = function ({
+  href,
+  active,
+  className,
+  icon,
+}: TabbarBaseItemProps) {
+  const Icon = icon;
+
+  return (
+    <Link href={href} className={cn(className as string)}>
+      <div className="flex flex-col items-center">
+        <Icon
+          opacity={active ? "1" : "0.8"}
+          color={active ? "#4D5668" : "#667289"}
+        />
+        {active && (
+          <div className={cn("w-5 h-1", "round-[2px]", "bg-text")}></div>
+        )}
+      </div>
+    </Link>
+  );
 };
-
-

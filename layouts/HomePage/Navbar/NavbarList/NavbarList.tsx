@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { cn } from "../../../utils/cn";
+import { cn } from "../../../../utils/cn";
 import { css } from "@emotion/css";
 import { Listbox } from "@headlessui/react";
 import Arrow from "./icons/Arrow";
@@ -22,6 +22,7 @@ export default function NavbarList() {
     <div className={cn(styles.navbarList, "w-[160px] h-[400px]")}>
       <Listbox value={selectedDays} onChange={setSelectedDays}>
         <Listbox.Button
+          as="div"
           className={cn(
             styles.navbarListButton,
             "w-[153px] h-[34px]",

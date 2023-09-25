@@ -1,14 +1,13 @@
 import type { NextPage } from "next";
 import MainContainer from "../../components/MainContainer";
-import Navbar from "../../layouts/Navbar/Navbar";
 import ContentContainer from "../../components/ContentContainer";
 import PlayerCard from "../../components/HomePage/PlayerCard/PlayerCard";
 import EventCard from "../../components/HomePage/EventCard/EventCard";
 import MaterialCard from "../../components/HomePage/MaterialCard/MaterialCard";
 import Tabbar from "../../layouts/Tabbar/Tabbar";
+import Navbar from "../../layouts/HomePage/Navbar/Navbar";
 
 const HomePage: NextPage = () => {
-
   return (
     <MainContainer>
       <Navbar />

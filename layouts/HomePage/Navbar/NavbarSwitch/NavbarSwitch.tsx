@@ -1,10 +1,10 @@
 import { Switch } from "@headlessui/react";
 import React, { useState } from "react";
-import { cn } from "../../../utils/cn";
 import { css } from "@emotion/css";
 import SwitchBtn from "./SwitchBtn/SwitchBtn";
 import CharacterIcon from "./icons/CharacterIcon";
 import WeaponIcon from "./icons/WeaponIcon";
+import { cn } from "../../../../utils/cn";
 
 export default function NavbarSwitch() {
   const [enabled, setEnabled] = useState(false);
@@ -13,7 +13,7 @@ export default function NavbarSwitch() {
     <Switch checked={enabled} onChange={setEnabled} as={React.Fragment}>
       {({ checked }) => (
         /* Use the `checked` state to conditionally style the button. */
-        <button className={cn(stlyes.navbarSwitch, "w-[105px] h-[43px]")}>
+        <div className={cn(styles.navbarSwitch, "w-[105px] h-[43px]")}>
           {/* switch btn */}
           <SwitchBtn
             icon={
@@ -21,7 +21,8 @@ export default function NavbarSwitch() {
             }
             className={cn(
               checked ? "translate-x-[40px]" : "translate-x-[-8px]",
-              "translate-y-[2px]"
+              "translate-y-[2px]",
+              "transition-transform"
             )}
           />
           {/* left */}
@@ -36,13 +37,13 @@ export default function NavbarSwitch() {
               <WeaponIcon type="B" />
             </div>
           )}
-        </button>
+        </div>
       )}
     </Switch>
   );
 }
 
-const stlyes = {
+const styles = {
   navbarSwitch: cn(
     `relative inline-flex items-center rounded-full`,
     css`

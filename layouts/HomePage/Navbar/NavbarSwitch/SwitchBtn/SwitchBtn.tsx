@@ -1,5 +1,5 @@
 import React, { ReactNode } from "react";
-import { cn } from "../../../../utils/cn";
+import { cn } from "../../../../../utils/cn";
 
 type Props = {
   className?: string;
@@ -8,7 +8,7 @@ type Props = {
 
 export default function SwitchBtn(props: Props) {
   return (
-    <div className={cn(props.className || "", "relative")}>
+    <div className={cn("relative w-fit h-fit",props.className as string)}>
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="68"

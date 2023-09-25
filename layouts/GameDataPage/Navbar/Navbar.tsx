@@ -1,28 +1,31 @@
 import React from "react";
-import { cn } from "../../utils/cn";
+import { cn } from "../../../utils/cn";
 import { css } from "@emotion/css";
-import NavbarSwitch from "./NavbarSwitch/NavbarSwitch";
-import NavbarList from "./NavbarList/NavbarList";
+import NavbarSearch from "./NavbarSearch/NavbarSearch";
+import NavbarFilter from "./NavbarFilter/NavbarFilter";
+import NavbarTabs from "./NavbarTabs/NavbarTabs";
 
 export default function Navbar() {
   return (
     <div className={cn(stlyes.navbar, "h-[105px]")}>
-      <div className="translate-y-[50px]">
-        <NavbarSwitch />
+      <div className="translate-y-[-7px]">
+        <NavbarSearch />
       </div>
-      <div className="translate-y-[50px]">
-        <NavbarList />
+      <div className="translate-y-[-16px]">
+        <NavbarTabs />
+      </div>
+      <div className="translate-y-[-7px]">
+        <NavbarFilter />
       </div>
     </div>
   );
 }
-
 const stlyes = {
   navbar: cn(
     "fixed",
     "w-full",
     "px-[17px]",
-    "flex justify-between",
+    "flex justify-between items-end",
     css`
       background: linear-gradient(
         180deg,

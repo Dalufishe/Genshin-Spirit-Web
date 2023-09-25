@@ -46,6 +46,7 @@ export default function NavbarSwitch() {
 const styles = {
   navbarSwitch: cn(
     `relative inline-flex items-center rounded-full`,
+    "outline-none border-0",
     css`
       border-radius: 20px;
       border: 3px solid rgba(255, 255, 255, 0.2);

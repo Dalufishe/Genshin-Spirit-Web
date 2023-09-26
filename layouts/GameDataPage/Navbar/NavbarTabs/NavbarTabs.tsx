@@ -3,21 +3,33 @@ import React, { ReactNode, useState } from "react";
 import { cn } from "../../../../utils/cn";
 import { css } from "@emotion/css";
 import SwitchBtn from "./SwitchBtn/SwitchBtn";
-import CharacterIcon from "../icons/CharacterIcon";
+import CharacterIcon from "./icons/CharacterIcon";
 import NavbarTab from "./NavbarTab/NavbarTab";
-
+import WeaponIcon from "./icons/WeaponIcon";
+import ArtifactIcon from "./icons/ArtifactIcon";
 
 export default function NavbarTabs() {
   const [selectedIndex, setSelectedIndex] = useState(0);
 
   return (
     <Tab.Group selectedIndex={selectedIndex} onChange={setSelectedIndex}>
-      <Tab.List className={cn(styles.tabList, "w-[155px] h-[40px]", "flex")}>
+      <Tab.List className={cn(styles.tabList, "w-[155px] h-[43px]", "flex")}>
         {/*  */}
         <SwitchBtn
-          icon={<CharacterIcon type="A" />}
+          icon={(function () {
+            switch (selectedIndex) {
+              case 0:
+                return <CharacterIcon type="A" />;
+              case 1:
+                return <WeaponIcon type="A" />;
+              case 2:
+                return <ArtifactIcon type="A" />;
+              default:
+                return <CharacterIcon type="A" />;
+            }
+          })()}
           className={cn(
-            "absolute top-[-12px]",
+            "absolute top-[-10px]",
             "transition-[left]",
             selectedIndex === 0 ? "left-[-10px]" : "",
             selectedIndex === 1 ? "left-[44px]" : "",
@@ -37,7 +49,7 @@ export default function NavbarTabs() {
           {({ selected }) => (
             /* Use the `selected` state to conditionally style the selected tab. */
             <NavbarTab>
-              <CharacterIcon type="B" />
+              <WeaponIcon type="B" />
             </NavbarTab>
           )}
         </Tab>
@@ -45,7 +57,7 @@ export default function NavbarTabs() {
           {({ selected }) => (
             /* Use the `selected` state to conditionally style the selected tab. */
             <NavbarTab>
-              <CharacterIcon type="B" />
+              <ArtifactIcon type="B" />
             </NavbarTab>
           )}
         </Tab>

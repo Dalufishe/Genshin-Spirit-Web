@@ -1,8 +1,6 @@
 import React from "react";
 import { TabbarIconProps } from "./TabbarIcon.types";
 
-
-
 export default function GameDataIcon(props: TabbarIconProps) {
   return (
     <svg
@@ -20,8 +18,8 @@ export default function GameDataIcon(props: TabbarIconProps) {
           fill={props.color}
         />
         <path
-          fill-rule="evenodd"
-          clip-rule="evenodd"
+          fillRule="evenodd"
+          clipRule="evenodd"
           d="M21.0646 16.8795C23.5166 16.8795 25.5044 14.8918 25.5044 12.4398C25.5044 9.98775 23.5166 8 21.0646 8C18.6126 8 16.6248 9.98775 16.6248 12.4398C16.6248 14.8918 18.6126 16.8795 21.0646 16.8795ZM12 22.4673C13.4183 21.2956 17.2167 18.9524 21.0645 18.9524C24.9123 18.9524 28.8341 21.2956 30.3141 22.4673L27.3542 25.2421C27.2309 26.722 26.6512 30.4218 25.3193 33.3817C23.9874 36.3415 21.9278 39.3014 21.0645 40.4113C20.2012 39.3014 18.1787 36.3415 16.9947 33.3817C15.8108 30.4218 15.3915 26.722 15.3298 25.2421L12 22.4673Z"
           fill={props.color}
         />

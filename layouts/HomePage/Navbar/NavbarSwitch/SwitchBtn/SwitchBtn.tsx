@@ -8,7 +8,7 @@ type Props = {
 
 export default function SwitchBtn(props: Props) {
   return (
-    <div className={cn("relative w-fit h-fit",props.className as string)}>
+    <div className={cn("relative w-fit h-fit", props.className as string)}>
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="68"
@@ -28,9 +28,9 @@ export default function SwitchBtn(props: Props) {
             width="68"
             height="68"
             filterUnits="userSpaceOnUse"
-            colorInterpolation-filters="sRGB"
+            colorInterpolationFilters="sRGB"
           >
-            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feFlood floodOpacity="0" result="BackgroundImageFix" />
             <feColorMatrix
               in="SourceAlpha"
               type="matrix"

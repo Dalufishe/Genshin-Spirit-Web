@@ -19,6 +19,7 @@ export default function Navbar() {
 
 const stlyes = {
   navbar: cn(
+    "z-50",
     "fixed",
     "w-full",
     "px-[17px]",

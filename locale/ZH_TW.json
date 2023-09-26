@@ -1,0 +1,5698 @@
+{
+	"resources": {
+		"string": [
+			{
+				"_name": "app_name",
+				"__text": "原神小幫手"
+			},
+			{
+				"_name": "title_char",
+				"__text": "角色"
+			},
+			{
+				"_name": "title_artifacts",
+				"__text": "聖遺物"
+			},
+			{
+				"_name": "title_home",
+				"__text": "焦點"
+			},
+			{
+				"_name": "title_weapons",
+				"__text": "武器"
+			},
+			{
+				"_name": "title_settings",
+				"__text": "設定"
+			},
+			{
+				"_name": "dow_set1",
+				"__text": "逢星期一，四，日"
+			},
+			{
+				"_name": "dow_set2",
+				"__text": "逢星期二，五，日"
+			},
+			{
+				"_name": "dow_set3",
+				"__text": "逢星期三，六，日"
+			},
+			{
+				"_name": "monday",
+				"__text": "星期一"
+			},
+			{
+				"_name": "tuesday",
+				"__text": "星期二"
+			},
+			{
+				"_name": "wednesday",
+				"__text": "星期三"
+			},
+			{
+				"_name": "thursday",
+				"__text": "星期四"
+			},
+			{
+				"_name": "friday",
+				"__text": "星期五"
+			},
+			{
+				"_name": "saturday",
+				"__text": "星期六"
+			},
+			{
+				"_name": "sunday",
+				"__text": "星期日"
+			},
+			{
+				"_name": "teaching_of_ballad",
+				"__text": "「詩文」的教導"
+			},
+			{
+				"_name": "teaching_of_diligence",
+				"__text": "「勤勞」的教導"
+			},
+			{
+				"_name": "teaching_of_freedom",
+				"__text": "「自由」的教導"
+			},
+			{
+				"_name": "teaching_of_gold",
+				"__text": "「黃金」的教導"
+			},
+			{
+				"_name": "teaching_of_prosperity",
+				"__text": "「繁榮」的教導"
+			},
+			{
+				"_name": "teaching_of_resistance",
+				"__text": "「抗爭」的教導"
+			},
+			{
+				"_name": "teachings_of_elegance",
+				"__text": "「風雅」的教導"
+			},
+			{
+				"_name": "teachings_of_light",
+				"__text": "「天光」的教導"
+			},
+			{
+				"_name": "teachings_of_transience",
+				"__text": "「浮世」的教導"
+			},
+			{
+				"_name": "guide_of_freedom",
+				"__text": "「自由」的指引"
+			},
+			{
+				"_name": "guide_of_gold",
+				"__text": "「黃金」的指引"
+			},
+			{
+				"_name": "guide_of_resistance",
+				"__text": "「抗爭」的指引"
+			},
+			{
+				"_name": "guide_of_prosperity",
+				"__text": "「勤勞」的指引"
+			},
+			{
+				"_name": "guide_of_ballad",
+				"__text": "「詩文」的指引"
+			},
+			{
+				"_name": "guide_of_diligence",
+				"__text": "「繁榮」的指引"
+			},
+			{
+				"_name": "guides_of_elegance",
+				"__text": "「風雅」的指引"
+			},
+			{
+				"_name": "guides_of_transience",
+				"__text": "「浮世」的指引"
+			},
+			{
+				"_name": "guides_of_light",
+				"__text": "「天光」的指引"
+			},
+			{
+				"_name": "philosophies_of_freedom",
+				"__text": "「自由」的哲學"
+			},
+			{
+				"_name": "philosophies_of_gold",
+				"__text": "「黃金」的哲學"
+			},
+			{
+				"_name": "philosophies_of_resistance",
+				"__text": "「抗爭」的哲學"
+			},
+			{
+				"_name": "philosophies_of_prosperity",
+				"__text": "「勤勞」的哲學"
+			},
+			{
+				"_name": "philosophies_of_ballad",
+				"__text": "「詩文」的哲學"
+			},
+			{
+				"_name": "philosophies_of_diligence",
+				"__text": "「繁榮」的哲學"
+			},
+			{
+				"_name": "philosophiess_of_elegance",
+				"__text": "「風雅」的哲學"
+			},
+			{
+				"_name": "philosophiess_of_transience",
+				"__text": "「浮世」的哲學"
+			},
+			{
+				"_name": "philosophiess_of_light",
+				"__text": "「天光」的哲學"
+			},
+			{
+				"_name": "tile_of_decarabians_tower",
+				"__text": "高塔孤王的破瓦"
+			},
+			{
+				"_name": "luminous_sands_from_guyun",
+				"__text": "孤雲寒林的光砂"
+			},
+			{
+				"_name": "coral_branch_of_a_distant_sea",
+				"__text": "遠海夷地的瑚枝"
+			},
+			{
+				"_name": "mist_veiled_lead_elixir",
+				"__text": "霧海雲間的鉛丹"
+			},
+			{
+				"_name": "boreal_wolfs_milk_tooth",
+				"__text": "凜風奔狼的始齔"
+			},
+			{
+				"_name": "narukamis_wisdom",
+				"__text": "鳴神御靈的明惠"
+			},
+			{
+				"_name": "grain_of_aerosiderite",
+				"__text": "漆黑隕鐵的一粒"
+			},
+			{
+				"_name": "fetters_of_the_dandelion_gladiator",
+				"__text": "獅牙鬥士的枷鎖"
+			},
+			{
+				"_name": "mask_of_the_wicked_lieutenant",
+				"__text": "今昔劇畫之惡尉"
+			},
+			{
+				"_name": "kamisato_ayato",
+				"__text": "神里綾人"
+			},
+			{
+				"_name": "aloy",
+				"__text": "亞蘿伊"
+			},
+			{
+				"_name": "kujou_sara",
+				"__text": "九條娑羅"
+			},
+			{
+				"_name": "sangonomiya_kokomi",
+				"__text": "珊瑚宮心海"
+			},
+			{
+				"_name": "raiden_shogun",
+				"__text": "雷電將軍"
+			},
+			{
+				"_name": "sayu",
+				"__text": "早柚"
+			},
+			{
+				"_name": "yoimiya",
+				"__text": "宵宮"
+			},
+			{
+				"_name": "kamisato_ayaka",
+				"__text": "神里綾華"
+			},
+			{
+				"_name": "kaedehara_kazuha",
+				"__text": "楓原萬葉"
+			},
+			{
+				"_name": "yanfei",
+				"__text": "煙緋"
+			},
+			{
+				"_name": "eula",
+				"__text": "優菈"
+			},
+			{
+				"_name": "rosaria",
+				"__text": "羅莎莉亞"
+			},
+			{
+				"_name": "xiao",
+				"__text": "魈"
+			},
+			{
+				"_name": "hu_tao",
+				"__text": "胡桃"
+			},
+			{
+				"_name": "ganyu",
+				"__text": "甘雨"
+			},
+			{
+				"_name": "albedo",
+				"__text": "阿貝多"
+			},
+			{
+				"_name": "zhongli",
+				"__text": "鍾離"
+			},
+			{
+				"_name": "xinyan",
+				"__text": "辛焱"
+			},
+			{
+				"_name": "tartaglia",
+				"__text": "達達利亞"
+			},
+			{
+				"_name": "diona",
+				"__text": "迪奧娜"
+			},
+			{
+				"_name": "xingqiu",
+				"__text": "行秋"
+			},
+			{
+				"_name": "xiangling",
+				"__text": "香菱"
+			},
+			{
+				"_name": "venti",
+				"__text": "溫迪"
+			},
+			{
+				"_name": "traveler_anemo",
+				"__text": "旅行者(風)"
+			},
+			{
+				"_name": "traveler_geo",
+				"__text": "旅行者(岩)"
+			},
+			{
+				"_name": "traveler_electro",
+				"__text": "旅行者(雷)"
+			},
+			{
+				"_name": "sucrose",
+				"__text": "砂糖"
+			},
+			{
+				"_name": "razor",
+				"__text": "雷澤"
+			},
+			{
+				"_name": "qiqi",
+				"__text": "七七"
+			},
+			{
+				"_name": "noelle",
+				"__text": "諾艾爾"
+			},
+			{
+				"_name": "ningguang",
+				"__text": "凝光"
+			},
+			{
+				"_name": "mona",
+				"__text": "莫娜"
+			},
+			{
+				"_name": "lisa",
+				"__text": "麗莎"
+			},
+			{
+				"_name": "klee",
+				"__text": "可莉"
+			},
+			{
+				"_name": "keqing",
+				"__text": "刻晴"
+			},
+			{
+				"_name": "kaeya",
+				"__text": "凱亞"
+			},
+			{
+				"_name": "jean",
+				"__text": "琴"
+			},
+			{
+				"_name": "fischl",
+				"__text": "菲謝爾"
+			},
+			{
+				"_name": "diluc",
+				"__text": "迪盧克"
+			},
+			{
+				"_name": "chongyun",
+				"__text": "重雲"
+			},
+			{
+				"_name": "bennett",
+				"__text": "班尼特"
+			},
+			{
+				"_name": "beidou",
+				"__text": "北斗"
+			},
+			{
+				"_name": "barbara",
+				"__text": "芭芭拉"
+			},
+			{
+				"_name": "amber",
+				"__text": "安柏"
+			},
+			{
+				"_name": "unknown",
+				"__text": "未知"
+			},
+			{
+				"_name": "search",
+				"__text": "搜尋..."
+			},
+			{
+				"_name": "elements",
+				"__text": "元素"
+			},
+			{
+				"_name": "rarity",
+				"__text": "稀有度"
+			},
+			{
+				"_name": "filters",
+				"__text": "篩選"
+			},
+			{
+				"_name": "mondstadt",
+				"__text": "蒙德"
+			},
+			{
+				"_name": "liyue",
+				"__text": "璃月"
+			},
+			{
+				"_name": "inazuma",
+				"__text": "稻妻"
+			},
+			{
+				"_name": "set_by_player",
+				"__text": "由玩家設定"
+			},
+			{
+				"_name": "another_world",
+				"__text": "另一个世界"
+			},
+			{
+				"_name": "main_dps",
+				"__text": "主C"
+			},
+			{
+				"_name": "support_dps",
+				"__text": "副C"
+			},
+			{
+				"_name": "utility",
+				"__text": "輔助"
+			},
+			{
+				"_name": "female",
+				"__text": "女"
+			},
+			{
+				"_name": "male",
+				"__text": "男"
+			},
+			{
+				"_name": "district",
+				"__text": "地區"
+			},
+			{
+				"_name": "weapon",
+				"__text": "武器"
+			},
+			{
+				"_name": "char_role",
+				"__text": "定位"
+			},
+			{
+				"_name": "sex",
+				"__text": "性別"
+			},
+			{
+				"_name": "birth",
+				"__text": "生日"
+			},
+			{
+				"_name": "intro",
+				"__text": "簡介"
+			},
+			{
+				"_name": "battle_talent",
+				"__text": "戰鬥天賦"
+			},
+			{
+				"_name": "noraml_atk",
+				"__text": "普通攻擊"
+			},
+			{
+				"_name": "charged_atk",
+				"__text": "重擊"
+			},
+			{
+				"_name": "plunging_atk",
+				"__text": "俯衝攻擊"
+			},
+			{
+				"_name": "element_atk",
+				"__text": "元素戰技"
+			},
+			{
+				"_name": "final_atk",
+				"__text": "元素爆發"
+			},
+			{
+				"_name": "passive_atk",
+				"__text": "被動技能"
+			},
+			{
+				"_name": "basic_talent",
+				"__text": "固有天賦"
+			},
+			{
+				"_name": "asc0_unlock",
+				"__text": "自動解鎖"
+			},
+			{
+				"_name": "asc1_unlock",
+				"__text": "突破等級1解鎖"
+			},
+			{
+				"_name": "asc4_unlock",
+				"__text": "突破等級4解鎖"
+			},
+			{
+				"_name": "sof",
+				"__text": "命之座"
+			},
+			{
+				"_name": "sof1",
+				"__text": "命之座 1"
+			},
+			{
+				"_name": "sof2",
+				"__text": "命之座 2"
+			},
+			{
+				"_name": "sof3",
+				"__text": "命之座 3"
+			},
+			{
+				"_name": "sof4",
+				"__text": "命之座 4"
+			},
+			{
+				"_name": "sof5",
+				"__text": "命之座 5"
+			},
+			{
+				"_name": "sof6",
+				"__text": "命之座 6"
+			},
+			{
+				"_name": "advice",
+				"__text": "推薦"
+			},
+			{
+				"_name": "team_advice",
+				"__text": "組隊建議"
+			},
+			{
+				"_name": "weapon_advice",
+				"__text": "推薦武器"
+			},
+			{
+				"_name": "art_advice",
+				"__text": "推薦聖遺物"
+			},
+			{
+				"_name": "none_info",
+				"__text": "暫時沒有他/她/它的相關資料"
+			},
+			{
+				"_name": "material_force",
+				"__text": "素材焦點"
+			},
+			{
+				"_name": "char_asc_mater",
+				"__text": "角色突破素材"
+			},
+			{
+				"_name": "weapon_asc_mater",
+				"__text": "武器突破素材"
+			},
+			{
+				"_name": "gaming_tools",
+				"__text": "遊戲小工具"
+			},
+			{
+				"_name": "calculator",
+				"__text": "計算機"
+			},
+			{
+				"_name": "daily_login",
+				"__text": "每日簽到"
+			},
+			{
+				"_name": "map",
+				"__text": "互動地圖"
+			},
+			{
+				"_name": "alarm",
+				"__text": "提醒"
+			},
+			{
+				"_name": "alarm_t1",
+				"__text": "周本"
+			},
+			{
+				"_name": "alarm_t2",
+				"__text": "樹脂"
+			},
+			{
+				"_name": "alarm_t3",
+				"__text": "洞天寶錢"
+			},
+			{
+				"_name": "alarm_t4",
+				"__text": "派遣"
+			},
+			{
+				"_name": "alarm_t5",
+				"__text": "自定義"
+			},
+			{
+				"_name": "alarm_time1",
+				"__text": "4小時"
+			},
+			{
+				"_name": "alarm_time2",
+				"__text": "8小時"
+			},
+			{
+				"_name": "alarm_time3",
+				"__text": "12小時"
+			},
+			{
+				"_name": "alarm_time4",
+				"__text": "20小時"
+			},
+			{
+				"_name": "jb_title",
+				"__text": "[原神小幫手] Hi ~ 該打周本了!"
+			},
+			{
+				"_name": "common_info",
+				"__text": "唉~我可是記得很清楚哦~你可別忘了!"
+			},
+			{
+				"_name": "daily_mission_title",
+				"__text": "[原神小幫手] Hi ~ 完成了每日任務了嗎?"
+			},
+			{
+				"_name": "dtbc_title",
+				"__text": "[原神小幫手] Hi ~ 你的洞天寶錢滿了,請盡快收取"
+			},
+			{
+				"_name": "ph_title",
+				"__text": "[原神小幫手] Hi ~ 派遣已完成"
+			},
+			{
+				"_name": "ph_info",
+				"__text": "來看看他/她找到了什麼~"
+			},
+			{
+				"_name": "dtbc_info",
+				"__text": "嗯...如果你不需要它們，那我就把它們拿走囉~"
+			},
+			{
+				"_name": "resin_title",
+				"__text": "[原神小幫手] Hi ~ 你的樹脂滿了,請盡快使用"
+			},
+			{
+				"_name": "edit_title",
+				"__text": "編輯提醒"
+			},
+			{
+				"_name": "edit_type",
+				"__text": "提醒的類別"
+			},
+			{
+				"_name": "edit_time",
+				"__text": "提醒時間"
+			},
+			{
+				"_name": "edit_ph_time",
+				"__text": "派遣時間"
+			},
+			{
+				"_name": "edit_adeptal_energy",
+				"__text": "洞天仙力"
+			},
+			{
+				"_name": "edit_trust_rank",
+				"__text": "信任等階"
+			},
+			{
+				"_name": "edit_title_notif",
+				"__text": "提醒的標題"
+			},
+			{
+				"_name": "edit_info_notif",
+				"__text": "提醒的內容"
+			},
+			{
+				"_name": "edit_cd_25off",
+				"__text": "時間減少25%"
+			},
+			{
+				"_name": "edit_use_notif",
+				"__text": "使用此通知"
+			},
+			{
+				"_name": "america_ser",
+				"__text": "美服"
+			},
+			{
+				"_name": "europe_ser",
+				"__text": "歐服"
+			},
+			{
+				"_name": "asia_ser",
+				"__text": "亞服"
+			},
+			{
+				"_name": "hk_tw_mo_ser",
+				"__text": "港、台、澳服"
+			},
+			{
+				"_name": "sky_land_ser",
+				"__text": "天空島服"
+			},
+			{
+				"_name": "world_tree",
+				"__text": "世界樹服"
+			},
+			{
+				"_name": "press_exit",
+				"__text": "再按一次退出應用程式"
+			},
+			{
+				"_name": "vote_title",
+				"__text": "請給這個應用程式評分吧～"
+			},
+			{
+				"_name": "vote_info",
+				"__text": "若你喜歡原神小幫手，請花一點時間幫忙提出評價～你的小小幫忙，將對我造成莫大幫助，而且這並不會花你很多時間。"
+			},
+			{
+				"_name": "vote_help",
+				"__text": "幫忙評分"
+			},
+			{
+				"_name": "vote_no",
+				"__text": "不用了"
+			},
+			{
+				"_name": "vote_later",
+				"__text": "以後再說"
+			},
+			{
+				"_name": "pls_restart_app",
+				"__text": "請重啟應用"
+			},
+			{
+				"_name": "copied",
+				"__text": "已複製"
+			},
+			{
+				"_name": "result",
+				"__text": "結算"
+			},
+			{
+				"_name": "curr_lvl",
+				"__text": "\"目前等級 : \""
+			},
+			{
+				"_name": "aim_lvl",
+				"__text": "\"目標等級 : \""
+			},
+			{
+				"_name": "choose_lvl",
+				"__text": "選擇等級"
+			},
+			{
+				"_name": "choosed",
+				"__text": "\"已選擇 : \""
+			},
+			{
+				"_name": "already_dak_po",
+				"__text": "已突破"
+			},
+			{
+				"_name": "cal_also",
+				"__text": "計算"
+			},
+			{
+				"_name": "delete",
+				"__text": "刪除"
+			},
+			{
+				"_name": "caled_char_weapon_art",
+				"__text": "已計算角色/武器/聖遺物"
+			},
+			{
+				"_name": "char_lvls",
+				"__text": "角色等級"
+			},
+			{
+				"_name": "bg_title",
+				"__text": "背景主題"
+			},
+			{
+				"_name": "light_theme",
+				"__text": "明亮主題"
+			},
+			{
+				"_name": "dark_theme",
+				"__text": "黑暗主題"
+			},
+			{
+				"_name": "sys_theme",
+				"__text": "系統默認主題"
+			},
+			{
+				"_name": "tv_title",
+				"__text": "文字主題"
+			},
+			{
+				"_name": "lang_title",
+				"__text": "語言"
+			},
+			{
+				"_name": "other_title",
+				"__text": "其他"
+			},
+			{
+				"_name": "acc_in_server",
+				"__text": "帳號所在伺服器"
+			},
+			{
+				"_name": "about",
+				"__text": "關於"
+			},
+			{
+				"_name": "link",
+				"__text": "連結"
+			},
+			{
+				"_name": "about_title1",
+				"__text": "免責聲明"
+			},
+			{
+				"_name": "about_info1",
+				"__text": "本應用程式並不屬於 miHoYo Co., Ltd. 且並未獲得其認可。原神小幫手(Genshin Spirit)僅為一款由粉絲自行開發之數據提供App，本應用程式所提供的資料只作參考用途。 不會對其所載任何資料的準確性及完整作任何程度保証。"
+			},
+			{
+				"_name": "about_title2",
+				"__text": "私隱收集聲明"
+			},
+			{
+				"_name": "about_info2",
+				"__text": "本應用程式並不會收集任何有關個人私隱的數據及可能用於識別，跟蹤使用者等信息。 若有需要，本應用程式僅會收集已告知之數據，如程式崩潰堆棧。上述數據僅用作與修復應用程式漏洞及提升使用者體驗。"
+			},
+			{
+				"_name": "about_title3",
+				"__text": "資源使用聲明"
+			},
+			{
+				"_name": "about_info3",
+				"__text": "本應用程式基於Shiori for Genshin而開發，旨在向Shiori for Genshin及其協作者致敬，惟目前仍未獲其協作者認可。本應用程式部分圖片，資料取自開源專案，將於下文附上連結。 故此，本應用程式的一部分介面，排版或於Shiori for Genshin極為相似，惟本應用程式是以Java而非Dart作編程語言，亦只會於Android或／及任何支援.apk，.aab檔案格式之裝置中安裝及運行。"
+			},
+			{
+				"_name": "about_title4",
+				"__text": "專案開源聲明"
+			},
+			{
+				"_name": "about_info4",
+				"__text": "本應用程式因旨在向Shiori for Genshin及其協作者致敬，故將於Github上開源，任何人均可以查閱，提供意見，甚至協作，本人亦十分歡迎閣下對本應用程式的任何建議，協作申請。本應用程式亦會上架至Google Play。若你希望為此專案提出意見，漏洞，新功能等等，亦歡迎以E-mail或Discord (中國大陸則可使用QQ)方式聯繫。最後，謝謝你的諒解及支持。"
+			},
+			{
+				"_name": "about_title5",
+				"__text": "第三方分發及編譯聲明"
+			},
+			{
+				"_name": "about_info5",
+				"__text": "本專案（原神小幫手 Genshin Spirit）並不反對任何人對其作出功能新增，除錯，編譯測試及用作學習用途，唯本專案不允許第三方於未經專案開發者Voc-夜芷冰書面允許下，隨意分發（不論私人或公開）非官方版本【註1】及故意冒充為本專案的開發員【註2】。Voc-夜芷冰保留於版本3.2.0 (10825)後對違反上述情況的個人／機構提出下架要求的權利。\\n【註1】非官方版本包括第三方自行編譯，於合作平台下載應用程式安裝檔後分發。\\n【註2】Discord 機器人 【原神小幫手】與本專案無關（本專案早於2021年九月於Github上載，2021年十一月與Google Play 上發佈正式版）"
+			},
+			{
+				"_name": "list_grid",
+				"__text": "列表網格"
+			},
+			{
+				"_name": "date_1st",
+				"__text": "一日"
+			},
+			{
+				"_name": "date_2nd",
+				"__text": "二日"
+			},
+			{
+				"_name": "date_3rd",
+				"__text": "三日"
+			},
+			{
+				"_name": "date_4th",
+				"__text": "四日"
+			},
+			{
+				"_name": "date_5th",
+				"__text": "五日"
+			},
+			{
+				"_name": "date_6th",
+				"__text": "六日"
+			},
+			{
+				"_name": "date_7th",
+				"__text": "七日"
+			},
+			{
+				"_name": "date_8th",
+				"__text": "八日"
+			},
+			{
+				"_name": "date_9th",
+				"__text": "九日"
+			},
+			{
+				"_name": "date_10th",
+				"__text": "十日"
+			},
+			{
+				"_name": "date_11th",
+				"__text": "十一日"
+			},
+			{
+				"_name": "date_12th",
+				"__text": "十二日"
+			},
+			{
+				"_name": "date_13th",
+				"__text": "十三日"
+			},
+			{
+				"_name": "date_14th",
+				"__text": "十四日"
+			},
+			{
+				"_name": "date_15th",
+				"__text": "十五日"
+			},
+			{
+				"_name": "date_16th",
+				"__text": "十六日"
+			},
+			{
+				"_name": "date_17th",
+				"__text": "十七日"
+			},
+			{
+				"_name": "date_18th",
+				"__text": "十八日"
+			},
+			{
+				"_name": "date_19th",
+				"__text": "十九日"
+			},
+			{
+				"_name": "date_20th",
+				"__text": "二十日"
+			},
+			{
+				"_name": "date_21st",
+				"__text": "二十一日"
+			},
+			{
+				"_name": "date_22nd",
+				"__text": "二十二日"
+			},
+			{
+				"_name": "date_23rd",
+				"__text": "二十三日"
+			},
+			{
+				"_name": "date_24th",
+				"__text": "二十四日"
+			},
+			{
+				"_name": "date_25th",
+				"__text": "二十五日"
+			},
+			{
+				"_name": "date_26th",
+				"__text": "二十六日"
+			},
+			{
+				"_name": "date_27th",
+				"__text": "二十七日"
+			},
+			{
+				"_name": "date_28th",
+				"__text": "二十八日"
+			},
+			{
+				"_name": "date_29th",
+				"__text": "二十九日"
+			},
+			{
+				"_name": "date_30th",
+				"__text": "三十日"
+			},
+			{
+				"_name": "date_31st",
+				"__text": "三十一日"
+			},
+			{
+				"_name": "date_jan",
+				"__text": "一月"
+			},
+			{
+				"_name": "date_feb",
+				"__text": "二月"
+			},
+			{
+				"_name": "date_mar",
+				"__text": "三月"
+			},
+			{
+				"_name": "date_apr",
+				"__text": "四月"
+			},
+			{
+				"_name": "date_may",
+				"__text": "五月"
+			},
+			{
+				"_name": "date_jun",
+				"__text": "六月"
+			},
+			{
+				"_name": "date_jul",
+				"__text": "七月"
+			},
+			{
+				"_name": "date_aug",
+				"__text": "八月"
+			},
+			{
+				"_name": "date_sep",
+				"__text": "九月"
+			},
+			{
+				"_name": "date_oct",
+				"__text": "十月"
+			},
+			{
+				"_name": "date_nov",
+				"__text": "十一月"
+			},
+			{
+				"_name": "date_dec",
+				"__text": "十二月"
+			},
+			{
+				"_name": "thoma",
+				"__text": "托馬"
+			},
+			{
+				"_name": "thanks_title",
+				"__text": "鳴謝"
+			},
+			{
+				"_name": "translator_title",
+				"__text": "翻譯員"
+			},
+			{
+				"_name": "beta_tester_title",
+				"__text": "測試人員"
+			},
+			{
+				"_name": "alds_helper_title",
+				"__text": "算法及數據整合"
+			},
+			{
+				"_name": "thanks_intro",
+				"__text": "因為有你們的幫忙，原神小幫手才得以更完善"
+			},
+			{
+				"_name": "amenoma_kageuchi",
+				"__text": "天目影打刀"
+			},
+			{
+				"_name": "aquila_favonia",
+				"__text": "風鷹劍"
+			},
+			{
+				"_name": "blackcliff_longsword",
+				"__text": "黑岩長劍"
+			},
+			{
+				"_name": "cool_steel",
+				"__text": "冷刃"
+			},
+			{
+				"_name": "dark_iron_sword",
+				"__text": "暗鐵劍"
+			},
+			{
+				"_name": "dull_blade",
+				"__text": "無鋒劍"
+			},
+			{
+				"_name": "favonius_sword",
+				"__text": "西風劍"
+			},
+			{
+				"_name": "festering_desire",
+				"__text": "腐殖之劍"
+			},
+			{
+				"_name": "fillet_blade",
+				"__text": "吃虎魚刀"
+			},
+			{
+				"_name": "freedom_sworn",
+				"__text": "蒼古自由之誓"
+			},
+			{
+				"_name": "harbinger_of_dawn",
+				"__text": "黎明神劍"
+			},
+			{
+				"_name": "iron_sting",
+				"__text": "鐵蜂刺"
+			},
+			{
+				"_name": "lions_roar",
+				"__text": "匣裡龍吟"
+			},
+			{
+				"_name": "mistsplitter_reforged",
+				"__text": "霧切之迴光"
+			},
+			{
+				"_name": "primordial_jade_cutter",
+				"__text": "磐岩結綠"
+			},
+			{
+				"_name": "prototype_rancour",
+				"__text": "試作斬岩"
+			},
+			{
+				"_name": "royal_longsword",
+				"__text": "宗室長劍"
+			},
+			{
+				"_name": "sacrificial_sword",
+				"__text": "祭禮劍"
+			},
+			{
+				"_name": "silver_sword",
+				"__text": "銀劍"
+			},
+			{
+				"_name": "skyrider_sword",
+				"__text": "飛天御劍"
+			},
+			{
+				"_name": "skyward_blade",
+				"__text": "天空之刃"
+			},
+			{
+				"_name": "summit_shaper",
+				"__text": "斫峰之刃"
+			},
+			{
+				"_name": "sword_of_descension",
+				"__text": "降臨之劍"
+			},
+			{
+				"_name": "the_alley_flash",
+				"__text": "暗巷閃光"
+			},
+			{
+				"_name": "the_black_sword",
+				"__text": "黑劍"
+			},
+			{
+				"_name": "the_flute",
+				"__text": "笛劍"
+			},
+			{
+				"_name": "travelers_handy_sword",
+				"__text": "旅行劍"
+			},
+			{
+				"_name": "waster_greatsword",
+				"__text": "訓練大劍"
+			},
+			{
+				"_name": "old_mercs_pal",
+				"__text": "傭兵重劍"
+			},
+			{
+				"_name": "bloodtainted_greatsword",
+				"__text": "沐浴龍血的劍"
+			},
+			{
+				"_name": "debate_club",
+				"__text": "以理服人"
+			},
+			{
+				"_name": "quartz",
+				"__text": "鐵影闊劍"
+			},
+			{
+				"_name": "ferrous_shadow",
+				"__text": "石英大劍"
+			},
+			{
+				"_name": "skyrider_greatsword",
+				"__text": "飛天大御劍"
+			},
+			{
+				"_name": "white_iron_greatsword",
+				"__text": "白鐵大劍"
+			},
+			{
+				"_name": "blackcliff_slasher",
+				"__text": "黑岩斬刀"
+			},
+			{
+				"_name": "favonius_greatsword",
+				"__text": "西風大劍"
+			},
+			{
+				"_name": "katsuragikiri_nagamasa",
+				"__text": "桂木斬長正"
+			},
+			{
+				"_name": "lithic_blade",
+				"__text": "千巖古劍"
+			},
+			{
+				"_name": "luxurious_sea_lord",
+				"__text": "銜珠海皇"
+			},
+			{
+				"_name": "prototype_archaic",
+				"__text": "試作古華"
+			},
+			{
+				"_name": "rainslasher",
+				"__text": "雨裁"
+			},
+			{
+				"_name": "royal_greatsword",
+				"__text": "宗室大劍"
+			},
+			{
+				"_name": "sacrificial_greatsword",
+				"__text": "祭禮大劍"
+			},
+			{
+				"_name": "serpent_spine",
+				"__text": "螭骨劍"
+			},
+			{
+				"_name": "snow_tombed_starsilver",
+				"__text": "雪葬的星銀"
+			},
+			{
+				"_name": "the_bell",
+				"__text": "鍾劍"
+			},
+			{
+				"_name": "whiteblind",
+				"__text": "白影劍"
+			},
+			{
+				"_name": "skyward_pride",
+				"__text": "天空之傲"
+			},
+			{
+				"_name": "song_of_broken_pines",
+				"__text": "松籟響起之時"
+			},
+			{
+				"_name": "the_unforged",
+				"__text": "無工之劍"
+			},
+			{
+				"_name": "wolfs_gravestone",
+				"__text": "狼的末路"
+			},
+			{
+				"_name": "beginners_protector",
+				"__text": "新手長槍"
+			},
+			{
+				"_name": "iron_point",
+				"__text": "鐵尖槍"
+			},
+			{
+				"_name": "black_tassel",
+				"__text": "黑纓槍"
+			},
+			{
+				"_name": "halberd",
+				"__text": "鉞矛"
+			},
+			{
+				"_name": "white_tassel",
+				"__text": "白纓槍"
+			},
+			{
+				"_name": "blackcliff_pole",
+				"__text": "黑岩刺槍"
+			},
+			{
+				"_name": "crescent_pike",
+				"__text": "流月針"
+			},
+			{
+				"_name": "deathmatch",
+				"__text": "決鬥之槍"
+			},
+			{
+				"_name": "dragons_bane",
+				"__text": "匣裡滅辰"
+			},
+			{
+				"_name": "dragonspine_spear",
+				"__text": "龍脊長槍"
+			},
+			{
+				"_name": "favonius_lance",
+				"__text": "西風長槍"
+			},
+			{
+				"_name": "kitain_cross_spear",
+				"__text": "喜多院十文字"
+			},
+			{
+				"_name": "lithic_spear",
+				"__text": "千岩長槍"
+			},
+			{
+				"_name": "prototype_starglitter",
+				"__text": "試作星鐮"
+			},
+			{
+				"_name": "royal_spear",
+				"__text": "宗室獵槍"
+			},
+			{
+				"_name": "the_catch",
+				"__text": "「漁獲」"
+			},
+			{
+				"_name": "engulfing_lightning",
+				"__text": "薙草之稻光"
+			},
+			{
+				"_name": "primordial_jade_winged_spear",
+				"__text": "和璞鳶"
+			},
+			{
+				"_name": "skyward_spine",
+				"__text": "天空之脊"
+			},
+			{
+				"_name": "staff_of_homa",
+				"__text": "護摩之杖"
+			},
+			{
+				"_name": "vortex_vanquisher",
+				"__text": "貫虹之槊"
+			},
+			{
+				"_name": "apprentices_notes",
+				"__text": "學徒筆記"
+			},
+			{
+				"_name": "pocket_grimoire",
+				"__text": "口袋魔導書"
+			},
+			{
+				"_name": "amber_catalyst",
+				"__text": "琥珀玥"
+			},
+			{
+				"_name": "emerald_orb",
+				"__text": "翡玉法球"
+			},
+			{
+				"_name": "magic_guide",
+				"__text": "魔導緒論"
+			},
+			{
+				"_name": "otherworldly_story",
+				"__text": "異世界行記"
+			},
+			{
+				"_name": "thrilling_tales_of_dragon_slayers",
+				"__text": "討龍英傑譚"
+			},
+			{
+				"_name": "twin_nephrite",
+				"__text": "甲級寶珏"
+			},
+			{
+				"_name": "blackcliff_agate",
+				"__text": "黑岩緋玉"
+			},
+			{
+				"_name": "dodoco_tales",
+				"__text": "嘟嘟可故事集"
+			},
+			{
+				"_name": "eye_of_perception",
+				"__text": "昭心"
+			},
+			{
+				"_name": "favonius_codex",
+				"__text": "西風秘典"
+			},
+			{
+				"_name": "frostbearer",
+				"__text": "忍冬之果"
+			},
+			{
+				"_name": "hakushin_ring",
+				"__text": "白辰之環"
+			},
+			{
+				"_name": "mappa_mare",
+				"__text": "萬國諸海圖譜"
+			},
+			{
+				"_name": "prototype_amber",
+				"__text": "試作金珀"
+			},
+			{
+				"_name": "royal_grimoire",
+				"__text": "宗室秘法錄"
+			},
+			{
+				"_name": "sacrificial_fragments",
+				"__text": "祭禮殘章"
+			},
+			{
+				"_name": "solar_pearl",
+				"__text": "匣裡日月"
+			},
+			{
+				"_name": "the_widsith",
+				"__text": "流浪樂章"
+			},
+			{
+				"_name": "wine_and_song",
+				"__text": "暗巷的酒與詩"
+			},
+			{
+				"_name": "everlasting_moonglow",
+				"__text": "不滅月華"
+			},
+			{
+				"_name": "lost_prayer_to_the_sacred_winds",
+				"__text": "天空之卷"
+			},
+			{
+				"_name": "memory_of_dust",
+				"__text": "塵世之鎖"
+			},
+			{
+				"_name": "skyward_atlas",
+				"__text": "四風原典"
+			},
+			{
+				"_name": "hunters_bow",
+				"__text": "獵弓"
+			},
+			{
+				"_name": "seasoned_hunters_bow",
+				"__text": "歷練的獵弓"
+			},
+			{
+				"_name": "ebony_bow",
+				"__text": "黑檀弓"
+			},
+			{
+				"_name": "messenger",
+				"__text": "信使"
+			},
+			{
+				"_name": "raven_bow",
+				"__text": "鴉羽弓"
+			},
+			{
+				"_name": "recurve_bow",
+				"__text": "反曲弓"
+			},
+			{
+				"_name": "sharpshooters_oath",
+				"__text": "神射手之誓"
+			},
+			{
+				"_name": "slingshot",
+				"__text": "彈弓"
+			},
+			{
+				"_name": "alley_hunter",
+				"__text": "暗巷獵手"
+			},
+			{
+				"_name": "blackcliff_warbow",
+				"__text": "黑岩戰弓"
+			},
+			{
+				"_name": "compound_bow",
+				"__text": "鋼輪弓"
+			},
+			{
+				"_name": "favonius_warbow",
+				"__text": "西風獵弓"
+			},
+			{
+				"_name": "hamayumi",
+				"__text": "破魔之弓"
+			},
+			{
+				"_name": "mitternachts_waltz",
+				"__text": "幽夜華爾茲"
+			},
+			{
+				"_name": "predator",
+				"__text": "掠食者"
+			},
+			{
+				"_name": "prototype_crescent",
+				"__text": "試作澹月"
+			},
+			{
+				"_name": "royal_bow",
+				"__text": "宗室長弓"
+			},
+			{
+				"_name": "rust",
+				"__text": "弓藏"
+			},
+			{
+				"_name": "sacrificial_bow",
+				"__text": "祭禮弓"
+			},
+			{
+				"_name": "the_stringless",
+				"__text": "絕弦"
+			},
+			{
+				"_name": "the_viridescent_hunt",
+				"__text": "蒼翠獵弓"
+			},
+			{
+				"_name": "windblume_ode",
+				"__text": "風花之頌"
+			},
+			{
+				"_name": "amos_bow",
+				"__text": "阿莫斯之弓"
+			},
+			{
+				"_name": "elegy_for_the_end",
+				"__text": "終末嗟嘆之詩"
+			},
+			{
+				"_name": "skyward_harp",
+				"__text": "天空之翼"
+			},
+			{
+				"_name": "thundering_pulse",
+				"__text": "飛雷之弦振"
+			},
+			{
+				"_name": "buff",
+				"__text": "增益"
+			},
+			{
+				"_name": "cal_choosed_already",
+				"__text": "你已經選擇了他/她/它"
+			},
+			{
+				"_name": "cal_boss",
+				"__text": "一般Boss跌落"
+			},
+			{
+				"_name": "cal_crystal",
+				"__text": "寶石"
+			},
+			{
+				"_name": "cal_local",
+				"__text": "特產"
+			},
+			{
+				"_name": "cal_monster",
+				"__text": "怪物跌落"
+			},
+			{
+				"_name": "cal_other",
+				"__text": "其他"
+			},
+			{
+				"_name": "cal_week_boss",
+				"__text": "周本Boss跌落"
+			},
+			{
+				"_name": "cal_weeklybk1",
+				"__text": "逢星期一,四,日副本跌落"
+			},
+			{
+				"_name": "cal_weeklybk2",
+				"__text": "逢星期二,五,日副本跌落"
+			},
+			{
+				"_name": "cal_weeklybk3",
+				"__text": "逢星期三,六,日副本跌落"
+			},
+			{
+				"_name": "cal_reset",
+				"__text": "重設"
+			},
+			{
+				"_name": "nora_fortis",
+				"__text": "Nora Fortis"
+			},
+			{
+				"_name": "snezhnaya",
+				"__text": "至冬"
+			},
+			{
+				"_name": "happy_birthday",
+				"__text": "\"生日快樂！\""
+			},
+			{
+				"_name": "wavebreakers_fin",
+				"__text": "\"斷浪長鰭\""
+			},
+			{
+				"_name": "akuoumaru",
+				"__text": "\"惡王丸\""
+			},
+			{
+				"_name": "mouuns_moon",
+				"__text": "\"曚雲之月\""
+			},
+			{
+				"_name": "arataki_itto",
+				"__text": "荒瀧一斗"
+			},
+			{
+				"_name": "artifact_stat1",
+				"__text": "1件套"
+			},
+			{
+				"_name": "artifact_stat2",
+				"__text": "2件套"
+			},
+			{
+				"_name": "artifact_stat4",
+				"__text": "4件套"
+			},
+			{
+				"_name": "gorou",
+				"__text": "五郎"
+			},
+			{
+				"_name": "weapon_stat",
+				"__text": "副屬性 :"
+			},
+			{
+				"_name": "weapon_stat_CritDMGP",
+				"__text": "暴擊傷害%"
+			},
+			{
+				"_name": "weapon_stat_CritRateP",
+				"__text": "暴擊率%"
+			},
+			{
+				"_name": "weapon_stat_DEFP",
+				"__text": "防禦力%"
+			},
+			{
+				"_name": "weapon_stat_EleMas",
+				"__text": "元素精通"
+			},
+			{
+				"_name": "weapon_stat_EnRechP",
+				"__text": "元素充能效率%"
+			},
+			{
+				"_name": "weapon_stat_HPP",
+				"__text": "生命值%"
+			},
+			{
+				"_name": "weapon_stat_PhyDMGP",
+				"__text": "物理傷害%"
+			},
+			{
+				"_name": "weapon_stat_atk",
+				"__text": "攻擊力"
+			},
+			{
+				"_name": "weapon_stat_DEF",
+				"__text": "防禦力"
+			},
+			{
+				"_name": "weapon_stat_HP",
+				"__text": "生命值"
+			},
+			{
+				"_name": "weapon_stat_atkP",
+				"__text": "攻擊力%"
+			},
+			{
+				"_name": "weapon_stat_no",
+				"__text": "無"
+			},
+			{
+				"_name": "adventurer",
+				"__text": "冒險家"
+			},
+			{
+				"_name": "archaic_petra",
+				"__text": "悠古的磐岩"
+			},
+			{
+				"_name": "berserker",
+				"__text": "戰狂"
+			},
+			{
+				"_name": "blizzard_strayer",
+				"__text": "冰風迷途的勇士"
+			},
+			{
+				"_name": "bloodstained_chivalry",
+				"__text": "染血的騎士道"
+			},
+			{
+				"_name": "brave_heart",
+				"__text": "勇士之心"
+			},
+			{
+				"_name": "crimson_witch_of_flames",
+				"__text": "熾烈的炎之魔女"
+			},
+			{
+				"_name": "defenders_will",
+				"__text": "守護之心"
+			},
+			{
+				"_name": "emblem_of_severed_fate",
+				"__text": "絕緣之旗印"
+			},
+			{
+				"_name": "gambler",
+				"__text": "賭徒"
+			},
+			{
+				"_name": "gladiators_finale",
+				"__text": "角斗士的終幕禮"
+			},
+			{
+				"_name": "heart_of_depth",
+				"__text": "沉淪之心"
+			},
+			{
+				"_name": "instructor",
+				"__text": "教官"
+			},
+			{
+				"_name": "lavawalker",
+				"__text": "渡過烈火的賢人"
+			},
+			{
+				"_name": "lucky_dog",
+				"__text": "幸運兒"
+			},
+			{
+				"_name": "maiden_beloved",
+				"__text": "被憐愛的少女"
+			},
+			{
+				"_name": "martial_artist",
+				"__text": "武人"
+			},
+			{
+				"_name": "noblesse_oblige",
+				"__text": "昔日宗室之儀"
+			},
+			{
+				"_name": "pale_flame",
+				"__text": "蒼白之火"
+			},
+			{
+				"_name": "prayers_of_destiny",
+				"__text": "祭水之人"
+			},
+			{
+				"_name": "prayers_of_illumination",
+				"__text": "祭火之人"
+			},
+			{
+				"_name": "prayers_of_wisdom",
+				"__text": "祭雷之人"
+			},
+			{
+				"_name": "prayers_of_springtime",
+				"__text": "祭冰之人"
+			},
+			{
+				"_name": "resolution_of_sojourner",
+				"__text": "行者之心"
+			},
+			{
+				"_name": "retracing_bolide",
+				"__text": "逆飛的流星"
+			},
+			{
+				"_name": "scholar",
+				"__text": "學士"
+			},
+			{
+				"_name": "shimenawas_reminiscence",
+				"__text": "追憶之注連"
+			},
+			{
+				"_name": "tenacity_of_the_millelith",
+				"__text": "千岩牢固"
+			},
+			{
+				"_name": "the_exile",
+				"__text": "流放者"
+			},
+			{
+				"_name": "thundering_fury",
+				"__text": "如雷的盛怒"
+			},
+			{
+				"_name": "thundersoother",
+				"__text": "平息鳴雷的尊者"
+			},
+			{
+				"_name": "tiny_miracle",
+				"__text": "奇蹟"
+			},
+			{
+				"_name": "traveling_doctor",
+				"__text": "遊醫"
+			},
+			{
+				"_name": "viridescent_venerer",
+				"__text": "翠綠之影"
+			},
+			{
+				"_name": "wanderers_troupe",
+				"__text": "流浪大地的樂團"
+			},
+			{
+				"_name": "cinnabar_spindle",
+				"__text": "辰砂之紡錘"
+			},
+			{
+				"_name": "shenhe",
+				"__text": "申鶴"
+			},
+			{
+				"_name": "yun_jin",
+				"__text": "雲菫"
+			},
+			{
+				"_name": "husk_of_opulent_dreams",
+				"__text": "華館夢醒形骸記"
+			},
+			{
+				"_name": "ocean_hued_clam",
+				"__text": "海染硨磲"
+			},
+			{
+				"_name": "weapon_stat_EleDMGP_Electro",
+				"__text": "雷元素傷害加成"
+			},
+			{
+				"_name": "weapon_stat_EleDMGP_Pyro",
+				"__text": "火元素傷害加成"
+			},
+			{
+				"_name": "weapon_stat_EleDMGP_Hydro",
+				"__text": "水元素傷害加成"
+			},
+			{
+				"_name": "weapon_stat_EleDMGP_Dendor",
+				"__text": "草元素傷害加成"
+			},
+			{
+				"_name": "weapon_stat_EleDMGP_Cryo",
+				"__text": "冰元素傷害加成"
+			},
+			{
+				"_name": "weapon_stat_EleDMGP_Anemo",
+				"__text": "風元素傷害加成"
+			},
+			{
+				"_name": "weapon_stat_EleDMGP_Geo",
+				"__text": "岩元素傷害加成"
+			},
+			{
+				"_name": "weapon_stat_HealingP",
+				"__text": "治療加成"
+			},
+			{
+				"_name": "calamity_queller",
+				"__text": "息災"
+			},
+			{
+				"_name": "redhorn_stonethresher",
+				"__text": "赤角石潰杵"
+			},
+			{
+				"_name": "yae_miko",
+				"__text": "八重神子"
+			},
+			{
+				"_name": "background_setting",
+				"__text": "背景設定"
+			},
+			{
+				"_name": "background_accept_list",
+				"__text": "僅接受JPG,JPEG,PNG,GIF"
+			},
+			{
+				"_name": "background_press_set",
+				"__text": "設定"
+			},
+			{
+				"_name": "background_source",
+				"__text": "來源"
+			},
+			{
+				"_name": "background_display",
+				"__text": "顯示"
+			},
+			{
+				"_name": "voc",
+				"__text": "Voc-夜芷冰"
+			},
+			{
+				"_name": "traveler_sex_setting",
+				"__text": "你選擇旅行者的性别是？"
+			},
+			{
+				"_name": "name_start_with_num_err",
+				"__text": "數字及特殊符號不能是名稱第一個字元"
+			},
+			{
+				"_name": "cal_create_set",
+				"__text": "\"創建一個新的計算組別\""
+			},
+			{
+				"_name": "cal_enter_name",
+				"__text": "\"請輸入名稱\""
+			},
+			{
+				"_name": "kaguras_verity",
+				"__text": "神樂之真意"
+			},
+			{
+				"_name": "oathsworn_eye",
+				"__text": "證誓之明瞳"
+			},
+			{
+				"_name": "press_see_details",
+				"__text": "按下以查看更多詳情"
+			},
+			{
+				"_name": "update_download_update_curr",
+				"__text": "下載更新檔"
+			},
+			{
+				"_name": "update_download_update_base",
+				"__text": "下載所有檔案"
+			},
+			{
+				"_name": "update_download_advice",
+				"__text": "建議於連接Wi-Fi後下載"
+			},
+			{
+				"_name": "update_download_base_file_size",
+				"__text": "更新檔大小 :"
+			},
+			{
+				"_name": "update_download_update_file_size",
+				"__text": "更新檔大小 :"
+			},
+			{
+				"_name": "update_download_later",
+				"__text": "稍後下載"
+			},
+			{
+				"_name": "update_download_now",
+				"__text": "立即下載"
+			},
+			{
+				"_name": "update_download_check",
+				"__text": "檢查更新"
+			},
+			{
+				"_name": "update_download_found_update",
+				"__text": "發現更新檔！"
+			},
+			{
+				"_name": "update_download_not_found_update",
+				"__text": "目前沒有任何資源更新~"
+			},
+			{
+				"_name": "update_download_downloading",
+				"__text": "下載中...請稍等..."
+			},
+			{
+				"_name": "update_download_unzipping",
+				"__text": "解壓縮中...請稍等..."
+			},
+			{
+				"_name": "update_download_done",
+				"__text": "所有下載／更新已完成"
+			},
+			{
+				"_name": "pyro_slime",
+				"__text": "火史萊姆"
+			},
+			{
+				"_name": "large_pyro_slime",
+				"__text": "大型火史萊姆"
+			},
+			{
+				"_name": "electro_slime",
+				"__text": "雷史萊姆"
+			},
+			{
+				"_name": "large_electro_slime",
+				"__text": "大型雷史萊姆"
+			},
+			{
+				"_name": "mutant_electro_slime",
+				"__text": "變異雷史萊姆"
+			},
+			{
+				"_name": "cryo_slime",
+				"__text": "冰史萊姆"
+			},
+			{
+				"_name": "large_cryo_slime",
+				"__text": "大型冰史萊姆"
+			},
+			{
+				"_name": "hydro_slime",
+				"__text": "水史萊姆"
+			},
+			{
+				"_name": "large_hydro_slime",
+				"__text": "大型水史萊姆"
+			},
+			{
+				"_name": "anemo_slime",
+				"__text": "風史萊姆"
+			},
+			{
+				"_name": "large_anemo_slime",
+				"__text": "大型風史萊姆"
+			},
+			{
+				"_name": "geo_slime",
+				"__text": "岩史萊姆"
+			},
+			{
+				"_name": "large_geo_slime",
+				"__text": "大型岩史萊姆"
+			},
+			{
+				"_name": "dendro_slime",
+				"__text": "草史萊姆"
+			},
+			{
+				"_name": "large_dendro_slime",
+				"__text": "大型草史萊姆"
+			},
+			{
+				"_name": "eye_of_the_storm",
+				"__text": "狂風之核"
+			},
+			{
+				"_name": "pyro_hypostasis",
+				"__text": "無相之火"
+			},
+			{
+				"_name": "electro_hypostasis",
+				"__text": "無相之雷"
+			},
+			{
+				"_name": "cryo_hypostasis",
+				"__text": "無相之冰"
+			},
+			{
+				"_name": "hydro_hypostasis",
+				"__text": "無相之水"
+			},
+			{
+				"_name": "anemo_hypostasis",
+				"__text": "無相之風"
+			},
+			{
+				"_name": "geo_hypostasis",
+				"__text": "無相之岩"
+			},
+			{
+				"_name": "oceanid",
+				"__text": "純水精靈"
+			},
+			{
+				"_name": "hydro_specter",
+				"__text": "水飄浮靈"
+			},
+			{
+				"_name": "geo_specter",
+				"__text": "岩飄浮靈"
+			},
+			{
+				"_name": "anemo_specter",
+				"__text": "風飄浮靈"
+			},
+			{
+				"_name": "cryo_specter",
+				"__text": "冰飄浮靈"
+			},
+			{
+				"_name": "electro_specter",
+				"__text": "雷飄浮靈"
+			},
+			{
+				"_name": "pyro_specter",
+				"__text": "火飄浮靈"
+			},
+			{
+				"_name": "thunder_manifestation",
+				"__text": "雷音權現"
+			},
+			{
+				"_name": "hilichurl",
+				"__text": "丘丘人"
+			},
+			{
+				"_name": "hilichurl_fighter",
+				"__text": "打手丘丘人"
+			},
+			{
+				"_name": "wooden_shield_hilichurl_guard",
+				"__text": "木盾丘丘人"
+			},
+			{
+				"_name": "hilichurl_shooter",
+				"__text": "射手丘丘人"
+			},
+			{
+				"_name": "pyro_hilichurl_shooter",
+				"__text": "火箭丘丘人"
+			},
+			{
+				"_name": "hilichurl_grenadier",
+				"__text": "爆彈丘丘人"
+			},
+			{
+				"_name": "hilichurl_berserker",
+				"__text": "衝鋒丘丘人"
+			},
+			{
+				"_name": "cryo_hilichurl_shooter",
+				"__text": "冰箭丘丘人"
+			},
+			{
+				"_name": "electro_hilichurl_shooter",
+				"__text": "雷箭丘丘人"
+			},
+			{
+				"_name": "rock_shield_hilichurl_guard",
+				"__text": "岩盾丘丘人"
+			},
+			{
+				"_name": "cryo_hilichurl_grenadier",
+				"__text": "冰彈丘丘人"
+			},
+			{
+				"_name": "ice_shield_hilichurl_guard",
+				"__text": "冰盾丘丘人"
+			},
+			{
+				"_name": "unusual_hilichurl",
+				"__text": "奇怪的丘丘人"
+			},
+			{
+				"_name": "electro_hilichurl_grenadier",
+				"__text": "雷彈丘丘人"
+			},
+			{
+				"_name": "wooden_shieldwall_mitachurl",
+				"__text": "木盾丘丘暴徒"
+			},
+			{
+				"_name": "blazing_axe_mitachurl",
+				"__text": "火斧丘丘暴徒"
+			},
+			{
+				"_name": "rock_shieldwall_mitachurl",
+				"__text": "岩盾丘丘暴徒"
+			},
+			{
+				"_name": "frostarm_lawachurl",
+				"__text": "丘丘霜鎧王"
+			},
+			{
+				"_name": "stonehide_lawachurl",
+				"__text": "丘丘岩盔王"
+			},
+			{
+				"_name": "thunderhelm_lawachurl",
+				"__text": "丘丘雷兜王"
+			},
+			{
+				"_name": "ice_shieldwall_mitachurl",
+				"__text": "冰盾丘丘暴徒"
+			},
+			{
+				"_name": "crackling_axe_mitachurl",
+				"__text": "雷斧丘丘暴徒"
+			},
+			{
+				"_name": "hydro_samachurl",
+				"__text": "水丘丘薩滿"
+			},
+			{
+				"_name": "dendro_samachurl",
+				"__text": "草丘丘薩滿"
+			},
+			{
+				"_name": "anemo_samachurl",
+				"__text": "風丘丘薩滿"
+			},
+			{
+				"_name": "geo_samachurl",
+				"__text": "岩丘丘薩滿"
+			},
+			{
+				"_name": "cryo_samachurl",
+				"__text": "冰丘丘薩滿"
+			},
+			{
+				"_name": "electro_samachurl",
+				"__text": "雷丘丘薩滿"
+			},
+			{
+				"_name": "pyro_abyss_mage",
+				"__text": "火深淵法師"
+			},
+			{
+				"_name": "cryo_abyss_mage",
+				"__text": "冰深淵法師"
+			},
+			{
+				"_name": "hydro_abyss_mage",
+				"__text": "水深淵法師"
+			},
+			{
+				"_name": "electro_abyss_mage",
+				"__text": "雷深淵法師"
+			},
+			{
+				"_name": "abyss_herald_wicked_torrents",
+				"__text": "深淵使徒·激流"
+			},
+			{
+				"_name": "abyss_lector_violet_lightning",
+				"__text": "深淵詠者·紫電"
+			},
+			{
+				"_name": "abyss_lector_fathomless_flames",
+				"__text": "深淵詠者·淵火"
+			},
+			{
+				"_name": "rockfond_rifthound_whelp",
+				"__text": "嗜岩·獸境幼獸"
+			},
+			{
+				"_name": "thundercraven_rifthound_whelp",
+				"__text": "嗜雷·獸境幼獸"
+			},
+			{
+				"_name": "rockfond_rifthound",
+				"__text": "嗜岩·獸境獵犬"
+			},
+			{
+				"_name": "thundercraven_rifthound",
+				"__text": "嗜雷·獸境獵犬"
+			},
+			{
+				"_name": "beginning_golden_wolflord",
+				"__text": "起始黃金王獸"
+			},
+			{
+				"_name": "golden_wolflord",
+				"__text": "黃金王獸"
+			},
+			{
+				"_name": "headbroken_golden_wolflord",
+				"__text": "頭破黃金王獸"
+			},
+			{
+				"_name": "shadowy_husk_standard_bearer",
+				"__text": "黯色空殼·旗令"
+			},
+			{
+				"_name": "shadowy_husk_line_breaker",
+				"__text": "黯色空殼·破陣"
+			},
+			{
+				"_name": "shadowy_husk_defender",
+				"__text": "黯色空殼·近衛"
+			},
+			{
+				"_name": "fatui_skirmisher_cryogunner_legionnaire",
+				"__text": "愚人眾先遣隊·冰銃重衛士"
+			},
+			{
+				"_name": "fatui_skirmisher_hydrogunner_legionnaire",
+				"__text": "愚人眾先遣隊·水銃重衛士"
+			},
+			{
+				"_name": "fatui_skirmisher_electrohammer_vanguard",
+				"__text": "愚人眾先遣隊·雷錘前鋒軍"
+			},
+			{
+				"_name": "fatui_skirmisher_geochanter_bracer",
+				"__text": "愚人眾先遣隊·岩使遊擊兵"
+			},
+			{
+				"_name": "fatui_skirmisher_anemoboxer_vanguard",
+				"__text": "愚人眾先遣隊·風拳前鋒軍"
+			},
+			{
+				"_name": "fatui_skirmisher_pyroslinger_bracer",
+				"__text": "愚人眾先遣隊·火銃遊擊兵"
+			},
+			{
+				"_name": "fatui_pyro_agent",
+				"__text": "愚人眾·火之債務處理人"
+			},
+			{
+				"_name": "fatui_electro_cicin_mage",
+				"__text": "愚人眾·雷螢術士"
+			},
+			{
+				"_name": "fatui_cryo_cicin_mage",
+				"__text": "愚人眾·冰螢術士"
+			},
+			{
+				"_name": "mirror_maiden",
+				"__text": "愚人眾·藏鏡仕女"
+			},
+			{
+				"_name": "ruin_guard",
+				"__text": "遺蹟守衛"
+			},
+			{
+				"_name": "ruin_hunter",
+				"__text": "遺蹟獵者"
+			},
+			{
+				"_name": "ruin_grader",
+				"__text": "遺蹟重機"
+			},
+			{
+				"_name": "ruin_cruiser",
+				"__text": "遺蹟巡弋者"
+			},
+			{
+				"_name": "ruin_destroyer",
+				"__text": "遺蹟殲擊者"
+			},
+			{
+				"_name": "ruin_defender",
+				"__text": "遺蹟防衛者"
+			},
+			{
+				"_name": "ruin_scout",
+				"__text": "遺蹟偵察者"
+			},
+			{
+				"_name": "perpetual_mechanical_array",
+				"__text": "恒常機關陣列"
+			},
+			{
+				"_name": "stunned_perpetual_mechanical_array",
+				"__text": "虛弱恒常機關陣列"
+			},
+			{
+				"_name": "treasure_hoarders_liuliu",
+				"__text": "盜寶團·「溜溜」"
+			},
+			{
+				"_name": "treasure_hoarders_scout",
+				"__text": "盜寶團·斥候"
+			},
+			{
+				"_name": "treasure_hoarders_pyro_potioneer",
+				"__text": "盜寶團·火之藥劑師"
+			},
+			{
+				"_name": "treasure_hoarders_hydro_potioneer",
+				"__text": "盜寶團·水之藥劑師"
+			},
+			{
+				"_name": "treasure_hoarders_electro_potioneer",
+				"__text": "盜寶團·雷之藥劑師"
+			},
+			{
+				"_name": "treasure_hoarders_cryo_potioneer",
+				"__text": "盜寶團·冰之藥劑師"
+			},
+			{
+				"_name": "treasure_hoarders_handyman",
+				"__text": "盜寶團·雜工"
+			},
+			{
+				"_name": "treasure_hoarders_raptor",
+				"__text": "盜寶團·「怪鳥」"
+			},
+			{
+				"_name": "treasure_hoarders_marksman",
+				"__text": "盜寶團·神射手"
+			},
+			{
+				"_name": "treasure_hoarders_carmen",
+				"__text": "盜寶團·「卡門」"
+			},
+			{
+				"_name": "treasure_hoarders_gravedigger",
+				"__text": "盜寶團·掘墓者"
+			},
+			{
+				"_name": "treasure_hoarders_seaman",
+				"__text": "盜寶團·海上男兒"
+			},
+			{
+				"_name": "treasure_hoarders_boss",
+				"__text": "盜寶團·「大姐頭」"
+			},
+			{
+				"_name": "millelith_soldier",
+				"__text": "千岩軍士兵"
+			},
+			{
+				"_name": "millelith_sergeant",
+				"__text": "千岩軍教頭"
+			},
+			{
+				"_name": "treasure_hoarders_pugilist",
+				"__text": "盜寶團·拳術家"
+			},
+			{
+				"_name": "treasure_hoarders_crusher",
+				"__text": "盜寶團·粉碎者"
+			},
+			{
+				"_name": "nobushi_jintouban",
+				"__text": "野伏·陣刀番"
+			},
+			{
+				"_name": "nobushi_hitsukeban",
+				"__text": "野伏·火付番"
+			},
+			{
+				"_name": "nobushi_kikouban",
+				"__text": "野伏·機巧番"
+			},
+			{
+				"_name": "maguu_kenki",
+				"__text": "魔偶劍鬼"
+			},
+			{
+				"_name": "kairagi_dancing_thunder",
+				"__text": "海亂鬼·雷騰"
+			},
+			{
+				"_name": "kairagi_fiery_might",
+				"__text": "海亂鬼·炎威"
+			},
+			{
+				"_name": "cryo_whopperflower",
+				"__text": "冰霜騙騙花"
+			},
+			{
+				"_name": "pyro_whopperflower",
+				"__text": "熾熱騙騙花"
+			},
+			{
+				"_name": "electro_whopperflower",
+				"__text": "電氣騙騙花"
+			},
+			{
+				"_name": "stunned_pyro_whopperflower",
+				"__text": "眩暈熾熱騙騙花"
+			},
+			{
+				"_name": "stunned_electro_whopperflower",
+				"__text": "眩暈電氣騙騙花"
+			},
+			{
+				"_name": "stunned_cryo_whopperflower",
+				"__text": "眩暈冰霜騙騙花"
+			},
+			{
+				"_name": "cryo_regisvine",
+				"__text": "急凍樹"
+			},
+			{
+				"_name": "pyro_regisvine",
+				"__text": "爆炎樹"
+			},
+			{
+				"_name": "stunned_cryo_regisvine",
+				"__text": "眩暈急凍樹"
+			},
+			{
+				"_name": "stunned_pyro_regisvine",
+				"__text": "眩暈爆炎樹"
+			},
+			{
+				"_name": "geovishap_hatchling",
+				"__text": "幼岩龍蜥"
+			},
+			{
+				"_name": "geovishap",
+				"__text": "岩龍蜥"
+			},
+			{
+				"_name": "pyroinfused_geovishap",
+				"__text": "火岩龍蜥"
+			},
+			{
+				"_name": "electroinfused_geovishap",
+				"__text": "雷岩龍蜥"
+			},
+			{
+				"_name": "cryoinfused_geovishap",
+				"__text": "冰岩龍蜥"
+			},
+			{
+				"_name": "hydroinfused_geovishap",
+				"__text": "水岩龍蜥"
+			},
+			{
+				"_name": "primo_geovishap",
+				"__text": "古岩龍蜥"
+			},
+			{
+				"_name": "primordial_bathysmal_vishap",
+				"__text": "深海龍蜥·原種"
+			},
+			{
+				"_name": "rimebiter_bathysmal_vishap",
+				"__text": "深海龍蜥·囓冰"
+			},
+			{
+				"_name": "bolteater_bathysmal_vishap",
+				"__text": "深海龍蜥·吞雷"
+			},
+			{
+				"_name": "electro_bathysmal_vishap",
+				"__text": "深海龍蜥之群·雷"
+			},
+			{
+				"_name": "cyro_bathysmal_vishap",
+				"__text": "深海龍蜥之群·冰"
+			},
+			{
+				"_name": "electro_cicin",
+				"__text": "雷螢"
+			},
+			{
+				"_name": "hydro_cicin",
+				"__text": "水螢"
+			},
+			{
+				"_name": "cryo_cicin",
+				"__text": "冰螢"
+			},
+			{
+				"_name": "stormterror",
+				"__text": "風魔龍·特瓦林"
+			},
+			{
+				"_name": "lupus_boreas",
+				"__text": "北風的王狼"
+			},
+			{
+				"_name": "phase_1_childe",
+				"__text": "「公子」第一階段"
+			},
+			{
+				"_name": "stunned_phase_1_childe_",
+				"__text": "虛弱「公子」第一階段"
+			},
+			{
+				"_name": "phase_2_childe",
+				"__text": "「公子」第二階段"
+			},
+			{
+				"_name": "stunned_phase_2_childe",
+				"__text": "虛弱「公子」第二階段"
+			},
+			{
+				"_name": "phase_3_childe",
+				"__text": "「公子」第三階段"
+			},
+			{
+				"_name": "azhdaha",
+				"__text": "起始若陀龍王"
+			},
+			{
+				"_name": "pyro_azhdaha",
+				"__text": "火若陀龍王"
+			},
+			{
+				"_name": "hydro_azhdaha",
+				"__text": "水若陀龍王"
+			},
+			{
+				"_name": "firecryo_azhdaha",
+				"__text": "火->冰若陀龍王"
+			},
+			{
+				"_name": "fireelectro_azhdaha",
+				"__text": "火->雷若陀龍王"
+			},
+			{
+				"_name": "hydrocryo_azhdaha",
+				"__text": "水->冰若陀龍王"
+			},
+			{
+				"_name": "hydroelectro_azhdaha",
+				"__text": "水->雷若陀龍王"
+			},
+			{
+				"_name": "phase_1_la_signora",
+				"__text": "「女士」第一階段"
+			},
+			{
+				"_name": "phase_2_la_signora",
+				"__text": "「女士」第二階段"
+			},
+			{
+				"_name": "magatsu_mitake_narukami_no_mikoto",
+				"__text": "禍津禦建鳴神命"
+			},
+			{
+				"_name": "hydro_mimic_boar",
+				"__text": "幻形豕獸·水"
+			},
+			{
+				"_name": "hydro_mimic_crane",
+				"__text": "幻形鶴·水"
+			},
+			{
+				"_name": "hydro_mimic_crab",
+				"__text": "幻形蟹·水"
+			},
+			{
+				"_name": "hydro_mimic_finch",
+				"__text": "幻形雀·水"
+			},
+			{
+				"_name": "hydro_mimic_mallard",
+				"__text": "幻形游禽·水"
+			},
+			{
+				"_name": "hydro_mimic_ferret",
+				"__text": "幻形花鼠·水"
+			},
+			{
+				"_name": "hydro_mimic_frog",
+				"__text": "幻形蛙·水"
+			},
+			{
+				"_name": "hydro_mimic_raptor",
+				"__text": "幻形飛鳶·水"
+			},
+			{
+				"_name": "shogunate_infantry",
+				"__text": "幕府足輕"
+			},
+			{
+				"_name": "shogunate_infantry_captain",
+				"__text": "幕府足輕頭"
+			},
+			{
+				"_name": "sangonomiya_cohort",
+				"__text": "珊瑚宮眾"
+			},
+			{
+				"_name": "yoriki_samurai",
+				"__text": "寄騎武士"
+			},
+			{
+				"_name": "ochimusha_ensorcelled_thunder",
+				"__text": "落武者·咒雷"
+			},
+			{
+				"_name": "ochimusha_cankered_flame",
+				"__text": "落武者·祟炎"
+			},
+			{
+				"_name": "maguu_kenki_lone_gale",
+				"__text": "魔偶劍鬼·孤風"
+			},
+			{
+				"_name": "maguu_kenki_galloping_frost",
+				"__text": "魔偶劍鬼·霜馳"
+			},
+			{
+				"_name": "maguu_kenki_mask_of_terror",
+				"__text": "魔偶劍鬼·兇面"
+			},
+			{
+				"_name": "the_great_snowboar_king",
+				"__text": "大雪豬王"
+			},
+			{
+				"_name": "element_reaction",
+				"__text": "元素反應"
+			},
+			{
+				"_name": "buff_normal_1_hit",
+				"__text": "一段傷害"
+			},
+			{
+				"_name": "buff_normal_2_hit",
+				"__text": "二段傷害"
+			},
+			{
+				"_name": "buff_normal_3_hit",
+				"__text": "三段傷害"
+			},
+			{
+				"_name": "buff_normal_4_hit",
+				"__text": "四段傷害"
+			},
+			{
+				"_name": "buff_normal_5_hit",
+				"__text": "五段傷害"
+			},
+			{
+				"_name": "buff_normal_6_hit",
+				"__text": "六段傷害"
+			},
+			{
+				"_name": "buff_normal_shoot",
+				"__text": "瞄準射擊"
+			},
+			{
+				"_name": "buff_charged_shoot",
+				"__text": "滿蓄力瞄準射擊"
+			},
+			{
+				"_name": "buff_charged_dmg",
+				"__text": "重擊傷害"
+			},
+			{
+				"_name": "buff_charged_spinning_dmg",
+				"__text": "重擊循環傷害"
+			},
+			{
+				"_name": "buff_charged_final_dmg",
+				"__text": "重擊終結傷害"
+			},
+			{
+				"_name": "buff_plunge_dmg",
+				"__text": "下墜期間傷害"
+			},
+			{
+				"_name": "buff_low_plunge_dmg",
+				"__text": "低空墜地衝擊傷害"
+			},
+			{
+				"_name": "buff_high_plunge_dmg",
+				"__text": "高空墜地衝擊傷害"
+			},
+			{
+				"_name": "buff_uncrit_dmg",
+				"__text": "未暴擊傷害"
+			},
+			{
+				"_name": "buff_crited_dmg",
+				"__text": "暴擊後傷害"
+			},
+			{
+				"_name": "buff_grade",
+				"__text": "檔數 :"
+			},
+			{
+				"_name": "buff_upgrade_times",
+				"__text": "成長次數 :"
+			},
+			{
+				"_name": "skill_dmg",
+				"__text": "技能傷害"
+			},
+			{
+				"_name": "transient_blossom_dmg",
+				"__text": "剎那之花傷害"
+			},
+			{
+				"_name": "freeze_bomb_dmg",
+				"__text": "急凍炸彈傷害"
+			},
+			{
+				"_name": "chillwater_bomblets",
+				"__text": "冷凍炸彈傷害"
+			},
+			{
+				"_name": "explosion_dmg",
+				"__text": "爆炸傷害"
+			},
+			{
+				"_name": "droplet_dmg",
+				"__text": "水珠傷害"
+			},
+			{
+				"_name": "hp_regeneration_per_hit",
+				"__text": "命中治療量"
+			},
+			{
+				"_name": "continuous_regeneration",
+				"__text": "持續治療量"
+			},
+			{
+				"_name": "hp_regeneration_per_hit_base",
+				"__text": "命中治療量 (基礎)"
+			},
+			{
+				"_name": "continuous_regeneration_base",
+				"__text": "持續治療量 (基礎)"
+			},
+			{
+				"_name": "base_dmg",
+				"__text": "基礎傷害"
+			},
+			{
+				"_name": "dmg_bonus_on_hit_taken",
+				"__text": "受擊時傷害提升"
+			},
+			{
+				"_name": "base_dmg_base",
+				"__text": "護盾吸收量 (基礎)"
+			},
+			{
+				"_name": "press_dmg",
+				"__text": "點按傷害"
+			},
+			{
+				"_name": "charge_level_1_dmg",
+				"__text": "一段蓄力傷害"
+			},
+			{
+				"_name": "charge_level_2_dmg",
+				"__text": "二段蓄力傷害"
+			},
+			{
+				"_name": "dmg_1_hit",
+				"__text": "一段傷害"
+			},
+			{
+				"_name": "dmg_2_hit",
+				"__text": "二段傷害"
+			},
+			{
+				"_name": "dmg_3_hit",
+				"__text": "三段傷害"
+			},
+			{
+				"_name": "icy_paw_dmg_per1",
+				"__text": "貓爪傷害(@1)"
+			},
+			{
+				"_name": "base_shield_dmg_absorption",
+				"__text": "護盾基礎吸收量"
+			},
+			{
+				"_name": "base_shield_dmg_absorption_base",
+				"__text": "護盾基礎吸收量 (基礎)"
+			},
+			{
+				"_name": "hold_dmg",
+				"__text": "長按傷害"
+			},
+			{
+				"_name": "icewhirl_brand_dmg",
+				"__text": "冰渦之劍傷害"
+			},
+			{
+				"_name": "ozs_atk_dmg",
+				"__text": "奧茲攻擊傷害"
+			},
+			{
+				"_name": "summoning_dmg",
+				"__text": "召喚傷害"
+			},
+			{
+				"_name": "blood_blossom_dmg",
+				"__text": "血梅香傷害"
+			},
+			{
+				"_name": "press_skill_dmg",
+				"__text": "點按技能傷害"
+			},
+			{
+				"_name": "hold_skill_dmg",
+				"__text": "長按技能傷害"
+			},
+			{
+				"_name": "lightning_stiletto_dmg",
+				"__text": "雷楔傷害"
+			},
+			{
+				"_name": "slashing_dmg",
+				"__text": "斬擊傷害"
+			},
+			{
+				"_name": "thunderclap_slash_dmg",
+				"__text": "雷爆連斬傷害"
+			},
+			{
+				"_name": "jumpy_dumpty_dmg",
+				"__text": "蹦蹦炸彈傷害"
+			},
+			{
+				"_name": "mine_dmg",
+				"__text": "詭雷傷害"
+			},
+			{
+				"_name": "tengu_juurai_ambush_dmg",
+				"__text": "天狗咒雷·伏 傷害"
+			},
+			{
+				"_name": "non_conductive_hold_dmg",
+				"__text": "無引雷長按傷害"
+			},
+			{
+				"_name": "stack_1_conductive_hold_dmg",
+				"__text": "一層引雷長按傷害"
+			},
+			{
+				"_name": "stack_2_conductive_hold_dmg",
+				"__text": "二層引雷長按傷害"
+			},
+			{
+				"_name": "stack_3_conductive_hold_dmg",
+				"__text": "三層引雷長按傷害"
+			},
+			{
+				"_name": "dot",
+				"__text": "持續傷害"
+			},
+			{
+				"_name": "dmg_absorption",
+				"__text": "吸收量"
+			},
+			{
+				"_name": "healing",
+				"__text": "治療量"
+			},
+			{
+				"_name": "dmg_absorption_base",
+				"__text": "吸收量 (基礎)"
+			},
+			{
+				"_name": "healing_base",
+				"__text": "治療量 (基礎)"
+			},
+			{
+				"_name": "herald_of_frost_dmg",
+				"__text": "寒病鬼差傷害"
+			},
+			{
+				"_name": "coordinated_atk_dmg",
+				"__text": "協同攻擊傷害"
+			},
+			{
+				"_name": "ripple_dmg",
+				"__text": "波紋傷害"
+			},
+			{
+				"_name": "fuufuu_windwheel_dmg",
+				"__text": "風風輪傷害"
+			},
+			{
+				"_name": "pressfuufuu_whirlwind_kick_dmg",
+				"__text": "風風輪舞踢點按傷害"
+			},
+			{
+				"_name": "fuufuu_whirlwind_kick_hold_dmg",
+				"__text": "風風輪舞踢長按傷害"
+			},
+			{
+				"_name": "fuufuu_windwheel_elemental_dmg",
+				"__text": "風風輪附帶元素傷害"
+			},
+			{
+				"_name": "fuufuu_whirlwind_kick_elemental_dmg",
+				"__text": "風風輪舞踢長按附帶元素傷害"
+			},
+			{
+				"_name": "stance_change_dmg",
+				"__text": "狀態激發傷害"
+			},
+			{
+				"_name": "dmg_4_hit",
+				"__text": "四段傷害"
+			},
+			{
+				"_name": "dmg_5_hit",
+				"__text": "五段傷害"
+			},
+			{
+				"_name": "dmg_6_hit",
+				"__text": "六段傷害"
+			},
+			{
+				"_name": "charged_attack_dmg",
+				"__text": "重擊傷害"
+			},
+			{
+				"_name": "riptide_slash",
+				"__text": "斷流·斬 傷害"
+			},
+			{
+				"_name": "max_shield_dmg_absorption",
+				"__text": "護盾吸收量上限"
+			},
+			{
+				"_name": "max_shield_dmg_absorption_base",
+				"__text": "護盾吸收量上限 (基礎)"
+			},
+			{
+				"_name": "initial_cutting_dmg",
+				"__text": "初始切割傷害"
+			},
+			{
+				"_name": "max_cutting_dmg",
+				"__text": "最大切割傷害"
+			},
+			{
+				"_name": "initial_storm_dmg",
+				"__text": "初始爆風傷害"
+			},
+			{
+				"_name": "max_storm_dmg",
+				"__text": "最大爆風傷害"
+			},
+			{
+				"_name": "flame_dmg",
+				"__text": "噴火傷害"
+			},
+			{
+				"_name": "swing_dmg",
+				"__text": "揮舞傷害"
+			},
+			{
+				"_name": "shield_level_1_dmg_absorption",
+				"__text": "一級護盾吸收量"
+			},
+			{
+				"_name": "shield_level_2_dmg_absorption",
+				"__text": "二級護盾吸收量"
+			},
+			{
+				"_name": "shield_level_3_dmg_absorption",
+				"__text": "三級護盾吸收量"
+			},
+			{
+				"_name": "shield_level_1_dmg_absorption_base",
+				"__text": "一級護盾吸收量 (基礎)"
+			},
+			{
+				"_name": "shield_level_2_dmg_absorption_base",
+				"__text": "二級護盾吸收量 (基礎)"
+			},
+			{
+				"_name": "shield_level_3_dmg_absorption_base",
+				"__text": "三級護盾吸收量 (基礎)"
+			},
+			{
+				"_name": "blazing_arrow_dmg",
+				"__text": "熾焰箭傷害"
+			},
+			{
+				"_name": "stone_stele_dmg",
+				"__text": "岩脊傷害"
+			},
+			{
+				"_name": "stone_resonance_dmg",
+				"__text": "共鳴傷害"
+			},
+			{
+				"_name": "additional_shield_absorption",
+				"__text": "護盾附加吸收量"
+			},
+			{
+				"_name": "elemental_burst_dmg",
+				"__text": "爆發傷害"
+			},
+			{
+				"_name": "fatal_blossom_dmg",
+				"__text": "生滅之花傷害(@1)"
+			},
+			{
+				"_name": "fiery_rain_dmg_per_wave",
+				"__text": "箭雨單次傷害"
+			},
+			{
+				"_name": "total_fiery_rain_dmg",
+				"__text": "箭雨總傷害"
+			},
+			{
+				"_name": "atk_bonus",
+				"__text": "攻擊力提高"
+			},
+			{
+				"_name": "regeneration",
+				"__text": "治療量"
+			},
+			{
+				"_name": "regeneration_base",
+				"__text": "治療量 (基礎)"
+			},
+			{
+				"_name": "lightning_dmg",
+				"__text": "閃雷傷害"
+			},
+			{
+				"_name": "continuous_regeneration_per_sec",
+				"__text": "持續治療"
+			},
+			{
+				"_name": "continuous_regeneration_per_sec_base",
+				"__text": "持續治療 (基礎)"
+			},
+			{
+				"_name": "continuous_field_dmg",
+				"__text": "領域持續傷害"
+			},
+			{
+				"_name": "hp_regeneration_over_time",
+				"__text": "持續治療量"
+			},
+			{
+				"_name": "hp_regeneration_over_time_base",
+				"__text": "持續治療量 (基礎)"
+			},
+			{
+				"_name": "lightfall_sword_base_dmg",
+				"__text": "光降之劍基礎傷害"
+			},
+			{
+				"_name": "falling_thunder_dmg",
+				"__text": "落雷傷害"
+			},
+			{
+				"_name": "ice_shard_dmg",
+				"__text": "冰凌傷害"
+			},
+			{
+				"_name": "crystal_collapse_dmg",
+				"__text": "岩晶崩破傷害"
+			},
+			{
+				"_name": "low_hp_skill_dmg",
+				"__text": "低血量時技能傷害"
+			},
+			{
+				"_name": "skill_hp_regeneration",
+				"__text": "技能治療量"
+			},
+			{
+				"_name": "low_hp_skill_regeneration",
+				"__text": "低血量時技能治療量"
+			},
+			{
+				"_name": "field_entering_exiting_dmg",
+				"__text": "出入領域傷害"
+			},
+			{
+				"_name": "field_activation_healing",
+				"__text": "領域發動治療量"
+			},
+			{
+				"_name": "field_activation_healing_base",
+				"__text": "領域發動治療量 (基礎)"
+			},
+			{
+				"_name": "additional_elemental_dmg",
+				"__text": "附加元素傷害"
+			},
+			{
+				"_name": "cutting_dmg",
+				"__text": "切割傷害"
+			},
+			{
+				"_name": "bloom_dmg",
+				"__text": "綻放傷害"
+			},
+			{
+				"_name": "consecutive_slash_dmg",
+				"__text": "連斬傷害"
+			},
+			{
+				"_name": "last_attack_dmg",
+				"__text": "最後一擊傷害"
+			},
+			{
+				"_name": "sparks_n_splash_dmg",
+				"__text": "轟轟火花傷害"
+			},
+			{
+				"_name": "tengu_juurai_titanbreaker_dmg",
+				"__text": "天狗咒雷·金剛壞 傷害"
+			},
+			{
+				"_name": "tengu_juurai_stormcluster_dmg",
+				"__text": "天狗咒雷·雷礫 傷害"
+			},
+			{
+				"_name": "discharge_dmg",
+				"__text": "放電傷害"
+			},
+			{
+				"_name": "illusory_bubble_explosion_dmg",
+				"__text": "泡影破裂傷害"
+			},
+			{
+				"_name": "musou_no_hitotachi_base_dmg",
+				"__text": "夢想一刀基礎傷害"
+			},
+			{
+				"_name": "plunge_dmg",
+				"__text": "下墜期間傷害"
+			},
+			{
+				"_name": "low_plunge_dmg",
+				"__text": "低空墜地衝擊傷害"
+			},
+			{
+				"_name": "high_plunge_dmg",
+				"__text": "高空墜地衝擊傷害"
+			},
+			{
+				"_name": "soul_companion_dmg",
+				"__text": "狼魂傷害"
+			},
+			{
+				"_name": "normal_atk_spd_bonus",
+				"__text": "普通攻擊速度提升"
+			},
+			{
+				"_name": "ice_lance_dot",
+				"__text": "冰槍持續傷害"
+			},
+			{
+				"_name": "normal_attack_dmg_bonus",
+				"__text": "普通攻擊傷害提升"
+			},
+			{
+				"_name": "charged_attack_dmg_bonus",
+				"__text": "重擊傷害提升"
+			},
+			{
+				"_name": "bake_kurage_dmg_bonus",
+				"__text": "化海月傷害提升"
+			},
+			{
+				"_name": "skill_activation_dmg",
+				"__text": "技能發動傷害"
+			},
+			{
+				"_name": "skill_activation_healing",
+				"__text": "技能發動治療量"
+			},
+			{
+				"_name": "muji_muji_daruma_dmg",
+				"__text": "不倒貉貉傷害"
+			},
+			{
+				"_name": "muji_muji_daruma_healing",
+				"__text": "不倒貉貉治療量"
+			},
+			{
+				"_name": "muji_muji_daruma_healing_base",
+				"__text": "不倒貉貉治療量 (基礎)"
+			},
+			{
+				"_name": "skill_dmg_melee",
+				"__text": "技能傷害·近戰"
+			},
+			{
+				"_name": "skill_dmg_ranged",
+				"__text": "技能傷害·遠程"
+			},
+			{
+				"_name": "riptide_blast_dmg",
+				"__text": "斷流·爆 傷害"
+			},
+			{
+				"_name": "fiery_collapse_dmg",
+				"__text": "熾火崩破傷害"
+			},
+			{
+				"_name": "shield_dmg_absorption",
+				"__text": "護盾吸收量"
+			},
+			{
+				"_name": "shield_dmg_absorption_base",
+				"__text": "護盾吸收量 (基礎)"
+			},
+			{
+				"_name": "tornado_dmg",
+				"__text": "龍捲風傷害"
+			},
+			{
+				"_name": "dmg_per_shockwave",
+				"__text": "地震波單次傷害"
+			},
+			{
+				"_name": "dmg_1_hit_swing",
+				"__text": "一段揮舞傷害"
+			},
+			{
+				"_name": "dmg_2_hit_swing",
+				"__text": "二段揮舞傷害"
+			},
+			{
+				"_name": "dmg_3_hit_swing",
+				"__text": "三段揮舞傷害"
+			},
+			{
+				"_name": "pyronado_dmg",
+				"__text": "旋火輪傷害"
+			},
+			{
+				"_name": "sword_rain_dmg",
+				"__text": "箭雨傷害"
+			},
+			{
+				"_name": "aurous_blaze_explosion_dmg",
+				"__text": "琉金火光爆炸傷害"
+			},
+			{
+				"_name": "sesshou_sakura_dmg_level_1",
+				"__text": "殺生櫻傷害·壹階"
+			},
+			{
+				"_name": "sesshou_sakura_dmg_level_2",
+				"__text": "殺生櫻傷害·貳階"
+			},
+			{
+				"_name": "sesshou_sakura_dmg_level_3",
+				"__text": "殺生櫻傷害·參階"
+			},
+			{
+				"_name": "sesshou_sakura_dmg_level_4",
+				"__text": "殺生櫻傷害·肆階"
+			},
+			{
+				"_name": "tenko_thunderbolt_dmg",
+				"__text": "天狐霆雷傷害"
+			},
+			{
+				"_name": "name_used",
+				"__text": "這個名字已經被使用了，請輸入另一個名字。"
+			},
+			{
+				"_name": "these_is_rss_source",
+				"__text": "以下是原神小幫手資料，數據，圖片來源"
+			},
+			{
+				"_name": "press_open_link",
+				"__text": "按下即可開啟對應連結"
+			},
+			{
+				"_name": "developer",
+				"__text": "開發者"
+			},
+			{
+				"_name": "buff_cal_thx",
+				"__text": "✧ 特此感謝dfsly\\n✧ 允許以內嵌功能方式延續Genshin Calculator"
+			},
+			{
+				"_name": "buff_calcluator",
+				"__text": "增益計算機"
+			},
+			{
+				"_name": "ui_design",
+				"__text": "UI設計"
+			},
+			{
+				"_name": "rectangle",
+				"__text": "長方形"
+			},
+			{
+				"_name": "square",
+				"__text": "正方形"
+			},
+			{
+				"_name": "char_suit_on",
+				"__text": "換上活動衣裝"
+			},
+			{
+				"_name": "goblet",
+				"__text": "空之杯："
+			},
+			{
+				"_name": "circlet",
+				"__text": "理之冠："
+			},
+			{
+				"_name": "sand",
+				"__text": "時之沙："
+			},
+			{
+				"_name": "main_entry",
+				"__text": "主詞條："
+			},
+			{
+				"_name": "sub_entry",
+				"__text": "副詞條："
+			},
+			{
+				"_name": "haran_geppaku_futsu",
+				"__text": "波亂月白經津"
+			},
+			{
+				"_name": "echoes_of_an_offering",
+				"__text": "來歆餘響"
+			},
+			{
+				"_name": "vermillion_hereafter",
+				"__text": "辰砂往生錄"
+			},
+			{
+				"_name": "kuki_shinobu",
+				"__text": "久岐忍"
+			},
+			{
+				"_name": "yelan",
+				"__text": "夜蘭"
+			},
+			{
+				"_name": "advance_stat",
+				"__text": "突破屬性"
+			},
+			{
+				"_name": "card",
+				"__text": "卡片"
+			},
+			{
+				"_name": "element_Electro",
+				"__text": "雷元素"
+			},
+			{
+				"_name": "element_Pyro",
+				"__text": "火元素"
+			},
+			{
+				"_name": "element_Hydro",
+				"__text": "水元素"
+			},
+			{
+				"_name": "element_Dendor",
+				"__text": "草元素"
+			},
+			{
+				"_name": "element_Cryo",
+				"__text": "冰元素"
+			},
+			{
+				"_name": "element_Anemo",
+				"__text": "風元素"
+			},
+			{
+				"_name": "element_Geo",
+				"__text": "岩元素"
+			},
+			{
+				"_name": "forsaken_rift",
+				"__text": "忘卻之峽"
+			},
+			{
+				"_name": "taishan_mansion",
+				"__text": "太山府"
+			},
+			{
+				"_name": "violet_court",
+				"__text": "菫色之庭"
+			},
+			{
+				"_name": "court_of_flowing_sand",
+				"__text": "砂流之庭"
+			},
+			{
+				"_name": "hidden_palace_of_lianshan_formula",
+				"__text": "震雷連山密宮"
+			},
+			{
+				"_name": "cecilia_garden",
+				"__text": "塞西莉亞苗圃"
+			},
+			{
+				"_name": "img_reset_finish",
+				"__text": "背景已重設"
+			},
+			{
+				"_name": "obtain_no",
+				"__text": "無"
+			},
+			{
+				"_name": "obtain_forge_mission_nmdbj",
+				"__text": "鍛造(農民的寶藏)"
+			},
+			{
+				"_name": "obtain_limited_wish",
+				"__text": "限定祈願"
+			},
+			{
+				"_name": "obtain_wish",
+				"__text": "祈願"
+			},
+			{
+				"_name": "obtain_first_gift",
+				"__text": "初始武器贈送"
+			},
+			{
+				"_name": "obtain_shop",
+				"__text": "商城兌換"
+			},
+			{
+				"_name": "obtain_chest_shop",
+				"__text": "寶箱、商店購買"
+			},
+			{
+				"_name": "obtain_forge",
+				"__text": "鍛造"
+			},
+			{
+				"_name": "obtain_chat_ymdjy",
+				"__text": "對話(璃月港快刀陳對話)"
+			},
+			{
+				"_name": "obtain_battlepass",
+				"__text": "紀行"
+			},
+			{
+				"_name": "obtain_wish_chest",
+				"__text": "祈願、寶箱"
+			},
+			{
+				"_name": "obtain_event",
+				"__text": "活動"
+			},
+			{
+				"_name": "obtain_forge_event",
+				"__text": "鍛造、任務"
+			},
+			{
+				"_name": "obtain_wish_event_glyjyjg",
+				"__text": "祈願、活動(巨龍與自由之歌)"
+			},
+			{
+				"_name": "obtain_forge_yhbh",
+				"__text": "鍛造(影向祓行)"
+			},
+			{
+				"_name": "obtain_chest",
+				"__text": "寶箱"
+			},
+			{
+				"_name": "obtain_forge_hldw",
+				"__text": "鍛造(聽海人)"
+			},
+			{
+				"_name": "obtain_wish_event_hdbbhjyjj",
+				"__text": "祈願、活動(孔雀羽之章--海盜秘寶)"
+			},
+			{
+				"_name": "obtain_forge_tbmy",
+				"__text": "鍛造(踏鞴物語)"
+			},
+			{
+				"_name": "obtain_forge_ylysws",
+				"__text": "鍛造(遠呂羽氏遺事·其五)"
+			},
+			{
+				"_name": "obtain_chesr_md",
+				"__text": "蒙德寶箱"
+			},
+			{
+				"_name": "obtain_playstation_login",
+				"__text": "PlayStation平台登錄遊戲"
+			},
+			{
+				"_name": "obtain_forge_lvl10_sjgw",
+				"__text": "鍛造、星之歸還活動"
+			},
+			{
+				"_name": "obtain_playstation_sp_gift",
+				"__text": "PlayStation Network特典"
+			},
+			{
+				"_name": "obtain_npc_dcdyhw",
+				"__text": "NPC商店、稻妻釣魚協會兌換"
+			},
+			{
+				"_name": "obtain_chesr_ly",
+				"__text": "璃月寶箱"
+			},
+			{
+				"_name": "obtain_chest_gwk",
+				"__text": "孤雲閣附近拔出、寶箱"
+			},
+			{
+				"_name": "ui_siptik_name",
+				"__text": "素材"
+			},
+			{
+				"_name": "ui_2048_name",
+				"__text": "遊戲"
+			},
+			{
+				"_name": "ui_voc_name",
+				"__text": "經典"
+			},
+			{
+				"_name": "shikanoin_heizou",
+				"__text": "鹿野院平藏"
+			},
+			{
+				"_name": "detail",
+				"__text": "細節"
+			},
+			{
+				"_name": "release_state",
+				"__text": "發佈狀態"
+			},
+			{
+				"_name": "released",
+				"__text": "已發佈"
+			},
+			{
+				"_name": "unreleased",
+				"__text": "未發佈"
+			},
+			{
+				"_name": "all",
+				"__text": "所有"
+			},
+			{
+				"_name": "navigation_bar",
+				"__text": "導航欄"
+			},
+			{
+				"_name": "obtain_way",
+				"__text": "獲取途徑"
+			},
+			{
+				"_name": "weapon_skill",
+				"__text": "武器技能"
+			},
+			{
+				"_name": "weapon_level",
+				"__text": "武器等級"
+			},
+			{
+				"_name": "outfit_standard",
+				"__text": "一般衣裝"
+			},
+			{
+				"_name": "outfit_event",
+				"__text": "活動衣裝"
+			},
+			{
+				"_name": "paimon",
+				"__text": "派蒙"
+			},
+			{
+				"_name": "aqua_simulacra",
+				"__text": "若水"
+			},
+			{
+				"_name": "kagotsurube_isshin",
+				"__text": "籠釣瓶一心"
+			},
+			{
+				"_name": "fading_twilight",
+				"__text": "落霞"
+			},
+			{
+				"_name": "tut_part0_1",
+				"__text": "\"嗨，我是Voc-夜芷冰，原神小幫手的開發者，亦是這次使用教學的解說者。\""
+			},
+			{
+				"_name": "tut_part0_2",
+				"__text": "\"首先，請容我稍微介紹原神小幫手\""
+			},
+			{
+				"_name": "tut_part0_3",
+				"__text": "\"原神小幫手是一款包括查看資訊及計算功能的App\""
+			},
+			{
+				"_name": "tut_part0_4",
+				"__text": "\"另外，它是一個開源的專案，我們十分歡迎任何人對於新功能給予任何建議～\""
+			},
+			{
+				"_name": "tut_part0_5",
+				"__text": "\"喔對了，讓我們開始使用教學吧～\""
+			},
+			{
+				"_name": "tut_part0_6",
+				"__text": "\"頁面底部的便是導航欄，您可以透過按下對應按鈕轉換頁面\""
+			},
+			{
+				"_name": "tut_part0_7",
+				"__text": "\"另外，你也可以向左／右滑動頁面來轉換頁面\""
+			},
+			{
+				"_name": "tut_part1_1",
+				"__text": "\"這是主頁面，在這裡能看到今天的焦點，例如角色突破素材，武器突破素材等等\""
+			},
+			{
+				"_name": "tut_part1_2",
+				"__text": "\"如果你想閱讀更多有關這個角色／武器的資料，只需簡簡單單地按下角色／武器的頭像\""
+			},
+			{
+				"_name": "tut_part1_3",
+				"__text": "\"另外，如果當天是任何一個角色的生日，這裡將會有有一個生日提醒\""
+			},
+			{
+				"_name": "tut_part1_4",
+				"__text": "\"希望這一頁的內容能夠對你的規劃有所幫助\""
+			},
+			{
+				"_name": "tut_part2_1",
+				"__text": "\"這是角色列表，您可以在這裡找到任何一個在遊戲裡的角色\""
+			},
+			{
+				"_name": "tut_part2_2",
+				"__text": "\"只需要按下對應角色即可以閱讀其詳細資料～\""
+			},
+			{
+				"_name": "tut_part2_3",
+				"__text": "\"如果您想搜尋符合指定要求的角色，請按下篩選圖示的按鈕以開啟篩選頁面\""
+			},
+			{
+				"_name": "tut_part2_4",
+				"__text": "\"如果您想透過角色譯名或英文名稱搜尋角色，請按下查詢圖示開啟查詢介面\""
+			},
+			{
+				"_name": "tut_part3_5",
+				"__text": "\"這是武器列表，您可以在這裡找到任何一個在遊戲裡的武器\""
+			},
+			{
+				"_name": "tut_part3_6",
+				"__text": "\"基本上，它與角色列表的使用方法一模一樣～\""
+			},
+			{
+				"_name": "tut_part4_1",
+				"__text": "\"這是聖遺物列表，基本上，它與角色列表的使用方法一模一樣～\""
+			},
+			{
+				"_name": "tut_part5_1",
+				"__text": "\"這是設定／派蒙頁面，您可以在這裡設定App\""
+			},
+			{
+				"_name": "tut_part5_2",
+				"__text": "\"嗯。。。這次的教學差不多完結了\""
+			},
+			{
+				"_name": "tut_part5_3",
+				"__text": "\"如果你有任何問題或者疑難，您可以直接到Discord找我\""
+			},
+			{
+				"_name": "tut_part5_4",
+				"__text": "\"我們的官方伺服器邀請連結已經放在設定內的【關於】部分\""
+			},
+			{
+				"_name": "tut_part5_5",
+				"__text": "\"那我們在Discord裏再見吧～拜拜 ~\""
+			},
+			{
+				"_name": "sumeru",
+				"__text": "須彌"
+			},
+			{
+				"_name": "fontaine",
+				"__text": "楓丹"
+			},
+			{
+				"_name": "natlan",
+				"__text": "納塔"
+			},
+			{
+				"_name": "traveler_dendor",
+				"__text": "旅行者 (草)"
+			},
+			{
+				"_name": "tighnari",
+				"__text": "提納里"
+			},
+			{
+				"_name": "dori",
+				"__text": "多莉"
+			},
+			{
+				"_name": "collei",
+				"__text": "柯萊"
+			},
+			{
+				"_name": "sapwood_blade",
+				"__text": "原木刀"
+			},
+			{
+				"_name": "forest_regalia",
+				"__text": "森林王器"
+			},
+			{
+				"_name": "moonpiercer",
+				"__text": "貫月矢"
+			},
+			{
+				"_name": "kings_squire",
+				"__text": "王下近侍"
+			},
+			{
+				"_name": "end_of_the_line",
+				"__text": "竭澤"
+			},
+			{
+				"_name": "hunters_path",
+				"__text": "獵人之徑"
+			},
+			{
+				"_name": "fruit_of_fulfillment",
+				"__text": "盈滿之實"
+			},
+			{
+				"_name": "skill_level",
+				"__text": "技能等級"
+			},
+			{
+				"_name": "luminescent_pollen",
+				"__text": "螢光孢粉"
+			},
+			{
+				"_name": "lunar_lotus",
+				"__text": "月蓮"
+			},
+			{
+				"_name": "fungal_spores",
+				"__text": "蕈獸孢子"
+			},
+			{
+				"_name": "crystalline_cyst_dust",
+				"__text": "孢囊晶塵"
+			},
+			{
+				"_name": "thunderclap_fruitcore",
+				"__text": "藏雷野實"
+			},
+			{
+				"_name": "kalpalata",
+				"__text": "劫波蓮"
+			},
+			{
+				"_name": "faded_red_satin",
+				"__text": "褪色紅綢"
+			},
+			{
+				"_name": "trimmed_red_silk",
+				"__text": "鑲邊紅綢"
+			},
+			{
+				"_name": "rich_red_brocade",
+				"__text": "織金紅綢"
+			},
+			{
+				"_name": "majestic_hooked_beak",
+				"__text": "蕈王鉤喙"
+			},
+			{
+				"_name": "rukkhashava_mushrooms",
+				"__text": "樹王聖體菇"
+			},
+			{
+				"_name": "deepwood_memories",
+				"__text": "深林的記憶"
+			},
+			{
+				"_name": "gilded_dreams",
+				"__text": "飾金之夢"
+			},
+			{
+				"_name": "philosophies_of_admonition",
+				"__text": "「諍言」的哲學"
+			},
+			{
+				"_name": "guides_of_admonition",
+				"__text": "「諍言」的指引"
+			},
+			{
+				"_name": "teachings_of_admonition",
+				"__text": "「諍言」的教導"
+			},
+			{
+				"_name": "philosophies_of_ingenuity",
+				"__text": "「巧思」的哲學"
+			},
+			{
+				"_name": "guides_of_ingenuity",
+				"__text": "「巧思」的指引"
+			},
+			{
+				"_name": "teachings_of_ingenuity",
+				"__text": "「巧思」的教導"
+			},
+			{
+				"_name": "philosophies_of_praxis",
+				"__text": "「篤行」的哲學"
+			},
+			{
+				"_name": "guides_of_praxis",
+				"__text": "「篤行」的指引"
+			},
+			{
+				"_name": "teachings_of_praxis",
+				"__text": "「篤行」的教導"
+			},
+			{
+				"_name": "steeple_of_ignorance",
+				"__text": "昏識塔"
+			},
+			{
+				"_name": "tower_of_abject_pride",
+				"__text": "有頂塔"
+			},
+			{
+				"_name": "copper_talisman_of_the_forest_dew",
+				"__text": "謐林涓露的銅符"
+			},
+			{
+				"_name": "oasis_gardens_reminiscence",
+				"__text": "綠洲花園的追憶"
+			},
+			{
+				"_name": "echo_of_scorching_might",
+				"__text": "烈日威權的殘響"
+			},
+			{
+				"_name": "nilou",
+				"__text": "妮露"
+			},
+			{
+				"_name": "cyno",
+				"__text": "賽諾"
+			},
+			{
+				"_name": "candace",
+				"__text": "坎蒂絲"
+			},
+			{
+				"_name": "xiphos_moonlight",
+				"__text": "西福斯的月光"
+			},
+			{
+				"_name": "key_of_khaj_nisut",
+				"__text": "聖顯之鑰"
+			},
+			{
+				"_name": "makhaira_aquamarine",
+				"__text": "瑪海菈的水色"
+			},
+			{
+				"_name": "wandering_evenstar",
+				"__text": "流浪的晚星"
+			},
+			{
+				"_name": "staff_of_the_scarlet_sands",
+				"__text": "赤沙之杖"
+			},
+			{
+				"_name": "missive_windspear",
+				"__text": "風信之鋒"
+			},
+			{
+				"_name": "layla",
+				"__text": "萊依拉"
+			},
+			{
+				"_name": "a_thousand_floating_dreams",
+				"__text": "千夜浮夢"
+			},
+			{
+				"_name": "nahida",
+				"__text": "納西妲"
+			},
+			{
+				"_name": "screenshot_saved",
+				"__text": "截圖儲存成功"
+			},
+			{
+				"_name": "screenshot_not_saved_permission",
+				"__text": "請同意讀取權限"
+			},
+			{
+				"_name": "screenshot_not_saved",
+				"__text": "截圖儲存失敗"
+			},
+			{
+				"_name": "talent_lvl",
+				"__text": "\"天賦等級 : \""
+			},
+			{
+				"_name": "today",
+				"__text": "今天"
+			},
+			{
+				"_name": "unclaimed",
+				"__text": "未領取"
+			},
+			{
+				"_name": "claimed",
+				"__text": "已領取"
+			},
+			{
+				"_name": "idle",
+				"__text": "閒置中"
+			},
+			{
+				"_name": "puppet_strings",
+				"__text": "傀儡的懸絲"
+			},
+			{
+				"_name": "mirror_of_mushin",
+				"__text": "無心的淵鏡"
+			},
+			{
+				"_name": "dakas_bell",
+				"__text": "空行的虛鈴"
+			},
+			{
+				"_name": "is_random_scenery",
+				"__text": "啟用隨機風景節錄功能"
+			},
+			{
+				"_name": "global_server",
+				"__text": "國際伺服器"
+			},
+			{
+				"_name": "mainland_server",
+				"__text": "中國大陸伺服器"
+			},
+			{
+				"_name": "memo_step1",
+				"__text": "獲取憑證"
+			},
+			{
+				"_name": "memo_step2",
+				"__text": "選擇伺服器"
+			},
+			{
+				"_name": "memo_step1_1",
+				"__text": "請選擇伺服器類別"
+			},
+			{
+				"_name": "memo_web",
+				"__text": "← 請在登入後按下"
+			},
+			{
+				"_name": "setting_account",
+				"__text": "帳號"
+			},
+			{
+				"_name": "setting_personal",
+				"__text": "個性化"
+			},
+			{
+				"_name": "clean_cookies",
+				"__text": "清除所有Cookies"
+			},
+			{
+				"_name": "clean_cookies_already",
+				"__text": "已清除所有Cookies"
+			},
+			{
+				"_name": "display_beta_data",
+				"__text": "顯示Beta版數據"
+			},
+			{
+				"_name": "wanderer",
+				"__text": "流浪者"
+			},
+			{
+				"_name": "faruzan",
+				"__text": "琺露珊"
+			},
+			{
+				"_name": "custom_icon",
+				"__text": "自定義頭像"
+			},
+			{
+				"_name": "custom_card",
+				"__text": "自定義名片"
+			},
+			{
+				"_name": "polar_star",
+				"__text": "冬極白星"
+			},
+			{
+				"_name": "tulaytullahs_remembrance",
+				"__text": "圖萊杜拉的回憶"
+			},
+			{
+				"_name": "toukabou_shigure",
+				"__text": "東花坊時雨"
+			},
+			{
+				"_name": "desert_pavilion_chronicle",
+				"__text": "沙上樓閣史話"
+			},
+			{
+				"_name": "flower_of_paradise_lost",
+				"__text": "樂園遺落之花"
+			},
+			{
+				"_name": "alhaitham",
+				"__text": "艾爾海森"
+			},
+			{
+				"_name": "yaoyao",
+				"__text": "瑤瑤"
+			},
+			{
+				"_name": "tcg_ganyu",
+				"__text": "甘雨"
+			},
+			{
+				"_name": "tcg_kaeya",
+				"__text": "凱亞"
+			},
+			{
+				"_name": "tcg_chongyun",
+				"__text": "重雲"
+			},
+			{
+				"_name": "tcg_kamisato_ayaka",
+				"__text": "神里綾華"
+			},
+			{
+				"_name": "tcg_xingqiu",
+				"__text": "行秋"
+			},
+			{
+				"_name": "tcg_mona",
+				"__text": "莫娜"
+			},
+			{
+				"_name": "tcg_diluc",
+				"__text": "迪盧克"
+			},
+			{
+				"_name": "tcg_xiangling",
+				"__text": "香菱"
+			},
+			{
+				"_name": "tcg_bennett",
+				"__text": "班尼特"
+			},
+			{
+				"_name": "tcg_yoimiya",
+				"__text": "宵宮"
+			},
+			{
+				"_name": "tcg_fischl",
+				"__text": "菲謝爾"
+			},
+			{
+				"_name": "tcg_razor",
+				"__text": "雷澤"
+			},
+			{
+				"_name": "tcg_keqing",
+				"__text": "刻晴"
+			},
+			{
+				"_name": "tcg_sucrose",
+				"__text": "砂糖"
+			},
+			{
+				"_name": "tcg_jean",
+				"__text": "琴"
+			},
+			{
+				"_name": "tcg_ningguang",
+				"__text": "凝光"
+			},
+			{
+				"_name": "tcg_noelle",
+				"__text": "諾艾爾"
+			},
+			{
+				"_name": "tcg_collei",
+				"__text": "柯萊"
+			},
+			{
+				"_name": "tcg_rhodeia_of_loch",
+				"__text": "純水精靈·洛蒂婭"
+			},
+			{
+				"_name": "tcg_fatui_pyro_agent",
+				"__text": "火之債務處理人"
+			},
+			{
+				"_name": "tcg_maguu_kenki",
+				"__text": "魔偶劍鬼"
+			},
+			{
+				"_name": "tcg_stonehide_lawachurl",
+				"__text": "丘丘岩盔王"
+			},
+			{
+				"_name": "tcg_diona",
+				"__text": "迪奧娜"
+			},
+			{
+				"_name": "tcg_cyno",
+				"__text": "賽諾"
+			},
+			{
+				"_name": "tcg_barbara",
+				"__text": "芭芭拉"
+			},
+			{
+				"_name": "tcg_mirror_maiden",
+				"__text": "藏鏡仕女"
+			},
+			{
+				"_name": "tcg_jadeplume_terrorshroom",
+				"__text": "翠翎恐蕈"
+			},
+			{
+				"_name": "tcg_undivided_heart",
+				"__text": "唯此一心"
+			},
+			{
+				"_name": "tcg_cold_blooded_strike",
+				"__text": "冷血之劍"
+			},
+			{
+				"_name": "tcg_steady_breathing",
+				"__text": "吐納真定"
+			},
+			{
+				"_name": "tcg_kanten_senmyou_blessing",
+				"__text": "寒天宣命祝詞"
+			},
+			{
+				"_name": "tcg_the_scent_remained",
+				"__text": "重簾留香"
+			},
+			{
+				"_name": "tcg_prophecy_of_submersion",
+				"__text": "沉沒的預言"
+			},
+			{
+				"_name": "tcg_flowing_flame",
+				"__text": "流火焦灼"
+			},
+			{
+				"_name": "tcg_crossfire",
+				"__text": "交叉火力"
+			},
+			{
+				"_name": "tcg_grand_expectation",
+				"__text": "冒險憧憬"
+			},
+			{
+				"_name": "tcg_naganohara_meteor_swarm",
+				"__text": "長野原龍勢流星群"
+			},
+			{
+				"_name": "tcg_stellar_predator",
+				"__text": "噬星魔鴉"
+			},
+			{
+				"_name": "tcg_awakening",
+				"__text": "覺醒"
+			},
+			{
+				"_name": "tcg_thundering_penance",
+				"__text": "抵天雷罰"
+			},
+			{
+				"_name": "tcg_chaotic_entropy",
+				"__text": "混元熵增論"
+			},
+			{
+				"_name": "tcg_lands_of_dandelion",
+				"__text": "蒲公英的國土"
+			},
+			{
+				"_name": "tcg_strategic_reserve",
+				"__text": "儲之千日，用之一刻"
+			},
+			{
+				"_name": "tcg_i_got_your_back",
+				"__text": "支援就交給我吧"
+			},
+			{
+				"_name": "tcg_floral_sidewinder",
+				"__text": "飛葉迴斜"
+			},
+			{
+				"_name": "tcg_streaming_surge",
+				"__text": "百川奔流"
+			},
+			{
+				"_name": "tcg_paid_in_full",
+				"__text": "悉數討回"
+			},
+			{
+				"_name": "tcg_transcendent_automaton",
+				"__text": "機巧神通"
+			},
+			{
+				"_name": "tcg_stonehide_reforged",
+				"__text": "重鑄：岩盔"
+			},
+			{
+				"_name": "tcg_shaken_not_purred",
+				"__text": "貓爪冰搖"
+			},
+			{
+				"_name": "tcg_featherfall_judgment",
+				"__text": "落羽的裁擇"
+			},
+			{
+				"_name": "tcg_glorious_season",
+				"__text": "光輝的季節"
+			},
+			{
+				"_name": "tcg_mirror_cage",
+				"__text": "鏡錮之籠"
+			},
+			{
+				"_name": "tcg_proliferating_spores",
+				"__text": "孢子增殖"
+			},
+			{
+				"_name": "tcg_magic_guide",
+				"__text": "魔導緒論"
+			},
+			{
+				"_name": "tcg_sacrificial_fragments",
+				"__text": "祭禮殘章"
+			},
+			{
+				"_name": "tcg_skyward_atlas",
+				"__text": "天空之卷"
+			},
+			{
+				"_name": "tcg_raven_bow",
+				"__text": "鴉羽弓"
+			},
+			{
+				"_name": "tcg_sacrificial_bow",
+				"__text": "祭禮弓"
+			},
+			{
+				"_name": "tcg_skyward_harp",
+				"__text": "天空之翼"
+			},
+			{
+				"_name": "tcg_white_iron_greatsword",
+				"__text": "白鐵大劍"
+			},
+			{
+				"_name": "tcg_sacrificial_greatsword",
+				"__text": "祭禮大劍"
+			},
+			{
+				"_name": "tcg_wolfs_gravestone",
+				"__text": "狼的末路"
+			},
+			{
+				"_name": "tcg_white_tassel",
+				"__text": "白纓槍"
+			},
+			{
+				"_name": "tcg_lithic_spear",
+				"__text": "千岩長槍"
+			},
+			{
+				"_name": "tcg_skyward_spine",
+				"__text": "天空之脊"
+			},
+			{
+				"_name": "tcg_travelers_handy_sword",
+				"__text": "旅行劍"
+			},
+			{
+				"_name": "tcg_sacrificial_sword",
+				"__text": "祭禮劍"
+			},
+			{
+				"_name": "tcg_aquila_favonia",
+				"__text": "風鷹劍"
+			},
+			{
+				"_name": "tcg_adventurers_bandana",
+				"__text": "冒險家頭帶"
+			},
+			{
+				"_name": "tcg_lucky_dogs_silver_circlet",
+				"__text": "幸運兒銀冠"
+			},
+			{
+				"_name": "tcg_traveling_doctors_handkerchief",
+				"__text": "遊醫的方巾"
+			},
+			{
+				"_name": "tcg_gamblers_earrings",
+				"__text": "賭徒的耳環"
+			},
+			{
+				"_name": "tcg_instructors_cap",
+				"__text": "教官的帽子"
+			},
+			{
+				"_name": "tcg_exiles_circlet",
+				"__text": "流放者頭冠"
+			},
+			{
+				"_name": "tcg_broken_rimes_echo",
+				"__text": "破冰踏雪的回音"
+			},
+			{
+				"_name": "tcg_blizzard_strayer",
+				"__text": "冰風迷途的勇士"
+			},
+			{
+				"_name": "tcg_wine_stained_tricorne",
+				"__text": "酒漬船帽"
+			},
+			{
+				"_name": "tcg_heart_of_depth",
+				"__text": "沉淪之心"
+			},
+			{
+				"_name": "tcg_witchs_scorching_hat",
+				"__text": "焦灼的魔女帽"
+			},
+			{
+				"_name": "tcg_crimson_witch_of_flames",
+				"__text": "熾烈的炎之魔女"
+			},
+			{
+				"_name": "tcg_thunder_summoners_crown",
+				"__text": "喚雷的頭冠"
+			},
+			{
+				"_name": "tcg_thundering_fury",
+				"__text": "如雷的盛怒"
+			},
+			{
+				"_name": "tcg_viridescent_venerers_diadem",
+				"__text": "翠綠的獵人之冠"
+			},
+			{
+				"_name": "tcg_viridescent_venerer",
+				"__text": "翠綠之影"
+			},
+			{
+				"_name": "tcg_mask_of_solitude_basalt",
+				"__text": "不動玄石之相"
+			},
+			{
+				"_name": "tcg_archaic_petra",
+				"__text": "悠古的磐岩"
+			},
+			{
+				"_name": "tcg_laurel_coronet",
+				"__text": "月桂的寶冠"
+			},
+			{
+				"_name": "tcg_deepwood_memories",
+				"__text": "深林的記憶"
+			},
+			{
+				"_name": "tcg_liyue_harbor_wharf",
+				"__text": "璃月港口"
+			},
+			{
+				"_name": "tcg_knights_of_favonius_library",
+				"__text": "騎士團圖書館"
+			},
+			{
+				"_name": "tcg_jade_chamber",
+				"__text": "群玉閣"
+			},
+			{
+				"_name": "tcg_dawn_winery",
+				"__text": "晨曦酒莊"
+			},
+			{
+				"_name": "tcg_wangshu_inn",
+				"__text": "望舒客棧"
+			},
+			{
+				"_name": "tcg_favonius_cathedral",
+				"__text": "西風大教堂"
+			},
+			{
+				"_name": "tcg_paimon",
+				"__text": "派蒙"
+			},
+			{
+				"_name": "tcg_katheryne",
+				"__text": "凱瑟琳"
+			},
+			{
+				"_name": "tcg_timaeus",
+				"__text": "蒂瑪烏斯"
+			},
+			{
+				"_name": "tcg_wagner",
+				"__text": "瓦格納"
+			},
+			{
+				"_name": "tcg_chef_mao",
+				"__text": "卯師傅"
+			},
+			{
+				"_name": "tcg_tubby",
+				"__text": "阿圓"
+			},
+			{
+				"_name": "tcg_timmie",
+				"__text": "提米"
+			},
+			{
+				"_name": "tcg_liben",
+				"__text": "立本"
+			},
+			{
+				"_name": "tcg_chang_the_ninth",
+				"__text": "常九爺"
+			},
+			{
+				"_name": "tcg_ellin",
+				"__text": "艾琳"
+			},
+			{
+				"_name": "tcg_iron_tongue_tian",
+				"__text": "田鐵嘴"
+			},
+			{
+				"_name": "tcg_liu_su",
+				"__text": "劉蘇"
+			},
+			{
+				"_name": "tcg_parametric_transformer",
+				"__text": "參數質變儀"
+			},
+			{
+				"_name": "tcg_nre",
+				"__text": "隨身營養袋"
+			},
+			{
+				"_name": "tcg_elemental_resonance_woven_ice",
+				"__text": "元素共鳴：交織之冰"
+			},
+			{
+				"_name": "tcg_elemental_resonance_shattering_ice",
+				"__text": "元素共鳴：粉碎之冰"
+			},
+			{
+				"_name": "tcg_elemental_resonance_woven_waters",
+				"__text": "元素共鳴：交織之水"
+			},
+			{
+				"_name": "tcg_elemental_resonance_soothing_water",
+				"__text": "元素共鳴：癒療之水"
+			},
+			{
+				"_name": "tcg_elemental_resonance_woven_flames",
+				"__text": "元素共鳴：交織之火"
+			},
+			{
+				"_name": "tcg_elemental_resonance_fervent_flames",
+				"__text": "元素共鳴：熱誠之火"
+			},
+			{
+				"_name": "tcg_elemental_resonance_woven_thunder",
+				"__text": "元素共鳴：交織之雷"
+			},
+			{
+				"_name": "tcg_elemental_resonance_high_voltage",
+				"__text": "元素共鳴：強能之雷"
+			},
+			{
+				"_name": "tcg_elemental_resonance_woven_winds",
+				"__text": "元素共鳴：交織之風"
+			},
+			{
+				"_name": "tcg_elemental_resonance_impetuous_winds",
+				"__text": "元素共鳴：迅捷之風"
+			},
+			{
+				"_name": "tcg_elemental_resonance_woven_stone",
+				"__text": "元素共鳴：交織之岩"
+			},
+			{
+				"_name": "tcg_elemental_resonance_enduring_rock",
+				"__text": "元素共鳴：堅定之岩"
+			},
+			{
+				"_name": "tcg_elemental_resonance_woven_weeds",
+				"__text": "元素共鳴：交織之草"
+			},
+			{
+				"_name": "tcg_elemental_resonance_sprawling_greenery",
+				"__text": "元素共鳴：蔓生之草"
+			},
+			{
+				"_name": "tcg_the_bestest_travel_companion",
+				"__text": "最好的夥伴！"
+			},
+			{
+				"_name": "tcg_changing_shifts",
+				"__text": "換班時間"
+			},
+			{
+				"_name": "tcg_toss_up",
+				"__text": "一擲乾坤"
+			},
+			{
+				"_name": "tcg_strategize",
+				"__text": "運籌帷幄"
+			},
+			{
+				"_name": "tcg_i_havent_lost_yet",
+				"__text": "本大爺還沒有輸！"
+			},
+			{
+				"_name": "tcg_leave_it_to_me",
+				"__text": "交給我吧！"
+			},
+			{
+				"_name": "tcg_when_the_crane_returned",
+				"__text": "鶴歸之時"
+			},
+			{
+				"_name": "tcg_starsigns",
+				"__text": "星天之兆"
+			},
+			{
+				"_name": "tcg_calxs_arts",
+				"__text": "白堊之術"
+			},
+			{
+				"_name": "tcg_master_of_weaponry",
+				"__text": "諸武精通"
+			},
+			{
+				"_name": "tcg_blessing_of_the_divine_relics_installation",
+				"__text": "神寶遷宮祝詞"
+			},
+			{
+				"_name": "tcg_quick_knit",
+				"__text": "快快縫補術"
+			},
+			{
+				"_name": "tcg_send_off",
+				"__text": "送你一程"
+			},
+			{
+				"_name": "tcg_guardians_oath",
+				"__text": "護法之誓"
+			},
+			{
+				"_name": "tcg_abyssal_summons",
+				"__text": "深淵的呼喚"
+			},
+			{
+				"_name": "tcg_jueyun_guoba",
+				"__text": "絕雲鍋巴"
+			},
+			{
+				"_name": "tcg_adeptus_temptation",
+				"__text": "仙跳牆"
+			},
+			{
+				"_name": "tcg_lotus_flower_crisp",
+				"__text": "蓮花酥"
+			},
+			{
+				"_name": "tcg_northern_smoked_chicken",
+				"__text": "北地煙燻雞"
+			},
+			{
+				"_name": "tcg_sweet_madame",
+				"__text": "甜甜花釀雞"
+			},
+			{
+				"_name": "tcg_mondstadt_hash_brown",
+				"__text": "蒙德薯餅"
+			},
+			{
+				"_name": "tcg_mushroom_pizza",
+				"__text": "烤蘑菇披薩"
+			},
+			{
+				"_name": "tcg_minty_meat_rolls",
+				"__text": "獸肉薄荷卷"
+			},
+			{
+				"_name": "tcg_origin",
+				"__text": "原初"
+			},
+			{
+				"_name": "tcg_mondstadt",
+				"__text": "蒙德"
+			},
+			{
+				"_name": "tcg_liyue",
+				"__text": "璃月"
+			},
+			{
+				"_name": "tcg_inazuma",
+				"__text": "稻妻"
+			},
+			{
+				"_name": "tcg_sumeru",
+				"__text": "須彌"
+			},
+			{
+				"_name": "tcg_legend",
+				"__text": "傳說"
+			},
+			{
+				"_name": "tcg_adept",
+				"__text": "達人"
+			},
+			{
+				"_name": "tcg_hydro_crystal_chunk",
+				"__text": "水晶塊"
+			},
+			{
+				"_name": "tcg_magical_crystal_chunk",
+				"__text": "魔晶塊"
+			},
+			{
+				"_name": "tcg_amethyst_lump",
+				"__text": "紫晶塊"
+			},
+			{
+				"_name": "tcg_flaming_flower_stamen",
+				"__text": "烈焰花花蕊"
+			},
+			{
+				"_name": "tcg_mist_flower_corolla",
+				"__text": "冰霧花花朵"
+			},
+			{
+				"_name": "tcg_electro_crystal",
+				"__text": "電氣水晶"
+			},
+			{
+				"_name": "tcg_dandelion_seed",
+				"__text": "蒲公英籽"
+			},
+			{
+				"_name": "tcg_cecilia",
+				"__text": "塞西莉亞花"
+			},
+			{
+				"_name": "tcg_glaze_lily",
+				"__text": "琉璃百合"
+			},
+			{
+				"_name": "tcg_dendrobium",
+				"__text": "血斛"
+			},
+			{
+				"_name": "tcg_type_backside",
+				"__text": "卡背"
+			},
+			{
+				"_name": "tcg_type_char",
+				"__text": "角色牌"
+			},
+			{
+				"_name": "tcg_type_equip",
+				"__text": "裝備牌"
+			},
+			{
+				"_name": "tcg_type_support",
+				"__text": "支援牌"
+			},
+			{
+				"_name": "tcg_type_event",
+				"__text": "\"事件牌 \""
+			},
+			{
+				"_name": "bow",
+				"__text": "弓"
+			},
+			{
+				"_name": "sword",
+				"__text": "單手劍"
+			},
+			{
+				"_name": "catalyst",
+				"__text": "法器"
+			},
+			{
+				"_name": "polearm",
+				"__text": "長柄武器"
+			},
+			{
+				"_name": "claymore",
+				"__text": "雙手劍"
+			},
+			{
+				"_name": "tcg_keyword_anemo",
+				"__text": "風元素"
+			},
+			{
+				"_name": "tcg_keyword_anemodmg",
+				"__text": "風元素傷害"
+			},
+			{
+				"_name": "tcg_keyword_combataction",
+				"__text": "戰鬥行動"
+			},
+			{
+				"_name": "tcg_keyword_cryo",
+				"__text": "冰元素"
+			},
+			{
+				"_name": "tcg_keyword_cryoapplication",
+				"__text": "附著冰元素"
+			},
+			{
+				"_name": "tcg_keyword_cryodmg",
+				"__text": "冰元素傷害"
+			},
+			{
+				"_name": "tcg_keyword_dendro",
+				"__text": "草元素"
+			},
+			{
+				"_name": "tcg_keyword_dendroapplication",
+				"__text": "附著草元素"
+			},
+			{
+				"_name": "tcg_keyword_dendrodmg",
+				"__text": "草元素傷害"
+			},
+			{
+				"_name": "tcg_keyword_dendrorelatedreactions",
+				"__text": "草元素相關反應"
+			},
+			{
+				"_name": "tcg_keyword_durationrounds",
+				"__text": "持續回合"
+			},
+			{
+				"_name": "tcg_keyword_electro",
+				"__text": "雷元素"
+			},
+			{
+				"_name": "tcg_keyword_electroapplication",
+				"__text": "附著雷元素"
+			},
+			{
+				"_name": "tcg_keyword_electrodmg",
+				"__text": "雷元素傷害"
+			},
+			{
+				"_name": "tcg_keyword_electroinfusion",
+				"__text": "雷元素附魔"
+			},
+			{
+				"_name": "tcg_keyword_elementalburst",
+				"__text": "元素爆發"
+			},
+			{
+				"_name": "tcg_keyword_energy",
+				"__text": "充能"
+			},
+			{
+				"_name": "tcg_keyword_fastaction",
+				"__text": "快速行動"
+			},
+			{
+				"_name": "tcg_keyword_geo",
+				"__text": "岩元素"
+			},
+			{
+				"_name": "tcg_keyword_geodmg",
+				"__text": "岩元素傷害"
+			},
+			{
+				"_name": "tcg_keyword_hydro",
+				"__text": "水元素"
+			},
+			{
+				"_name": "tcg_keyword_hydroapplication",
+				"__text": "附著水元素"
+			},
+			{
+				"_name": "tcg_keyword_hydrodmg",
+				"__text": "水元素傷害"
+			},
+			{
+				"_name": "tcg_keyword_hydrorelatedreactions",
+				"__text": "水元素相關反應"
+			},
+			{
+				"_name": "tcg_keyword_matchingelement",
+				"__text": "相同元素"
+			},
+			{
+				"_name": "tcg_keyword_omnielement",
+				"__text": "萬能元素"
+			},
+			{
+				"_name": "tcg_keyword_passiveskill",
+				"__text": "被動技能"
+			},
+			{
+				"_name": "tcg_keyword_physicaldmg",
+				"__text": "物理傷害"
+			},
+			{
+				"_name": "tcg_keyword_piercingdmg",
+				"__text": "穿透傷害"
+			},
+			{
+				"_name": "tcg_keyword_pyro",
+				"__text": "火元素"
+			},
+			{
+				"_name": "tcg_keyword_pyroapplication",
+				"__text": "附著火元素"
+			},
+			{
+				"_name": "tcg_keyword_pyrodmg",
+				"__text": "火元素傷害"
+			},
+			{
+				"_name": "tcg_keyword_pyrorelatedreactions",
+				"__text": "火元素相關反應"
+			},
+			{
+				"_name": "tcg_keyword_randomhilichurlsummon",
+				"__text": "隨機「丘丘人」召喚物"
+			},
+			{
+				"_name": "tcg_keyword_shield",
+				"__text": "護盾"
+			},
+			{
+				"_name": "tcg_keyword_unalignedelement",
+				"__text": "無色元素"
+			},
+			{
+				"_name": "tcg_keyword_usages",
+				"__text": "可用次數"
+			},
+			{
+				"_name": "light_of_foliar_incision",
+				"__text": "裁葉萃光"
+			},
+			{
+				"_name": "tcg_klee",
+				"__text": "可莉"
+			},
+			{
+				"_name": "tcg_beidou",
+				"__text": "北斗"
+			},
+			{
+				"_name": "tcg_lightning_storm",
+				"__text": "霹靂連霄"
+			},
+			{
+				"_name": "tcg_pounding_surprise",
+				"__text": "砰砰禮物"
+			},
+			{
+				"_name": "dehya",
+				"__text": "迪希雅"
+			},
+			{
+				"_name": "mika",
+				"__text": "米卡"
+			},
+			{
+				"_name": "beacon_of_the_reed_sea",
+				"__text": "葦海信標"
+			},
+			{
+				"_name": "mailed_flower",
+				"__text": "飾鐵之花"
+			},
+			{
+				"_name": "tcg_eula",
+				"__text": "優菈"
+			},
+			{
+				"_name": "tcg_sangonomiya_kokomi",
+				"__text": "珊瑚宮心海"
+			},
+			{
+				"_name": "tcg_kujou_sara",
+				"__text": "九條裟羅"
+			},
+			{
+				"_name": "tcg_tamanooyas_casket",
+				"__text": "匣中玉櫛"
+			},
+			{
+				"_name": "tcg_sin_of_pride",
+				"__text": "我界"
+			},
+			{
+				"_name": "tcg_ornate_kabuto",
+				"__text": "華飾之兜"
+			},
+			{
+				"_name": "tcg_generals_ancient_helm",
+				"__text": "將帥兜鍪"
+			},
+			{
+				"_name": "tcg_wellspring_of_war_lust",
+				"__text": "戰欲湧現"
+			},
+			{
+				"_name": "asagiri_korise",
+				"__text": "朝霧冰瀬"
+			},
+			{
+				"_name": "lazurite_swirl",
+				"__text": "青金的流旋"
+			},
+			{
+				"_name": "lvl",
+				"__text": "等級"
+			},
+			{
+				"_name": "baizhu",
+				"__text": "白朮"
+			},
+			{
+				"_name": "kaveh",
+				"__text": "卡維"
+			},
+			{
+				"_name": "jadefalls_splendor",
+				"__text": "碧落之瓏"
+			},
+			{
+				"_name": "nymphs_dream",
+				"__text": "水仙之夢"
+			},
+			{
+				"_name": "vourukashas_glow",
+				"__text": "花海甘露之光"
+			},
+			{
+				"_name": "kirara",
+				"__text": "綺良良"
+			},
+			{
+				"_name": "tcg_kamisato_ayato",
+				"__text": "神里綾人"
+			},
+			{
+				"_name": "tcg_arataki_itto",
+				"__text": "荒瀧一斗"
+			},
+			{
+				"_name": "tcg_tighnari",
+				"__text": "提納里"
+			},
+			{
+				"_name": "tcg_keen_sight",
+				"__text": "眼識殊明"
+			},
+			{
+				"_name": "tcg_kyouka_fuushi",
+				"__text": "鏡華風姿"
+			},
+			{
+				"_name": "tcg_arataki_ichiban",
+				"__text": "荒瀧第一"
+			},
+			{
+				"_name": "tcg_favonius_sword",
+				"__text": "西風劍"
+			},
+			{
+				"_name": "tcg_grand_narukami_shrine",
+				"__text": "鳴神大社"
+			},
+			{
+				"_name": "memo_available_weekboss_change",
+				"__text": "尚餘{%1}次"
+			},
+			{
+				"_name": "event_list_available",
+				"__text": "{%1} 個活動進行中"
+			},
+			{
+				"_name": "event_list_day",
+				"__text": "天"
+			},
+			{
+				"_name": "event_list_title",
+				"__text": "活動列表"
+			},
+			{
+				"_name": "dailymemo_setting_login_title",
+				"__text": "登入方式"
+			},
+			{
+				"_name": "dailymemo_setting_login_hoyoverse",
+				"__text": "Hoyoverse 帳戶"
+			},
+			{
+				"_name": "dailymemo_setting_login_third_party",
+				"__text": "第三方登入"
+			},
+			{
+				"_name": "dailymemo_setting_hoyoverse_token",
+				"__text": "開啟官方登入頁面"
+			},
+			{
+				"_name": "dailymemo_setting_confirm",
+				"__text": "確認"
+			},
+			{
+				"_name": "char_occupation",
+				"__text": "職稱"
+			},
+			{
+				"_name": "char_constellation",
+				"__text": "命之座"
+			},
+			{
+				"_name": "lynette",
+				"__text": "琳妮特"
+			},
+			{
+				"_name": "lyney",
+				"__text": "林尼"
+			},
+			{
+				"_name": "freminet",
+				"__text": "菲米尼"
+			},
+			{
+				"_name": "wolf_fang",
+				"__text": "狼牙"
+			},
+			{
+				"_name": "finale_of_the_deep",
+				"__text": "海淵終曲"
+			},
+			{
+				"_name": "crossing_of_fleuve_cendre",
+				"__text": "灰河渡手"
+			},
+			{
+				"_name": "talking_stick",
+				"__text": "聊聊棒"
+			},
+			{
+				"_name": "tidal_shadow",
+				"__text": "浪影闊劍"
+			},
+			{
+				"_name": "ballad_of_the_fjords",
+				"__text": "峽灣長歌"
+			},
+			{
+				"_name": "rightful_reward",
+				"__text": "公義的酬報"
+			},
+			{
+				"_name": "sacrificial_jade",
+				"__text": "遺祀玉瓏"
+			},
+			{
+				"_name": "flowing_purity",
+				"__text": "純水流華"
+			},
+			{
+				"_name": "scion_of_the_blazing_sun",
+				"__text": "烈陽之嗣"
+			},
+			{
+				"_name": "song_of_stillness",
+				"__text": "靜謐之曲"
+			},
+			{
+				"_name": "the_first_great_magic",
+				"__text": "最初的大魔術"
+			},
+			{
+				"_name": "marechaussee_hunter",
+				"__text": "逐影獵人"
+			},
+			{
+				"_name": "golden_troupe",
+				"__text": "黃金劇團"
+			},
+			{
+				"_name": "tcg_amber",
+				"__text": "安柏"
+			},
+			{
+				"_name": "tcg_tartaglia",
+				"__text": "達達利亞"
+			},
+			{
+				"_name": "tcg_hu_tao",
+				"__text": "胡桃"
+			},
+			{
+				"_name": "tcg_raiden_shogun",
+				"__text": "雷電將軍"
+			},
+			{
+				"_name": "tcg_yae_miko",
+				"__text": "八重神子"
+			},
+			{
+				"_name": "tcg_venti",
+				"__text": "溫迪"
+			},
+			{
+				"_name": "tcg_xiao",
+				"__text": "魈"
+			},
+			{
+				"_name": "tcg_zhongli",
+				"__text": "鍾離"
+			},
+			{
+				"_name": "tcg_nahida",
+				"__text": "納西妲"
+			},
+			{
+				"_name": "tcg_fatui_cryo_cicin_mage",
+				"__text": "愚人眾·冰螢術士"
+			},
+			{
+				"_name": "tcg_abyss_lector_fathomless_flames",
+				"__text": "深淵詠者·淵火"
+			},
+			{
+				"_name": "tcg_electro_hypostasis",
+				"__text": "無相之雷"
+			},
+			{
+				"_name": "tcg_shenhe",
+				"__text": "申鶴"
+			},
+			{
+				"_name": "tcg_bunny_triggered",
+				"__text": "一觸即發"
+			},
+			{
+				"_name": "tcg_embrace_of_winds",
+				"__text": "緒風之擁"
+			},
+			{
+				"_name": "tcg_conqueror_of_evil_guardian_yaksha",
+				"__text": "降魔·護法夜叉"
+			},
+			{
+				"_name": "tcg_dominance_of_earth",
+				"__text": "炊金饌玉"
+			},
+			{
+				"_name": "tcg_absorbing_prism",
+				"__text": "汲能稜晶"
+			},
+			{
+				"_name": "tcg_mystical_abandon",
+				"__text": "忘玄"
+			},
+			{
+				"_name": "tcg_abyssal_mayhem_hydrospout",
+				"__text": "深淵之災·凝水盛放"
+			},
+			{
+				"_name": "tcg_sanguine_rouge",
+				"__text": "血之灶火"
+			},
+			{
+				"_name": "tcg_wishes_unnumbered",
+				"__text": "萬千的願望"
+			},
+			{
+				"_name": "tcg_the_shrines_sacred_shade",
+				"__text": "神籬之御蔭"
+			},
+			{
+				"_name": "tcg_the_seed_of_stored_knowledge",
+				"__text": "心識蘊藏之種"
+			},
+			{
+				"_name": "tcg_cicins_cold_glare",
+				"__text": "冰螢寒光"
+			},
+			{
+				"_name": "tcg_embers_rekindled",
+				"__text": "燼火重燃"
+			},
+			{
+				"_name": "tcg_amos_bow",
+				"__text": "阿莫斯之弓"
+			},
+			{
+				"_name": "tcg_a_thousand_floating_dreams",
+				"__text": "千夜浮夢"
+			},
+			{
+				"_name": "tcg_elegy_for_the_end",
+				"__text": "終末嗟嘆之詩"
+			},
+			{
+				"_name": "tcg_skyward_pride",
+				"__text": "天空之傲"
+			},
+			{
+				"_name": "tcg_the_bell",
+				"__text": "鐘劍"
+			},
+			{
+				"_name": "tcg_vortex_vanquisher",
+				"__text": "貫虹之槊"
+			},
+			{
+				"_name": "tcg_engulfing_lightning",
+				"__text": "薙草之稻光"
+			},
+			{
+				"_name": "tcg_skyward_blade",
+				"__text": "天空之刃"
+			},
+			{
+				"_name": "tcg_emblem_of_severed_fate",
+				"__text": "絕緣之旗印"
+			},
+			{
+				"_name": "tcg_tenacity_of_the_millelith",
+				"__text": "千岩牢固"
+			},
+			{
+				"_name": "tcg_thundering_poise",
+				"__text": "虺雷之姿"
+			},
+			{
+				"_name": "tcg_vermillion_hereafter",
+				"__text": "辰砂往生錄"
+			},
+			{
+				"_name": "tcg_capricious_visage",
+				"__text": "無常之面"
+			},
+			{
+				"_name": "tcg_shimenawas_reminiscence",
+				"__text": "追憶之注連"
+			},
+			{
+				"_name": "tcg_tenshukaku",
+				"__text": "天守閣"
+			},
+			{
+				"_name": "tcg_sangonomiya_shrine",
+				"__text": "珊瑚宮"
+			},
+			{
+				"_name": "tcg_sumeru_city",
+				"__text": "須彌城"
+			},
+			{
+				"_name": "tcg_vanarana",
+				"__text": "桓那蘭那"
+			},
+			{
+				"_name": "tcg_chinju_forest",
+				"__text": "鎮守之森"
+			},
+			{
+				"_name": "tcg_hanachirusato",
+				"__text": "花散里"
+			},
+			{
+				"_name": "tcg_kid_kujirai",
+				"__text": "鯨井小弟"
+			},
+			{
+				"_name": "tcg_xudong",
+				"__text": "旭東"
+			},
+			{
+				"_name": "tcg_dunyarzad",
+				"__text": "迪娜澤黛"
+			},
+			{
+				"_name": "tcg_rana",
+				"__text": "拉娜"
+			},
+			{
+				"_name": "tcg_red_feather_fan",
+				"__text": "紅羽團扇"
+			},
+			{
+				"_name": "tcg_treasure_seeking_seelie",
+				"__text": "尋寶仙靈"
+			},
+			{
+				"_name": "tcg_wind_and_freedom",
+				"__text": "風與自由"
+			},
+			{
+				"_name": "tcg_stone_and_contracts",
+				"__text": "岩與契約"
+			},
+			{
+				"_name": "tcg_thunder_and_eternity",
+				"__text": "雷與永恆"
+			},
+			{
+				"_name": "tcg_nature_and_wisdom",
+				"__text": "草與智慧"
+			},
+			{
+				"_name": "tcg_fatui_conspiracy",
+				"__text": "愚人眾的陰謀"
+			},
+			{
+				"_name": "tcg_plunging_strike",
+				"__text": "下落斬"
+			},
+			{
+				"_name": "tcg_heavy_strike",
+				"__text": "重攻擊"
+			},
+			{
+				"_name": "tcg_the_legend_of_vennessa",
+				"__text": "溫妮莎傳奇"
+			},
+			{
+				"_name": "tcg_friendship_eternal",
+				"__text": "永遠的友誼"
+			},
+			{
+				"_name": "tcg_teyvat_fried_egg",
+				"__text": "提瓦特煎蛋"
+			},
+			{
+				"_name": "tcg_sashimi_platter",
+				"__text": "刺身拼盤"
+			},
+			{
+				"_name": "tcg_tandoori_roast_chicken",
+				"__text": "唐杜爾烤雞"
+			},
+			{
+				"_name": "tcg_butter_crab",
+				"__text": "奶油蟹蟹"
+			},
+			{
+				"_name": "tcg_treasures_of_the_deck",
+				"__text": "牌中秘寶"
+			},
+			{
+				"_name": "tcg_candace",
+				"__text": "坎蒂絲"
+			},
+			{
+				"_name": "tcg_yanfei",
+				"__text": "煙緋"
+			},
+			{
+				"_name": "tcg_kaedehara_kazuha",
+				"__text": "楓原萬葉"
+			},
+			{
+				"_name": "tcg_the_overflow",
+				"__text": "衍溢的汐潮"
+			},
+			{
+				"_name": "tcg_right_of_final_interpretation",
+				"__text": "最終解釋權"
+			},
+			{
+				"_name": "tcg_poetics_of_fuubutsu",
+				"__text": "風物之詩詠"
+			},
+			{
+				"_name": "tcg_fruit_of_fulfillment",
+				"__text": "盈滿之實"
+			},
+			{
+				"_name": "tcg_master_zhang",
+				"__text": "老章"
+			},
+			{
+				"_name": "tcg_ancient_courtyard",
+				"__text": "舊時庭園"
+			},
+			{
+				"_name": "tcg_covenant_of_rock",
+				"__text": "磐岩盟契"
+			},
+			{
+				"_name": "tcg_rhythm_of_the_great_dream",
+				"__text": "大夢的曲調"
+			},
+			{
+				"_name": "tcg_albedo",
+				"__text": "阿貝多"
+			},
+			{
+				"_name": "tcg_qiqi",
+				"__text": "七七"
+			},
+			{
+				"_name": "tcg_lisa",
+				"__text": "麗莎"
+			},
+			{
+				"_name": "tcg_descent_of_divinity",
+				"__text": "神性之隕"
+			},
+			{
+				"_name": "tcg_rite_of_resurrection",
+				"__text": "起死回骸"
+			},
+			{
+				"_name": "tcg_pulsating_witch",
+				"__text": "脈衝的魔女"
+			},
+			{
+				"_name": "tcg_kings_squire",
+				"__text": "王下近侍"
+			},
+			{
+				"_name": "tcg_golden_house",
+				"__text": "黃金屋"
+			},
+			{
+				"_name": "tcg_setaria",
+				"__text": "塞塔蕾"
+			},
+			{
+				"_name": "tcg_joyous_celebration",
+				"__text": "愉舞歡游"
+			},
+			{
+				"_name": "tcg_where_is_the_unseen_razor",
+				"__text": "藏鋒何處"
+			},
+			{
+				"_name": "tcg_fontaine",
+				"__text": "楓丹"
+			},
+			{
+				"_name": "ibis_piercer",
+				"__text": "\"䴉穿之喙\""
+			},
+			{
+				"_name": "teachings_of_equity",
+				"__text": "\"「公平」的教導\""
+			},
+			{
+				"_name": "teachings_of_justice",
+				"__text": "\"「正義」的教導\""
+			},
+			{
+				"_name": "teachings_of_order",
+				"__text": "\"「秩序」的教導\""
+			},
+			{
+				"_name": "guide_to_equity",
+				"__text": "\"「公平」的指引\""
+			},
+			{
+				"_name": "guide_to_justice",
+				"__text": "\"「正義」的指引\""
+			},
+			{
+				"_name": "guide_to_order",
+				"__text": "\"「秩序」的指引\""
+			},
+			{
+				"_name": "philosophies_of_equity",
+				"__text": "\"「公平」的哲學\""
+			},
+			{
+				"_name": "philosophies_of_justice",
+				"__text": "\"「正義」的哲學\""
+			},
+			{
+				"_name": "philosophies_of_order",
+				"__text": "\"「秩序」的哲學\""
+			},
+			{
+				"_name": "fragment_of_an_ancient_chord",
+				"__text": "\"悠古弦音的殘章\""
+			},
+			{
+				"_name": "dross_of_pure_sacred_dewdrop",
+				"__text": "\"純聖露滴的濾渣\""
+			},
+			{
+				"_name": "broken_goblet_of_the_pristine_sea",
+				"__text": "\"無垢之海的苦盞\""
+			},
+			{
+				"_name": "chapter_of_an_ancient_chord",
+				"__text": "\"悠古弦音的斷章\""
+			},
+			{
+				"_name": "sublimation_of_pure_sacred_dewdrop",
+				"__text": "\"純聖露滴的凝華\""
+			},
+			{
+				"_name": "wine_goblet_of_the_pristine_sea",
+				"__text": "\"無垢之海的酒盞\""
+			},
+			{
+				"_name": "movement_of_an_ancient_chord",
+				"__text": "\"悠古弦音的樂章\""
+			},
+			{
+				"_name": "spring_of_pure_sacred_dewdrop",
+				"__text": "\"純聖露滴的醴泉\""
+			},
+			{
+				"_name": "silver_goblet_of_the_pristine_sea",
+				"__text": "\"無垢之海的銀盃\""
+			},
+			{
+				"_name": "echo_of_an_ancient_chord",
+				"__text": "\"悠古弦音的迴響\""
+			},
+			{
+				"_name": "essence_of_pure_sacred_dewdrop",
+				"__text": "\"純聖露滴的真粹\""
+			},
+			{
+				"_name": "golden_goblet_of_the_pristine_sea",
+				"__text": "\"無垢之海的金杯\""
+			},
+			{
+				"_name": "pale_forgotten_glory",
+				"__text": "\"蒼白的遺榮\""
+			},
+			{
+				"_name": "echoes_of_the_deep_tides",
+				"__text": "\"深潮的餘響\""
+			}
+		]
+	}
+}

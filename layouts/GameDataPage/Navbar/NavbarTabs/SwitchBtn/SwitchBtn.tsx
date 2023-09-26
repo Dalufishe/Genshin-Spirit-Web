@@ -28,9 +28,9 @@ export default function SwitchBtn(props: Props) {
             width="68"
             height="68"
             filterUnits="userSpaceOnUse"
-            colorInterpolation-filters="sRGB"
+            colorInterpolationFilters="sRGB"
           >
-            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feFlood floodOpacity="0" result="BackgroundImageFix" />
             <feColorMatrix
               in="SourceAlpha"
               type="matrix"

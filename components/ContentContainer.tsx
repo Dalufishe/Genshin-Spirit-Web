@@ -4,7 +4,8 @@ import { css } from "@emotion/css";
 
 type Props = {
   children: ReactNode;
-  gap: number;
+  p?: number;
+  gap?: number;
   className?: string;
 };
 
@@ -16,6 +17,7 @@ export default function ContentContainer(props: Props) {
         "flex flex-col",
         css`
           gap: ${props.gap}px;
+          padding: ${props.p}px;
         `,
         props.className || ""
       )}

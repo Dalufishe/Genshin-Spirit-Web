@@ -1,14 +1,18 @@
 import React from "react";
 import { cn } from "../../../../utils/cn";
+import Image from "next/image";
 
 import Anemo from "./icons/风.svg";
 import Pyro from "./icons/火.svg";
 import Cryo from "./icons/冰.svg";
 import Hydro from "./icons/水.svg";
-import Image from "next/image";
+import Dendro from "./icons/草.svg";
+import Electro from "./icons/雷.svg";
+import Geo from "./icons/岩.svg";
+import { ElementType } from "../../../../types/ElementType.types";
 
 type Props = {
-  element_type: string;
+  element_type: ElementType;
   name: string;
 };
 
@@ -18,6 +22,8 @@ export default function CharCardTitle(props: Props) {
       <div className="flex gap-[5px] items-center w-fit m-auto">
         <div>
           <Image
+          width={27}
+          height={27}
             src={(function () {
               switch (props.element_type) {
                 case "Anemo":
@@ -25,11 +31,11 @@ export default function CharCardTitle(props: Props) {
                 case "Cryo":
                   return Cryo;
                 case "Dendro":
-                  return Anemo;
+                  return Dendro;
                 case "Electro":
-                  return Anemo;
+                  return Electro;
                 case "Geo":
-                  return Anemo;
+                  return Geo;
                 case "Hydro":
                   return Hydro;
                 case "Pyro":

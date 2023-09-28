@@ -5,7 +5,6 @@ export default {
   // 風
   anemo: {
     charCard: cn(css`
-      border-radius: 21.125px;
       border: 0px solid rgba(0, 63, 47, 0.1);
       background: linear-gradient(
         180deg,
@@ -19,7 +18,6 @@ export default {
   // 火
   pyro: {
     charCard: cn(css`
-      border-radius: 21.125px;
       border: 0px solid rgba(96, 26, 27, 0.1);
       background: linear-gradient(
         180deg,
@@ -33,7 +31,6 @@ export default {
   // 冰
   cryo: {
     charCard: cn(css`
-      border-radius: 21px;
       border: 0px solid rgba(135, 231, 235, 0.1);
       background: linear-gradient(
         180deg,
@@ -47,21 +44,21 @@ export default {
   // 草
   dendro: {
     charCard: cn(css`
-      border-radius: 21.125px;
-      border: 0px solid rgba(0, 63, 47, 0.1);
+      border: 0px solid rgba(96, 26, 27, 0.1);
       background: linear-gradient(
         180deg,
-        #cafff2 0%,
+        #e5ffca 0%,
         #fcfffe 99.99%,
-        #fff 100%
+        #f9fff3 100%
       );
-      box-shadow: 0px 4.225px 52.8125px 0px rgba(0, 0, 0, 0.1);
+
+      /* drop shadow */
+      box-shadow: 0px 20px 250px 0px rgba(0, 0, 0, 0.1);
     `),
   },
   // 水
   hydro: {
     charCard: cn(css`
-      border-radius: 21px;
       border: 0px solid rgba(96, 26, 27, 0.1);
       background: linear-gradient(
         180deg,
@@ -75,28 +72,30 @@ export default {
   // 電
   electro: {
     charCard: cn(css`
-      border-radius: 21.125px;
-      border: 0px solid rgba(0, 63, 47, 0.1);
+      border: 0px solid rgba(96, 26, 27, 0.1);
       background: linear-gradient(
         180deg,
-        #cafff2 0%,
+        #e0c7f1 0%,
         #fcfffe 99.99%,
-        #fff 100%
+        #f8efff 100%
       );
-      box-shadow: 0px 4.225px 52.8125px 0px rgba(0, 0, 0, 0.1);
+
+      /* drop shadow */
+      box-shadow: 0px 20px 250px 0px rgba(0, 0, 0, 0.1);
     `),
   },
   geo: {
     charCard: cn(css`
-      border-radius: 21.125px;
-      border: 0px solid rgba(0, 63, 47, 0.1);
+      border: 0px solid rgba(96, 26, 27, 0.1);
       background: linear-gradient(
         180deg,
-        #cafff2 0%,
+        #ffe7a9 0%,
         #fcfffe 99.99%,
-        #fff 100%
+        #fffaec 100%
       );
-      box-shadow: 0px 4.225px 52.8125px 0px rgba(0, 0, 0, 0.1);
+
+      /* drop shadow */
+      box-shadow: 0px 20px 250px 0px rgba(0, 0, 0, 0.1);
     `),
   },
 };

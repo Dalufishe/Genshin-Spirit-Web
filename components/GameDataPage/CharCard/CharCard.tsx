@@ -8,6 +8,7 @@ import CharCardImageFull from "./CharCardImageFull/CharCardImageFull";
 import CharCardSide from "./CharCardSide/CharCardSide";
 import CharCardIco from "./CharCardIco/CharCardIco";
 import CharCardTitle from "./CharCardTitle/CharCardTitle";
+import CharCardBg from "./CharCardBg/CharCardBg";
 
 type Props = {
   element_type: ElementType;
@@ -23,6 +24,7 @@ export default function CharCard(props: Props) {
         "relative",
         "overflow-hidden",
         "w-[169px] h-[338px]",
+        "rounded-[21px]",
         props.element_type === "Anemo" ? styles.anemo.charCard : "",
         props.element_type === "Pyro" ? styles.pyro.charCard : "",
         props.element_type === "Cryo" ? styles.cryo.charCard : "",
@@ -36,6 +38,7 @@ export default function CharCard(props: Props) {
       <CharCardSide element_type={props.element_type} />
       <CharCardIco image_ico={props.image_ico} />
       <CharCardTitle element_type={props.element_type} name={props.name} />
+      <CharCardBg element_type={props.element_type} />
     </div>
   );
 }

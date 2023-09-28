@@ -1,16 +1,22 @@
 import React from "react";
 import { ElementType } from "../../../../types/ElementType.types";
 import Image from "next/image";
-
-import ALeft from "./icons/風/左侧图案.svg";
-import ARight from "./icons/風/右侧图案.svg";
-import PLeft from "./icons/火/左侧图案.svg";
-import PRight from "./icons/火/右侧图案.jpg";
-import HLeft from "./icons/水/左侧图案.svg";
-import HRight from "./icons/水/右侧图案.jpg";
-import CLeft from "./icons/冰/左侧图案.svg";
-import CRight from "./icons/冰/右侧图案.svg";
 import { css } from "@emotion/css";
+
+import ALeft from "./icons/風/L.svg";
+import ARight from "./icons/風/R.svg";
+import PLeft from "./icons/火/L.svg";
+import PRight from "./icons/火/R.svg";
+import HLeft from "./icons/水/L.svg";
+import HRight from "./icons/水/R.svg";
+import CLeft from "./icons/冰/L.svg";
+import CRight from "./icons/冰/R.svg";
+import DLeft from "./icons/草/L.svg";
+import DRight from "./icons/草/R.svg";
+import ELeft from "./icons/雷/L.svg";
+import ERight from "./icons/雷/R.svg";
+import GLeft from "./icons/岩/L.svg";
+import GRight from "./icons/岩/R.svg";
 
 type Props = {
   element_type: ElementType;
@@ -26,6 +32,7 @@ export default function CharCardSide(props: Props) {
         `}
       >
         <Image
+          height={338}
           src={(function () {
             switch (props.element_type) {
               case "Anemo":
@@ -33,11 +40,11 @@ export default function CharCardSide(props: Props) {
               case "Cryo":
                 return CLeft;
               case "Dendro":
-                return ALeft;
+                return DLeft;
               case "Electro":
-                return ALeft;
+                return ELeft;
               case "Geo":
-                return ALeft;
+                return GLeft;
               case "Hydro":
                 return HLeft;
               case "Pyro":
@@ -57,6 +64,7 @@ export default function CharCardSide(props: Props) {
         `}
       >
         <Image
+          height={338}
           src={(function () {
             switch (props.element_type) {
               case "Anemo":
@@ -64,11 +72,11 @@ export default function CharCardSide(props: Props) {
               case "Cryo":
                 return CRight;
               case "Dendro":
-                return ARight;
+                return DRight;
               case "Electro":
-                return ARight;
+                return ERight;
               case "Geo":
-                return ARight;
+                return GRight;
               case "Hydro":
                 return HRight;
               case "Pyro":

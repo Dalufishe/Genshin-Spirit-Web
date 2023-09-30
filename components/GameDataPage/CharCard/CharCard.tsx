@@ -9,17 +9,20 @@ import CharCardSide from "./CharCardSide/CharCardSide";
 import CharCardIco from "./CharCardIco/CharCardIco";
 import CharCardTitle from "./CharCardTitle/CharCardTitle";
 import CharCardBg from "./CharCardBg/CharCardBg";
+import Link from "next/link";
 
 type Props = {
   element_type: ElementType;
   image_full: string;
   image_ico: string;
   name: string;
+  href?: string;
 };
 
 export default function CharCard(props: Props) {
   return (
-    <div
+    <Link
+      href={props.href || ""}
       className={cn(
         "relative",
         "overflow-hidden",
@@ -39,6 +42,6 @@ export default function CharCard(props: Props) {
       <CharCardIco image_ico={props.image_ico} />
       <CharCardTitle element_type={props.element_type} name={props.name} />
       <CharCardBg element_type={props.element_type} />
-    </div>
+    </Link>
   );
 }

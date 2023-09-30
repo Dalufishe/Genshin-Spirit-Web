@@ -3,7 +3,6 @@ import CharCard from "../../components/GameDataPage/CharCard/CharCard";
 import { CharListContext } from "../../context/CharList";
 import ContentContainer from "../../components/ContentContainer";
 import { cn } from "../../utils/cn";
-
 import ZH_TW from "../../locale/ZH_TW.json";
 import charNameReplacer from "../../utils/charNameReplacer";
 
@@ -13,6 +12,7 @@ export default function CharScreen() {
     () =>
       charList?.map((char) => (
         <CharCard
+          href={`data/char/${charNameReplacer(char.name)}`}
           element_type={char.element}
           image_full={`/char-image-full/${charNameReplacer(
             char.name

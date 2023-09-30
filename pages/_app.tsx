@@ -5,9 +5,11 @@ import type { AppProps } from "next/app";
 import { QueryClientProvider, QueryClient } from "react-query";
 import { CharListContext, CharListContextData } from "../context/CharList";
 import { LocaleContext } from "../context/Locale";
+import { PrimeReactProvider } from "primereact/api";
 
 import charList from "../data/char_list.json";
 import ZH_TW from "../locale/ZH_TW.json";
+
 const queryClient = new QueryClient();
 
 function MyApp({ Component, pageProps }: AppProps) {
@@ -19,11 +21,13 @@ function MyApp({ Component, pageProps }: AppProps) {
     >
       <CharListContext.Provider value={charList as CharListContextData}>
         <QueryClientProvider client={queryClient}>
-          <Head>
-            <title>Genshin Spirit Web</title>
-          </Head>
-          <BackgroundProvider bgImage="/dummy/MainBackground.png" />
-          <Component {...pageProps} />
+          <PrimeReactProvider value={{ ripple: true }}>
+            <Head>
+              <title>Genshin Spirit Web</title>
+            </Head>
+            <BackgroundProvider bgImage="/dummy/MainBackground.png" />
+            <Component {...pageProps} />
+          </PrimeReactProvider>
         </QueryClientProvider>
       </CharListContext.Provider>
     </LocaleContext.Provider>

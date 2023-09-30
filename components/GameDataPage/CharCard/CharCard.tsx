@@ -9,7 +9,8 @@ import CharCardSide from "./CharCardSide/CharCardSide";
 import CharCardIco from "./CharCardIco/CharCardIco";
 import CharCardTitle from "./CharCardTitle/CharCardTitle";
 import CharCardBg from "./CharCardBg/CharCardBg";
-import Link from "next/link";
+import { Ripple } from "primereact/ripple";
+import { useRouter } from "next/router";
 
 type Props = {
   element_type: ElementType;
@@ -20,10 +21,15 @@ type Props = {
 };
 
 export default function CharCard(props: Props) {
+  const router = useRouter();
+
   return (
-    <Link
-      href={props.href || ""}
+    <div
+      onClick={() => {
+        router.push(props.href!);
+      }}
       className={cn(
+        "p-ripple",
         "relative",
         "overflow-hidden",
         "w-[169px] h-[338px]",
@@ -42,6 +48,7 @@ export default function CharCard(props: Props) {
       <CharCardIco image_ico={props.image_ico} />
       <CharCardTitle element_type={props.element_type} name={props.name} />
       <CharCardBg element_type={props.element_type} />
-    </Link>
+      <Ripple />
+    </div>
   );
 }

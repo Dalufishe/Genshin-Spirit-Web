@@ -1,15 +1,15 @@
 import React from "react";
 import { cn } from "../../../../utils/cn";
 import Image from "next/image";
-
-import Anemo from "./icons/风.svg";
-import Pyro from "./icons/火.svg";
-import Cryo from "./icons/冰.svg";
-import Hydro from "./icons/水.svg";
-import Dendro from "./icons/草.svg";
-import Electro from "./icons/雷.svg";
-import Geo from "./icons/岩.svg";
 import { ElementType } from "../../../../types/ElementType.types";
+
+import Anemo from "../../../../assets/icons/element/风.svg";
+import Pyro from "../../../../assets/icons/element/火.svg";
+import Cryo from "../../../../assets/icons/element/冰.svg";
+import Hydro from "../../../../assets/icons/element/水.svg";
+import Dendro from "../../../../assets/icons/element/草.svg";
+import Electro from "../../../../assets/icons/element/雷.svg";
+import Geo from "../../../../assets/icons/element/岩.svg";
 
 type Props = {
   element_type: ElementType;
@@ -22,8 +22,8 @@ export default function CharCardTitle(props: Props) {
       <div className="flex gap-[5px] items-center w-fit m-auto">
         <div>
           <Image
-          width={27}
-          height={27}
+            width={27}
+            height={27}
             src={(function () {
               switch (props.element_type) {
                 case "Anemo":

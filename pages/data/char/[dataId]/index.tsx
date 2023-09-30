@@ -8,7 +8,12 @@ import path from "path";
 import { CharacterInfo } from "../../../../data/characters/@types/CharacterInfo.types";
 import Navbar from "../../../../layouts/GameDataCharPage/Navbar/Navbar";
 import MainContainer from "../../../../components/MainContainer";
-import DataCharPageBg from "../../../../components/GameDataCharPage/DataCharPageBg";
+import DataCharPageBg from "../../../../components/GameDataCharPage/DataCharPageBg/DataCharPageBg";
+import CharacterImage from "../../../../components/GameDataCharPage/CharacterImage/CharacterImage";
+import { CharacterContext } from "../../../../context/DataCharPage/Character";
+import Block from "../../../../components/Block";
+import ContentContainer from "../../../../components/ContentContainer";
+import CharacterInfomation from "../../../../components/GameDataCharPage/CharacterInfomation/CharacterInfomation";
 
 type Props = {
   data: {
@@ -18,10 +23,17 @@ type Props = {
 
 const DataCharPage: NextPage<Props> = (props: Props) => {
   return (
-    <MainContainer className="bg-white">
-      <DataCharPageBg />
-      <Navbar />
-    </MainContainer>
+    <CharacterContext.Provider value={props.data}>
+      <MainContainer className="overflow-hidden">
+        {/* <DataCharPageBg /> */}
+        <Navbar />
+        <Block value={105} />
+        <ContentContainer>
+          <CharacterImage />
+          <CharacterInfomation />
+        </ContentContainer>
+      </MainContainer>
+    </CharacterContext.Provider>
   );
 };
 

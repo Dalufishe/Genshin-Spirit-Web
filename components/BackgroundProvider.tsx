@@ -14,7 +14,7 @@ export default function BackgroundProvider(props: Props) {
         "fixed top-0 left-0",
         "z-[-50]",
         css`
-          opacity: 0.6;
+          opacity: 0.4;
           background: url(${props.bgImage});
           background-size: cover;
           background-position: 50%;

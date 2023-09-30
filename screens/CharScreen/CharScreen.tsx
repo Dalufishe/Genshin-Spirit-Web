@@ -3,11 +3,14 @@ import CharCard from "../../components/GameDataPage/CharCard/CharCard";
 import { CharListContext } from "../../context/CharList";
 import ContentContainer from "../../components/ContentContainer";
 import { cn } from "../../utils/cn";
-import ZH_TW from "../../locale/ZH_TW.json";
 import charNameReplacer from "../../utils/charNameReplacer";
+import { LocaleContext } from "../../context/Locale";
+import translate from "../../utils/translate";
 
 export default function CharScreen() {
   const charList = useContext(CharListContext);
+  const { ZH_TW } = useContext(LocaleContext);
+
   const mapCharList = useMemo(
     () =>
       charList?.map((char) => (
@@ -18,11 +21,7 @@ export default function CharScreen() {
             char.name
           )}_full.webp`}
           image_ico={`/char-image-ico/${charNameReplacer(char.name)}_ico.webp`}
-          name={
-            ZH_TW.resources.string.find(
-              (s) => s._name === charNameReplacer(char.name)
-            )?.__text || ""
-          }
+          name={translate(charNameReplacer(char.name), ZH_TW)}
         />
       )),
     [charList]

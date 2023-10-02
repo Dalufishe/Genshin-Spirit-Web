@@ -3,14 +3,18 @@ import { cn } from "../../../utils/cn";
 import NavbarBack from "./NavbarBack/NavbarBack";
 import NavbarTabs from "./NavbrTabs/NavbarTabs";
 
-export default function Navbar() {
+type Props = {
+  onTabChange: (index: number) => void;
+};
+
+export default function Navbar(props: Props) {
   return (
     <div className={cn(styles.navbar, "h-[105px]")}>
       <div className="translate-y-[-7px]">
         <NavbarBack />
       </div>
       <div className="translate-y-[-7px]">
-        <NavbarTabs />
+        <NavbarTabs onTabChange={props.onTabChange} />
       </div>
     </div>
   );

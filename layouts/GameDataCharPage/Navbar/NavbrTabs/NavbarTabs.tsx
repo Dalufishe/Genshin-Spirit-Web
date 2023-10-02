@@ -1,13 +1,22 @@
 import { Tab } from "@headlessui/react";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import CharIcon from "./icons/CharIcon";
 import SkillIcon from "./icons/SkillIcon";
 import ConIcon from "./icons/ConIcon";
 import TeamIcon from "./icons/TeamIcon";
 import { cn } from "../../../../utils/cn";
 
-export default function NavbarTabs() {
+type Props = {
+  onTabChange: (index: number) => void;
+};
+
+export default function NavbarTabs(props: Props) {
   const [selectedIndex, setSelectedIndex] = useState(0);
+
+  useEffect(() => {
+    console.log(selectedIndex);
+    props.onTabChange(selectedIndex);
+  }, [selectedIndex]);
 
   return (
     <Tab.Group

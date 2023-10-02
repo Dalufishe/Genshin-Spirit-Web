@@ -18,6 +18,7 @@ type Props = {
   image_ico: string;
   name: string;
   href?: string;
+  char_rare: number;
 };
 
 export default function CharCard(props: Props) {
@@ -34,6 +35,10 @@ export default function CharCard(props: Props) {
         "overflow-hidden",
         "w-[169px] h-[338px]",
         "rounded-[21px]",
+        css`
+          border: 0px solid rgba(0, 63, 47, 0.1);
+          box-shadow: 0px 20px 250px 0px rgba(0, 0, 0, 0.1);
+        `,
         props.element_type === "Anemo" ? styles.anemo.charCard : "",
         props.element_type === "Pyro" ? styles.pyro.charCard : "",
         props.element_type === "Cryo" ? styles.cryo.charCard : "",
@@ -45,7 +50,7 @@ export default function CharCard(props: Props) {
     >
       <CharCardImageFull image_full={props.image_full} />
       <CharCardSide element_type={props.element_type} />
-      <CharCardIco image_ico={props.image_ico} />
+      <CharCardIco image_ico={props.image_ico} char_rare={props.char_rare} />
       <CharCardTitle element_type={props.element_type} name={props.name} />
       <CharCardBg element_type={props.element_type} />
       <Ripple />

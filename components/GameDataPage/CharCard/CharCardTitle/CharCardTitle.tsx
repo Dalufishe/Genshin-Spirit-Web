@@ -10,6 +10,7 @@ import Hydro from "../../../../assets/icons/element/水.svg";
 import Dendro from "../../../../assets/icons/element/草.svg";
 import Electro from "../../../../assets/icons/element/雷.svg";
 import Geo from "../../../../assets/icons/element/岩.svg";
+import { css } from "@emotion/css";
 
 type Props = {
   element_type: ElementType;
@@ -18,7 +19,7 @@ type Props = {
 
 export default function CharCardTitle(props: Props) {
   return (
-    <div className={cn("w-full", "absolute bottom-[15px]")}>
+    <div className={cn("w-full", "absolute bottom-[12px]")}>
       <div className="flex gap-[5px] items-center w-fit m-auto">
         <div>
           <Image
@@ -47,7 +48,16 @@ export default function CharCardTitle(props: Props) {
             alt=""
           />
         </div>
-        <div className="text-[18px] whitespace-nowrap">{props.name}</div>
+        <div
+          className={cn(
+            "text-[18px] whitespace-nowrap",
+            css`
+              text-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+            `
+          )}
+        >
+          {props.name}
+        </div>
       </div>
     </div>
   );

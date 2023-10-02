@@ -1,12 +1,11 @@
 import Image from "next/image";
 import React from "react";
-
-import FilterIcon from "./icons/切换图标.svg";
+import FilterIcon from "./icons/FilterIcon";
 
 export default function NavbarFilter() {
   return (
     <div>
-      <Image src={FilterIcon} alt="" />
+      <FilterIcon />
     </div>
   );
 }

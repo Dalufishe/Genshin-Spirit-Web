@@ -1,31 +1,30 @@
-import React from 'react'
+import React from "react";
+import { cn } from "../../../../../utils/cn";
+import { css } from "@emotion/css";
 
-export default function BgIcon() {
+type Props = {
+  rare: number;
+};
+
+export default function BgIcon(props: Props) {
   return (
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      width="60"
-      height="60"
-      viewBox="0 0 60 60"
-      fill="none"
-    >
-      <g filter="url(#filter0_d_1230_10819)">
-        <circle cx="30" cy="30" r="30" fill="url(#paint0_linear_1230_10157)" />
-      </g>
-      <defs>
-
-        <linearGradient
-          id="paint0_linear_1230_10157"
-          x1="30"
-          y1="10"
-          x2="30"
-          y2="50"
-          gradientUnits="userSpaceOnUse"
-        >
-          <stop stop-color="#B3733C" />
-          <stop offset="1" stop-color="#C97F36" />
-        </linearGradient>
-      </defs>
-    </svg>
+    <div
+      className={cn(
+        "w-[60px] h-[60px]",
+        "rounded-full",
+        props.rare === 5
+          ? css`
+              background: linear-gradient(180deg, #b2733c 0%, #c97f36 100%);
+              filter: drop-shadow(0px 20px 100px rgba(0, 0, 0, 0.25));
+            `
+          : "",
+        props.rare === 4
+          ? css`
+              background: linear-gradient(180deg, #5e5f96 0%, #886fba 100%);
+              filter: drop-shadow(0px 20px 100px rgba(0, 0, 0, 0.25));
+            `
+          : ""
+      )}
+    ></div>
   );
 }

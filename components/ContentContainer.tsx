@@ -13,6 +13,7 @@ export default function ContentContainer(props: Props) {
   return (
     <div
       className={cn(
+        "w-full relative",
         "p-4",
         "flex flex-col",
         css`

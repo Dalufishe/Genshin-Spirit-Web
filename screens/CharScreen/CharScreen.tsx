@@ -22,6 +22,7 @@ export default function CharScreen() {
           )}_full.webp`}
           image_ico={`/char-image-ico/${charNameReplacer(char.name)}_ico.webp`}
           name={translate(charNameReplacer(char.name), ZH_TW)}
+          char_rare={char.rare}
         />
       )),
     [charList]

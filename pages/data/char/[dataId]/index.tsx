@@ -8,12 +8,15 @@ import path from "path";
 import { CharacterInfo } from "../../../../data/characters/@types/CharacterInfo.types";
 import Navbar from "../../../../layouts/GameDataCharPage/Navbar/Navbar";
 import MainContainer from "../../../../components/MainContainer";
-import DataCharPageBg from "../../../../components/GameDataCharPage/DataCharPageBg/DataCharPageBg";
-import CharacterImage from "../../../../components/GameDataCharPage/CharacterImage/CharacterImage";
 import { CharacterContext } from "../../../../context/DataCharPage/Character";
 import Block from "../../../../components/Block";
-import ContentContainer from "../../../../components/ContentContainer";
-import CharacterInfomation from "../../../../components/GameDataCharPage/CharacterInfomation/CharacterInfomation";
+import Char from "../../../../components/GameDataCharPage/Char/Char";
+import { useState } from "react";
+import Skill from "../../../../components/GameDataCharPage/Skill/Skill";
+import Cons from "../../../../components/GameDataCharPage/Cons/Cons";
+import Team from "../../../../components/GameDataCharPage/Team/Team";
+import { cn } from "../../../../utils/cn";
+import CharacterImage from "../../../../components/GameDataCharPage/components/CharacterImage/CharacterImage";
 
 type Props = {
   data: {
@@ -22,16 +25,36 @@ type Props = {
 };
 
 const DataCharPage: NextPage<Props> = (props: Props) => {
+  const [selectIndex, setSelectIndex] = useState(0);
+
   return (
     <CharacterContext.Provider value={props.data}>
       <MainContainer className="overflow-hidden">
         {/* <DataCharPageBg /> */}
-        <Navbar />
+        <Navbar
+          onTabChange={(i) => {
+            setSelectIndex(i);
+          }}
+        />
         <Block value={105} />
-        <ContentContainer>
-          <CharacterImage />
-          <CharacterInfomation />
-        </ContentContainer>
+        <CharacterImage />
+        <div className="relative w-full">
+          <div
+            className={cn(
+              "absolute flex w-[400%]",
+              "transition-[left] duration-500",
+              selectIndex === 0 ? "left-0" : "",
+              selectIndex === 1 ? "left-[-100%]" : "",
+              selectIndex === 2 ? "left-[-200%]" : "",
+              selectIndex === 3 ? "left-[-300%]" : ""
+            )}
+          >
+            <Char />
+            <Skill />
+            <Cons />
+            <Team />
+          </div>
+        </div>
       </MainContainer>
     </CharacterContext.Provider>
   );

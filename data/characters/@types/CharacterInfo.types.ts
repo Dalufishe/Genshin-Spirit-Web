@@ -1,3 +1,5 @@
+import { ElementType } from "../../../types/ElementType.types";
+
 export interface CharacterInfo {
   localeName: string;
   nick: string;
@@ -5,7 +7,7 @@ export interface CharacterInfo {
   area: string;
   rare: string;
   weapon: string;
-  element: string;
+  element: ElementType;
   constellation: string;
   desc: string;
   birth: string;

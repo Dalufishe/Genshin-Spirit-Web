@@ -5,7 +5,7 @@ import CharacterInfomation from "./CharacterInfomation/CharacterInfomation";
 
 export default function Char() {
   return (
-    <ContentContainer>
+    <ContentContainer className="translate-y-[-38px]">
       <CharacterInfomation />
     </ContentContainer>
   );

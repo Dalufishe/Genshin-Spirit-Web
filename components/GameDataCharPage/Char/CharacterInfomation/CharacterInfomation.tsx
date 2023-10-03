@@ -22,7 +22,8 @@ export default function CharacterInfomation() {
   const char = useContext(CharacterContext)!;
 
   return (
-    <div className={cn("text-[#4D5668]", "p-[12px] pt-0")}>
+    <div className={cn(
+    "text-[#4D5668]", "p-[12px] pt-0")}>
       <div className="justify-between flex">
         <div className="flex flex-col">
           <div className="flex gap-[9px] items-center">
@@ -71,11 +72,13 @@ export default function CharacterInfomation() {
           name="地區"
           value={translate(char.area, ZH_TW)}
         />
-        <CharacterInfoList.Item name="定位" value={"主C"} />
+
         <CharacterInfoList.Item
           name="武器"
           value={translate(char.weapon, ZH_TW)}
         />
+        <CharacterInfoList.Item name="職稱" value={char.occupation} />
+        <CharacterInfoList.Item name="命之座" value={char.constellation} />
         <CharacterInfoList.Item name="生日" value={char.birth} />
       </CharacterInfoList>
     </div>

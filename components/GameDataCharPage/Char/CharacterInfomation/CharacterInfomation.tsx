@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React, { useContext } from "react";
 import { LocaleContext } from "../../../../context/Locale";
-import { CharacterContext } from "../../../../context/DataCharPage/Character";
+import { CharacterContext } from "../../../../context/GameDataCharPage/Character";
 import translate from "../../../../utils/translate";
 import { cn } from "../../../../utils/cn";
 
@@ -22,8 +22,7 @@ export default function CharacterInfomation() {
   const char = useContext(CharacterContext)!;
 
   return (
-    <div className={cn(
-    "text-[#4D5668]", "p-[12px] pt-0")}>
+    <div className={cn("text-[#4D5668]", "p-[12px] pt-0")}>
       <div className="justify-between flex">
         <div className="flex flex-col">
           <div className="flex gap-[9px] items-center">

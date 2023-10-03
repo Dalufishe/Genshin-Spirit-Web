@@ -1,19 +1,20 @@
-import React from "react";
+import React, { useState } from "react";
 import { cn } from "../../../utils/cn";
 import { css } from "@emotion/css";
-import NavbarSearch from "./NavbarSearch/NavbarSearch";
 import NavbarFilter from "./NavbarFilter/NavbarFilter";
 import NavbarTabs from "./NavbarTabs/NavbarTabs";
+import NavbarSearch from "./NavbarSearch/NavbarSearch";
 
 export default function Navbar() {
   return (
     <div className={cn(stlyes.navbar, "h-[105px]")}>
-      <div className="translate-y-[-7px]">
-        <NavbarSearch />
-      </div>
+      {/* 搜尋 */}
+      <NavbarSearch />
+      {/* 分頁 */}
       <div className="translate-y-[-16px]">
         <NavbarTabs />
       </div>
+      {/* 過濾 */}
       <div className="translate-y-[-7px]">
         <NavbarFilter />
       </div>

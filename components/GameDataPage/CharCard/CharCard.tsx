@@ -53,7 +53,7 @@ export default function CharCard(props: Props) {
       <CharCardIco image_ico={props.image_ico} char_rare={props.char_rare} />
       <CharCardTitle element_type={props.element_type} name={props.name} />
       <CharCardBg element_type={props.element_type} />
-      <Ripple />
+    
     </div>
   );
 }

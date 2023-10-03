@@ -1,5 +1,7 @@
+/** deprecated, replaced by redux */
+
 import { createContext } from "react";
-import { ElementType } from "../types/ElementType.types";
+import { ElementType } from "../../types/ElementType.types";
 
 export type CharListContextData = {
   birth: string;

@@ -1,15 +1,18 @@
 import React, { useContext, useMemo } from "react";
 import CharCard from "../../components/GameDataPage/CharCard/CharCard";
-import { CharListContext } from "../../context/CharList";
 import ContentContainer from "../../components/ContentContainer";
 import { cn } from "../../utils/cn";
 import charNameReplacer from "../../utils/charNameReplacer";
 import { LocaleContext } from "../../context/Locale";
 import translate from "../../utils/translate";
+import { useSelector } from "react-redux";
+import { RootState } from "../../redux/store";
+import { CharList } from "../../redux/types/GameDataPage/charList.types";
 
 export default function CharScreen() {
-  const charList = useContext(CharListContext);
   const { ZH_TW } = useContext(LocaleContext);
+
+  const charList = useSelector<RootState, CharList>((state) => state.charList);
 
   const mapCharList = useMemo(
     () =>

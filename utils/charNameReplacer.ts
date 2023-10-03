@@ -1,3 +1,3 @@
 export default (charName: string) => {
-  return charName.replace(" ", "_").toLowerCase();
+  return charName?.replace(" ", "_")?.toLowerCase();
 };

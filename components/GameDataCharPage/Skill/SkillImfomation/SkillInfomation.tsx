@@ -1,7 +1,7 @@
 import React, { useContext, useEffect, useRef, useState } from "react";
 import { cn } from "../../../../utils/cn";
 import SkillList from "./SkillList/SkillList";
-import { CharacterContext } from "../../../../context/DataCharPage/Character";
+import { CharacterContext } from "../../../../context/GameDataCharPage/Character";
 import SkillIcon from "./SkillList/icons/SkillIcon";
 import SkillDescription from "./SkillDescription/SkillDescription";
 import Block from "../../../Block";
@@ -61,7 +61,6 @@ export default function SkillInfomation() {
     });
   }, [currentSkill]);
 
-
   return (
     <div className={cn("h-[367px] w-[calc(100vw-32px)]", "absolute bottom-0")}>
       <SkillList
@@ -83,10 +82,7 @@ export default function SkillInfomation() {
         }}
       </SkillList>
       <Block value={21} />
-      <div
-        ref={skillDescriptionContainer}
-        className="h-[300px] overflow-auto"
-      >
+      <div ref={skillDescriptionContainer} className="h-[300px] overflow-auto">
         {/* 技能描述 */}
         <div ref={s1}>
           <SkillDescription

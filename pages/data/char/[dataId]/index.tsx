@@ -8,7 +8,7 @@ import path from "path";
 import { CharacterInfo } from "../../../../data/characters/@types/CharacterInfo.types";
 import Navbar from "../../../../layouts/GameDataCharPage/Navbar/Navbar";
 import MainContainer from "../../../../components/MainContainer";
-import { CharacterContext } from "../../../../context/DataCharPage/Character";
+import { CharacterContext } from "../../../../context/GameDataCharPage/Character";
 import Block from "../../../../components/Block";
 import Char from "../../../../components/GameDataCharPage/Char/Char";
 import { useState } from "react";

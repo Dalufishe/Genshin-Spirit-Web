@@ -3,13 +3,13 @@ import BackgroundProvider from "../components/BackgroundProvider";
 import "../styles/globals.css";
 import type { AppProps } from "next/app";
 import { QueryClientProvider, QueryClient } from "react-query";
-import { CharListContext, CharListContextData } from "../context/CharList";
 import { LocaleContext } from "../context/Locale";
 import { PrimeReactProvider } from "primereact/api";
 
-import charList from "../data/char_list.json";
 import ZH_TW from "../locale/ZH_TW.json";
 import useDisableIosScrollBack from "../hooks/useDisableIosScrollBack";
+import { Provider } from "react-redux";
+import { store } from "../redux/store";
 
 const queryClient = new QueryClient();
 
@@ -22,7 +22,7 @@ function MyApp({ Component, pageProps }: AppProps) {
         ZH_TW,
       }}
     >
-      <CharListContext.Provider value={charList as CharListContextData}>
+      <Provider store={store}>
         <QueryClientProvider client={queryClient}>
           <PrimeReactProvider value={{ ripple: true }}>
             <Head>
@@ -32,7 +32,7 @@ function MyApp({ Component, pageProps }: AppProps) {
             <Component {...pageProps} />
           </PrimeReactProvider>
         </QueryClientProvider>
-      </CharListContext.Provider>
+      </Provider>
     </LocaleContext.Provider>
   );
 }

@@ -19,45 +19,48 @@ export default function NavbarList() {
   const [selectedDays, setSelectedDays] = useState(days[0]);
 
   return (
-    <div className={cn(styles.navbarList, "w-[160px] h-[400px]")}>
-      <Listbox value={selectedDays} onChange={setSelectedDays}>
-        <Listbox.Button
-          as="div"
-          className={cn(
-            styles.navbarListButton,
-            "w-[153px] h-[34px]",
-            "pl-[17px] pr-[14px]"
-          )}
-        >
-          <span>{selectedDays.name}</span>
-          <Arrow />
-        </Listbox.Button>
-        <Listbox.Options
-          className={cn(
-            styles.navbarListOptions,
-            "w-[156px] h-[316px]",
-            "p-[3px]"
-          )}
-        >
-          {days.map((day) => (
-            <Listbox.Option key={day.id} value={day} as={React.Fragment}>
-              {({ active, selected }) => (
-                <div
-                  className={cn(
-                    selected
-                      ? styles.navbarListOptionActive
-                      : styles.navbarListOption
-                  )}
-                >
-                  <span>{day.name}</span>
-                  {selected ? <Check /> : <></>}
-                </div>
-              )}
-            </Listbox.Option>
-          ))}
-        </Listbox.Options>
-      </Listbox>
-    </div>
+    <Listbox
+      as="div"
+      className={cn(styles.navbarList, "w-[160px] h-[400px]")}
+      value={selectedDays}
+      onChange={setSelectedDays}
+    >
+      <Listbox.Button
+        as="div"
+        className={cn(
+          styles.navbarListButton,
+          "w-[153px] h-[34px]",
+          "pl-[17px] pr-[14px]"
+        )}
+      >
+        <span>{selectedDays.name}</span>
+        <Arrow />
+      </Listbox.Button>
+      <Listbox.Options
+        className={cn(
+          styles.navbarListOptions,
+          "w-[156px] h-[316px]",
+          "p-[3px]"
+        )}
+      >
+        {days.map((day) => (
+          <Listbox.Option key={day.id} value={day} as={React.Fragment}>
+            {({ active, selected }) => (
+              <div
+                className={cn(
+                  selected
+                    ? styles.navbarListOptionActive
+                    : styles.navbarListOption
+                )}
+              >
+                <span>{day.name}</span>
+                {selected ? <Check /> : <></>}
+              </div>
+            )}
+          </Listbox.Option>
+        ))}
+      </Listbox.Options>
+    </Listbox>
   );
 }
 

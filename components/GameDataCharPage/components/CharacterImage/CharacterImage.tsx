@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import { CharacterContext } from "../../../../context/DataCharPage/Character";
+import { CharacterContext } from "../../../../context/GameDataCharPage/Character";
 import Image from "next/image";
 import { cn } from "../../../../utils/cn";
 

@@ -9,10 +9,13 @@ import { PrimeReactProvider } from "primereact/api";
 
 import charList from "../data/char_list.json";
 import ZH_TW from "../locale/ZH_TW.json";
+import useDisableIosScrollBack from "../hooks/useDisableIosScrollBack";
 
 const queryClient = new QueryClient();
 
 function MyApp({ Component, pageProps }: AppProps) {
+  // useDisableIosScrollBack();
+
   return (
     <LocaleContext.Provider
       value={{
